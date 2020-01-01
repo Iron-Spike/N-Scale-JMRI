@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>2</minor>
+    <test>1</test>
+    <modifier>.1</modifier>
+  </jmriversion>
+  <UserMessagePreferences class="jmri.managers.configurexml.DefaultUserMessagePreferencesXml">
+    <windowDetails class="jmri.jmrit.throttle.ThrottleWindow">
+      <locX>293.0</locX>
+      <locY>214.0</locY>
+      <width>500.0</width>
+      <height>484.0</height>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.roster.Roster">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <properties>
+        <property>
+          <key class="java.lang.String">defaultRosterGroup</key>
+        </property>
+      </properties>
+    </windowDetails>
+    <windowDetails class="PanelPro">
+      <locX>578.0</locX>
+      <locY>409.0</locY>
+    </windowDetails>
+    <windowDetails class="jmri.jmrit.logix.NXFrame">
+      <locX>0.0</locX>
+      <locY>23.0</locY>
+    </windowDetails>
+    <windowDetails class="jmri.jmrix.loconet.locomon.LocoMonPane.FilterField">
+      <locX>0.0</locX>
+      <locY>0.0</locY>
+      <properties>
+        <property>
+          <key class="java.lang.String">jmri.jmrix.loconet.locomon.LocoMonPane.FilterField</key>
+          <value class="java.lang.String" />
+        </property>
+      </properties>
+    </windowDetails>
+  </UserMessagePreferences>
+  <!--Written by JMRI version 4.2.1-R6b484b4 on Sat Sep 22 15:36:58 CDT 2018 $Id$-->
+</layout-config>

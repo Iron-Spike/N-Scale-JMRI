@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-2-9-6.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-2-9-6.xsd">
+  <jmriversion>
+    <major>4</major>
+    <minor>2</minor>
+    <test>1</test>
+    <modifier>.1</modifier>
+  </jmriversion>
+  <connection userName="LocoNet" systemPrefix="L" manufacturer="Digitrax" disabled="no" port="/dev/cu.usbmodem1411" speed="57,600 baud" class="jmri.jmrix.loconet.pr3.configurexml.ConnectionConfigXml">
+    <options>
+      <option>
+        <name>CommandStation</name>
+        <value>PR3 standalone programmer</value>
+      </option>
+      <option>
+        <name>FlowControl</name>
+        <value>hardware flow control (recommended)</value>
+      </option>
+      <option>
+        <name>TurnoutHandle</name>
+        <value>Normal</value>
+      </option>
+    </options>
+  </connection>
+  <fileLocations class="apps.configurexml.FileLocationPaneXml">
+    <fileLocation defaultScriptLocation="program:jython/" />
+    <fileLocation defaultUserLocation="profile:" />
+  </fileLocations>
+  <gui LAFclass="Mac OS X" class="apps.configurexml.GuiLafConfigPaneXml" LocaleLanguage="en" LocaleCountry="US" LocaleVariant="" nonStandardMouseEvent="no" />
+  <console class="apps.configurexml.SystemConsoleConfigPanelXml" scheme="0" fontfamily="Monospaced" fontsize="12" fontstyle="0" wrapstyle="2" />
+  <programmer verifyBeforeWrite="no" class="jmri.jmrit.symbolicprog.configurexml.ProgrammerConfigPaneXml" />
+  <managerdefaults class="jmri.managers.configurexml.ManagerDefaultSelectorXml">
+    <setting>
+      <key>jmri.AddressedProgrammerManager</key>
+      <value>LocoNet</value>
+    </setting>
+    <setting>
+      <key>jmri.GlobalProgrammerManager</key>
+      <value>LocoNet</value>
+    </setting>
+    <setting>
+      <key>jmri.ThrottleManager</key>
+      <value>LocoNet</value>
+    </setting>
+    <setting>
+      <key>jmri.PowerManager</key>
+      <value>LocoNet</value>
+    </setting>
+  </managerdefaults>
+  <!--Written by JMRI version 4.2.1-R6b484b4 on Sat Sep 15 14:40:29 CDT 2018 $Id$-->
+</layout-config>

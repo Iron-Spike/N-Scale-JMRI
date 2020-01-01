@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.loconet.pr3.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" port="/dev/cu.usbmodem1411" speed="57,600 baud" systemPrefix="L" userName="LocoNet">
+            <options>
+                <option>
+                    <name>CommandStation</name>
+                    <value>PR3 standalone programmer</value>
+                </option>
+                <option>
+                    <name>FlowControl</name>
+                    <value>hardware flow control (recommended)</value>
+                </option>
+                <option>
+                    <name>TurnoutHandle</name>
+                    <value>Normal</value>
+                </option>
+            </options>
+        </connection>
+    </connections>
+</auxiliary-configuration>

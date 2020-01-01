@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
+<roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
+  <!--Written by JMRI version 4.14+Rd060e0b on Fri May 31 15:55:13 CDT 2019-->
+  <roster>
+    <locomotive id="2-6-0 Mogul" fileName="2_6_0_Mogul.xml" roadNumber="475" roadName="Great Northern" mfg="MRC" owner="Iron Spike" model="MRC" dccAddress="475" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-10-06T20:25:29Z</dateUpdated>
+      <decoder model="1956 - N Scale - Steam Universal" family="Sound Decoders - N Scale" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="475" longaddress="yes" />
+        <number>475</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Whistle</functionlabel>
+        <functionlabel num="3" lockable="false">Long Air Release</functionlabel>
+        <functionlabel num="4" lockable="false">Coupling</functionlabel>
+        <functionlabel num="5" lockable="false">Brake squeal/release</functionlabel>
+        <functionlabel num="6" lockable="true">Chuff sound on/off</functionlabel>
+        <functionlabel num="7" lockable="false">Fire box</functionlabel>
+        <functionlabel num="8" lockable="false">Water injector</functionlabel>
+        <functionlabel num="9" lockable="false">Metal crank/Steam</functionlabel>
+        <functionlabel num="10" lockable="false">Water filling</functionlabel>
+        <functionlabel num="11" lockable="false">Blower hiss</functionlabel>
+        <functionlabel num="12" lockable="true">All sounds on/off</functionlabel>
+        <functionlabel num="13" lockable="false">Master vol. reduce by 2</functionlabel>
+        <functionlabel num="14" lockable="false">Master vol. increase by 2</functionlabel>
+        <functionlabel num="15" lockable="false">Flange noise</functionlabel>
+        <functionlabel num="16" lockable="false">Shoveling</functionlabel>
+        <functionlabel num="17" lockable="false">Coal auger</functionlabel>
+        <functionlabel num="18" lockable="false">Bell type select</functionlabel>
+        <functionlabel num="19" lockable="false">Whistle type select</functionlabel>
+        <functionlabel num="20" lockable="false">Air hose firing/uncoupling lever</functionlabel>
+        <functionlabel num="21" lockable="false">Flange noise</functionlabel>
+        <functionlabel num="22" lockable="false">Associated loco sound</functionlabel>
+        <functionlabel num="23" lockable="false">Flange noise</functionlabel>
+        <functionlabel num="24" lockable="false">Chuff type select</functionlabel>
+        <functionlabel num="25" lockable="false">Long air release</functionlabel>
+        <functionlabel num="26" lockable="false">Sand dropping</functionlabel>
+        <functionlabel num="27" lockable="false">Associated loco sound</functionlabel>
+        <functionlabel num="28" lockable="false">Associated loco sound</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="Amtrak 66" fileName="Amtrak_66.xml" roadNumber="66" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="66" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-10-06T20:25:29Z</dateUpdated>
+      <decoder model="K0D8-A" family="Jan 2012" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="66" longaddress="no" />
+        <number>66</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="GE P42 184" fileName="GE_P42_184.xml" roadNumber="184" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="184" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-10-06T20:25:29Z</dateUpdated>
+      <decoder model="K0D8-A" family="Jan 2012" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="184" longaddress="yes" />
+        <number>184</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+    </locomotive>
+    <locomotive id="M&amp;STL 334" fileName="M_STL_334.xml" roadNumber="334" roadName="Minniapolis &amp; St. Louis" mfg="MRC" owner="Iron Spike" model="2-6-0 Mogul" dccAddress="334" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-10-06T20:25:29Z</dateUpdated>
+      <decoder model="1956 - N Scale - Steam Universal" family="Sound Decoders - N Scale" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="334" longaddress="yes" />
+        <number>334</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Whistle</functionlabel>
+        <functionlabel num="3" lockable="false">Long Air Release</functionlabel>
+        <functionlabel num="4" lockable="false">Coupling</functionlabel>
+        <functionlabel num="5" lockable="false">Brake squeal/release</functionlabel>
+        <functionlabel num="6" lockable="true">Chuff sound on/off</functionlabel>
+        <functionlabel num="7" lockable="false">Fire box</functionlabel>
+        <functionlabel num="8" lockable="false">Water injector</functionlabel>
+        <functionlabel num="9" lockable="false">Metal crank/Steam</functionlabel>
+        <functionlabel num="10" lockable="false">Water filling</functionlabel>
+        <functionlabel num="11" lockable="false">Blower hiss</functionlabel>
+        <functionlabel num="12" lockable="true">All sounds on/off</functionlabel>
+        <functionlabel num="13" lockable="false">Master vol. reduce by 2</functionlabel>
+        <functionlabel num="14" lockable="false">Master vol. increase by 2</functionlabel>
+        <functionlabel num="15" lockable="false">Flange noise</functionlabel>
+        <functionlabel num="16" lockable="false">Shoveling</functionlabel>
+        <functionlabel num="17" lockable="false">Coal auger</functionlabel>
+        <functionlabel num="18" lockable="false">Bell type select</functionlabel>
+        <functionlabel num="19" lockable="false">Whistle type select</functionlabel>
+        <functionlabel num="20" lockable="false">Air hose firing/uncoupling lever</functionlabel>
+        <functionlabel num="21" lockable="false">Flange noise</functionlabel>
+        <functionlabel num="22" lockable="false">Associated loco sound</functionlabel>
+        <functionlabel num="23" lockable="false">Flange noise</functionlabel>
+        <functionlabel num="24" lockable="false">Chuff type select</functionlabel>
+        <functionlabel num="25" lockable="false">Long air release</functionlabel>
+        <functionlabel num="26" lockable="false">Sand dropping</functionlabel>
+        <functionlabel num="27" lockable="false">Associated loco sound</functionlabel>
+        <functionlabel num="28" lockable="false">Associated loco sound</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="Southern 8099" fileName="Southern_8099.xml" roadNumber="8099" roadName="Southern" mfg="Broadway Limited" owner="Tom" model="3543" dccAddress="8099" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-10-27T19:55:15Z</dateUpdated>
+      <decoder model="Diesel" family="Paragon 3" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="8099" longaddress="yes" />
+        <number>8099</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Horn</functionlabel>
+        <functionlabel num="3" lockable="true">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true">Brake Squeal</functionlabel>
+      </functionlabels>
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2018-10-27T20:09:32Z</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>53</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="UP 3985" fileName="UP_3985.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="3985" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-10-06T20:25:29Z</dateUpdated>
+      <decoder model="TSU-4664N Challenger" family="Tsunami Steam" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="3985" longaddress="yes" />
+        <number>3985</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true">Bell</functionlabel>
+        <functionlabel num="2" lockable="false">Whistle</functionlabel>
+        <functionlabel num="3" lockable="true">Short Whistle</functionlabel>
+        <functionlabel num="4" lockable="true">Steam Release</functionlabel>
+        <functionlabel num="5" lockable="true">FX5 Light</functionlabel>
+        <functionlabel num="6" lockable="true">FX6 Light</functionlabel>
+        <functionlabel num="7" lockable="true">Dimmer</functionlabel>
+        <functionlabel num="8" lockable="true">Mute</functionlabel>
+        <functionlabel num="9" lockable="true">Water Stop</functionlabel>
+        <functionlabel num="10" lockable="true">Injectors</functionlabel>
+        <functionlabel num="11" lockable="true">Brake Squeal</functionlabel>
+        <functionlabel num="12" lockable="true">Coupler</functionlabel>
+      </functionlabels>
+    </locomotive>
+    <locomotive id="UP 844" fileName="UP_844.xml" roadNumber="844" roadName="Union Pacific" mfg="Kato" owner="Iron Spike" model="126-0401-1" dccAddress="844" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2018-10-06T20:25:29Z</dateUpdated>
+      <decoder model="K6D4" family="Jan 2012" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="844" longaddress="yes" />
+        <number>844</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+    </locomotive>
+  </roster>
+</roster-config>
