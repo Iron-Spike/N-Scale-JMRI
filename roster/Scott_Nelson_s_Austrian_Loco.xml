@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Feb 08 15:39:01 CST 2020-->
+  <locomotive id="Scott Nelson's Austrian Loco" fileName="Scott_Nelson_s_Austrian_Loco.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="19" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2020-02-08T21:39:01.853+0000</dateUpdated>
+    <decoder model="MX645 version 32+" family="Zimo Unified software (version 32+)" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="19" longaddress="no" />
+      <number>19</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Decoder ID 1" value="221" />
+        <varValue item="Decoder ID 2" value="0" />
+        <varValue item="Decoder ID 3" value="0" />
+        <varValue item="Decoder ID 4" value="0" />
+        <varValue item="Motor Frequency and EMF sample Rate" value="0" />
+        <varValue item="EMF Feedback Cutoff Speed Step" value="0" />
+        <varValue item="Analog Mode Function Status - F1" value="0" />
+        <varValue item="Analog Mode Function Status - F2" value="0" />
+        <varValue item="Analog Mode Function Status - F3" value="0" />
+        <varValue item="Analog Mode Function Status - F4" value="0" />
+        <varValue item="Analog Mode Function Status - F5" value="0" />
+        <varValue item="Analog Mode Function Status - F6" value="0" />
+        <varValue item="Analog Mode Function Status - F7" value="0" />
+        <varValue item="Analog Mode Function Status - F8" value="0" />
+        <varValue item="Analog Mode Function Status - FL(f)" value="0" />
+        <varValue item="Analog Mode Function Status - FL(r)" value="0" />
+        <varValue item="Analog Mode Function Status - F9" value="0" />
+        <varValue item="Analog Mode Function Status - F10" value="0" />
+        <varValue item="Analog Mode Function Status - F11" value="0" />
+        <varValue item="Analog Mode Function Status - F12" value="0" />
+        <varValue item="Analog operation with accel/decel from CV3/4" value="1" />
+        <varValue item="DC Regulation" value="0" />
+        <varValue item="Consist Address Active For F1" value="0" />
+        <varValue item="Consist Address Active For F2" value="0" />
+        <varValue item="Consist Address Active For F3" value="0" />
+        <varValue item="Consist Address Active For F4" value="0" />
+        <varValue item="Consist Address Active For F5" value="0" />
+        <varValue item="Consist Address Active For F6" value="0" />
+        <varValue item="Consist Address Active For F7" value="0" />
+        <varValue item="Consist Address Active For F8" value="0" />
+        <varValue item="Consist Address Active For FL in Forward" value="0" />
+        <varValue item="Consist Address Active For FL in Reverse" value="0" />
+        <varValue item="Consist Address Active For F9" value="0" />
+        <varValue item="Consist Address Active For F10" value="0" />
+        <varValue item="Consist Address Active For F11" value="0" />
+        <varValue item="Consist Address Active For F12" value="0" />
+        <varValue item="Acceleration Trim" value="0" />
+        <varValue item="Acceleration Trim Sign" value="0" />
+        <varValue item="Deceleration Trim" value="0" />
+        <varValue item="Deceleration Trim Sign" value="0" />
+        <varValue item="Direction Dependent stops with asymmetrical DCC" value="0" />
+        <varValue item="RailCom channel 1 (Broadcast)" value="1" />
+        <varValue item="RailCom channel 2 (Data)" value="1" />
+        <varValue item="Enable RailCom" value="1" />
+        <varValue item="FL(f) controls output 1" value="1" />
+        <varValue item="FL(f) controls output 2" value="0" />
+        <varValue item="FL(f) controls output 3" value="0" />
+        <varValue item="FL(f) controls output 4" value="0" />
+        <varValue item="FL(f) controls output 5" value="0" />
+        <varValue item="FL(f) controls output 6" value="0" />
+        <varValue item="FL(f) controls output 7" value="0" />
+        <varValue item="FL(f) controls output 8" value="0" />
+        <varValue item="FL(r) controls output 1" value="0" />
+        <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="FL(r) controls output 3" value="0" />
+        <varValue item="FL(r) controls output 4" value="0" />
+        <varValue item="FL(r) controls output 5" value="0" />
+        <varValue item="FL(r) controls output 6" value="0" />
+        <varValue item="FL(r) controls output 7" value="0" />
+        <varValue item="FL(r) controls output 8" value="0" />
+        <varValue item="F1 controls output 1" value="0" />
+        <varValue item="F1 controls output 2" value="0" />
+        <varValue item="F1 controls output 3" value="1" />
+        <varValue item="F1 controls output 4" value="0" />
+        <varValue item="F1 controls output 5" value="0" />
+        <varValue item="F1 controls output 6" value="0" />
+        <varValue item="F1 controls output 7" value="0" />
+        <varValue item="F1 controls output 8" value="0" />
+        <varValue item="F2 controls output 1" value="0" />
+        <varValue item="F2 controls output 2" value="0" />
+        <varValue item="F2 controls output 3" value="0" />
+        <varValue item="F2 controls output 4" value="1" />
+        <varValue item="F2 controls output 5" value="0" />
+        <varValue item="F2 controls output 6" value="0" />
+        <varValue item="F2 controls output 7" value="0" />
+        <varValue item="F2 controls output 8" value="0" />
+        <varValue item="F3 controls output 4" value="0" />
+        <varValue item="F3 controls output 5" value="1" />
+        <varValue item="F3 controls output 6" value="0" />
+        <varValue item="F3 controls output 7" value="0" />
+        <varValue item="F3 controls output 8" value="0" />
+        <varValue item="F3 controls output 9" value="0" />
+        <varValue item="F3 controls output 10" value="0" />
+        <varValue item="F4 controls output 4" value="0" />
+        <varValue item="F4 controls output 5" value="0" />
+        <varValue item="F4 controls output 6" value="1" />
+        <varValue item="F4 controls output 7" value="0" />
+        <varValue item="F4 controls output 8" value="0" />
+        <varValue item="F4 controls output 9" value="0" />
+        <varValue item="F4 controls output 10" value="0" />
+        <varValue item="F5 controls output 4" value="0" />
+        <varValue item="F5 controls output 5" value="0" />
+        <varValue item="F5 controls output 6" value="0" />
+        <varValue item="F5 controls output 7" value="1" />
+        <varValue item="F5 controls output 8" value="0" />
+        <varValue item="F5 controls output 9" value="0" />
+        <varValue item="F5 controls output 10" value="0" />
+        <varValue item="F6 controls output 4" value="0" />
+        <varValue item="F6 controls output 5" value="0" />
+        <varValue item="F6 controls output 6" value="0" />
+        <varValue item="F6 controls output 7" value="0" />
+        <varValue item="F6 controls output 8" value="1" />
+        <varValue item="F6 controls output 9" value="0" />
+        <varValue item="F6 controls output 10" value="0" />
+        <varValue item="F7 controls output 7" value="0" />
+        <varValue item="F7 controls output 8" value="0" />
+        <varValue item="F7 controls output 9" value="1" />
+        <varValue item="F7 controls output 10" value="0" />
+        <varValue item="F8 controls output 7" value="0" />
+        <varValue item="F8 controls output 8" value="0" />
+        <varValue item="F8 controls output 9" value="0" />
+        <varValue item="F8 controls output 10" value="1" />
+        <varValue item="F9 controls output 7" value="0" />
+        <varValue item="F9 controls output 8" value="0" />
+        <varValue item="F9 controls output 9" value="0" />
+        <varValue item="F9 controls output 10" value="0" />
+        <varValue item="F10 controls output 7" value="0" />
+        <varValue item="F10 controls output 8" value="0" />
+        <varValue item="F10 controls output 9" value="0" />
+        <varValue item="F10 controls output 10" value="0" />
+        <varValue item="F11 controls output 7" value="0" />
+        <varValue item="F11 controls output 8" value="0" />
+        <varValue item="F11 controls output 9" value="0" />
+        <varValue item="F11 controls output 10" value="0" />
+        <varValue item="F12 controls output 7" value="0" />
+        <varValue item="F12 controls output 8" value="0" />
+        <varValue item="F12 controls output 9" value="0" />
+        <varValue item="F12 controls output 10" value="0" />
+        <varValue item="AltF3 controls output 1" value="0" />
+        <varValue item="AltF3 controls output 2" value="0" />
+        <varValue item="AltF3 controls output 3" value="0" />
+        <varValue item="AltF3 controls output 4" value="0" />
+        <varValue item="AltF3 controls output 5" value="0" />
+        <varValue item="AltF3 controls output 6" value="0" />
+        <varValue item="AltF3 controls output 7" value="0" />
+        <varValue item="AltF3 controls output 8" value="0" />
+        <varValue item="AltF4 controls output 1" value="0" />
+        <varValue item="AltF4 controls output 2" value="0" />
+        <varValue item="AltF4 controls output 3" value="0" />
+        <varValue item="AltF4 controls output 4" value="0" />
+        <varValue item="AltF4 controls output 5" value="0" />
+        <varValue item="AltF4 controls output 6" value="0" />
+        <varValue item="AltF4 controls output 7" value="0" />
+        <varValue item="AltF4 controls output 8" value="0" />
+        <varValue item="AltF5 controls output 1" value="0" />
+        <varValue item="AltF5 controls output 2" value="0" />
+        <varValue item="AltF5 controls output 3" value="0" />
+        <varValue item="AltF5 controls output 4" value="0" />
+        <varValue item="AltF5 controls output 5" value="0" />
+        <varValue item="AltF5 controls output 6" value="0" />
+        <varValue item="AltF5 controls output 7" value="0" />
+        <varValue item="AltF5 controls output 8" value="0" />
+        <varValue item="AltF6 controls output 1" value="0" />
+        <varValue item="AltF6 controls output 2" value="0" />
+        <varValue item="AltF6 controls output 3" value="0" />
+        <varValue item="AltF6 controls output 4" value="0" />
+        <varValue item="AltF6 controls output 5" value="0" />
+        <varValue item="AltF6 controls output 6" value="0" />
+        <varValue item="AltF6 controls output 7" value="0" />
+        <varValue item="AltF6 controls output 8" value="0" />
+        <varValue item="AltF7 controls output 1" value="0" />
+        <varValue item="AltF7 controls output 2" value="0" />
+        <varValue item="AltF7 controls output 3" value="0" />
+        <varValue item="AltF7 controls output 4" value="0" />
+        <varValue item="AltF7 controls output 5" value="0" />
+        <varValue item="AltF7 controls output 6" value="0" />
+        <varValue item="AltF7 controls output 7" value="0" />
+        <varValue item="AltF7 controls output 8" value="0" />
+        <varValue item="AltF8 controls output 1" value="0" />
+        <varValue item="AltF8 controls output 2" value="0" />
+        <varValue item="AltF8 controls output 3" value="0" />
+        <varValue item="AltF8 controls output 4" value="0" />
+        <varValue item="AltF8 controls output 5" value="0" />
+        <varValue item="AltF8 controls output 6" value="0" />
+        <varValue item="AltF8 controls output 7" value="0" />
+        <varValue item="AltF8 controls output 8" value="0" />
+        <varValue item="AltF9 controls output 1" value="0" />
+        <varValue item="AltF9 controls output 2" value="0" />
+        <varValue item="AltF9 controls output 3" value="0" />
+        <varValue item="AltF9 controls output 4" value="0" />
+        <varValue item="AltF9 controls output 5" value="0" />
+        <varValue item="AltF9 controls output 6" value="0" />
+        <varValue item="AltF9 controls output 7" value="0" />
+        <varValue item="AltF9 controls output 8" value="0" />
+        <varValue item="AltF10 controls output 1" value="0" />
+        <varValue item="AltF10 controls output 2" value="0" />
+        <varValue item="AltF10 controls output 3" value="0" />
+        <varValue item="AltF10 controls output 4" value="0" />
+        <varValue item="AltF10 controls output 5" value="0" />
+        <varValue item="AltF10 controls output 6" value="0" />
+        <varValue item="AltF10 controls output 7" value="0" />
+        <varValue item="AltF10 controls output 8" value="0" />
+        <varValue item="AltF11 controls output 1" value="0" />
+        <varValue item="AltF11 controls output 2" value="0" />
+        <varValue item="AltF11 controls output 3" value="0" />
+        <varValue item="AltF11 controls output 4" value="0" />
+        <varValue item="AltF11 controls output 5" value="0" />
+        <varValue item="AltF11 controls output 6" value="0" />
+        <varValue item="AltF11 controls output 7" value="0" />
+        <varValue item="AltF11 controls output 8" value="0" />
+        <varValue item="AltF12 controls output 1" value="0" />
+        <varValue item="AltF12 controls output 2" value="0" />
+        <varValue item="AltF12 controls output 3" value="0" />
+        <varValue item="AltF12 controls output 4" value="0" />
+        <varValue item="AltF12 controls output 5" value="0" />
+        <varValue item="AltF12 controls output 6" value="0" />
+        <varValue item="AltF12 controls output 7" value="0" />
+        <varValue item="AltF12 controls output 8" value="0" />
+        <varValue item="Signal Dependent Acceleration" value="0" />
+        <varValue item="Signal Dependent Deceleration" value="0" />
+        <varValue item="-1-" value="20" />
+        <varValue item="-U-" value="40" />
+        <varValue item="-2-" value="70" />
+        <varValue item="-L-" value="110" />
+        <varValue item="-3-" value="180" />
+        <varValue item="BEMF config" value="0" />
+        <varValue item="Voltage Reference" value="0" />
+        <varValue item="BEMF Intensity" value="255" />
+        <varValue item="Signal Dependent Reaction Time" value="5" />
+        <varValue item="Output Level" value="0" />
+        <varValue item="Special Function Mapping" value="0" />
+        <varValue item="Minimum Dimming Value" value="0" />
+        <varValue item="Light Effects Modifications" value="51" />
+        <varValue item="Ditch Light Off Time" value="5" />
+        <varValue item="Sub-version" value="0" />
+        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
+        <varValue item="Primary Address" value="19" />
+        <varValue item="Extended Address" value="0" />
+        <varValue item="Address Format" value="0" />
+        <varValue item="Acceleration Rate" value="0" />
+        <varValue item="Deceleration Rate" value="0" />
+        <varValue item="Vstart" value="0" />
+        <varValue item="Vhigh" value="0" />
+        <varValue item="Vmid" value="0" />
+        <varValue item="Manufacturer Version No: " value="0" />
+        <varValue item="Manufacturer ID: " value="0" />
+        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Power Source Conversion" value="1" />
+        <varValue item="Use Speed Table" value="0" />
+        <varValue item="Forward Trim" value="0" />
+        <varValue item="Reverse Trim" value="0" />
+        <varValue item="Loco front lights off" value="0" />
+        <varValue item="Loco front additional function off" value="0" />
+        <varValue item="Loco rear lights off" value="0" />
+        <varValue item="Loco rear additional function off" value="0" />
+        <varValue item="Smoke Characteristic" value="0" />
+        <varValue item="ACKnowledgement" value="1" />
+        <varValue item="Loco Number Recognition" value="0" />
+        <varValue item="NMRA" value="0" />
+        <varValue item="Pulse Chain Recognition (LGB)" value="0" />
+        <varValue item="PWM Frequency" value="0" />
+        <varValue item="Non directional DC braking" value="0" />
+        <varValue item="Pulse Chain Generation" value="0" />
+        <varValue item="EMF Feedback Cutoff Intensity" value="0" />
+        <varValue item="Dim Front Light" value="1" />
+        <varValue item="Dim Rear Light" value="1" />
+        <varValue item="Dim function output 1" value="1" />
+        <varValue item="Dim function output 2" value="1" />
+        <varValue item="Dim function output 3" value="1" />
+        <varValue item="Dim function output 4" value="1" />
+        <varValue item="Dim function output 5" value="1" />
+        <varValue item="Dim function output 6" value="1" />
+        <varValue item="Uncoupler" value="0" />
+        <varValue item="Auto Uncouple" value="0" />
+        <varValue item="Flash Rate" value="0" />
+        <varValue item="Flash front light" value="0" />
+        <varValue item="Flash rear light" value="0" />
+        <varValue item="Flash function output 1" value="0" />
+        <varValue item="Flash function output 2" value="0" />
+        <varValue item="Flash function output 3" value="0" />
+        <varValue item="Flash function output 4" value="0" />
+        <varValue item="Inverse Flash Output 2" value="0" />
+        <varValue item="Inverse Flash Output 4" value="0" />
+        <varValue item="F6 dims front light" value="0" />
+        <varValue item="F6 dims rear light" value="0" />
+        <varValue item="F6 dims function output 1" value="0" />
+        <varValue item="F6 dims function output 2" value="0" />
+        <varValue item="F6 dims function output 3" value="0" />
+        <varValue item="F6 dims function output 4" value="0" />
+        <varValue item="F6 inverted" value="0" />
+        <varValue item="F7 dims front light" value="0" />
+        <varValue item="F7 dims rear light" value="0" />
+        <varValue item="F7 dims function output 1" value="0" />
+        <varValue item="F7 dims function output 2" value="0" />
+        <varValue item="F7 dims function output 3" value="0" />
+        <varValue item="F7 dims function output 4" value="0" />
+        <varValue item="F7 inverted" value="0" />
+        <varValue item="Exponential Acceleration" value="0" />
+        <varValue item="Exponential Deceleration" value="0" />
+        <varValue item="Adaptive Acceleration/Deceleration" value="0" />
+        <varValue item="Shunting" value="0" />
+        <varValue item="Half Speed Key" value="0" />
+        <varValue item="Shunt Function Key" value="0" />
+        <varValue item="Polarity Dependent DC stopping method" value="0" />
+        <varValue item="SUSI" value="0" />
+        <varValue item="Front light effect generated" value="0" />
+        <varValue item="Front light behavior" value="0" />
+        <varValue item="Rear light effect generated" value="0" />
+        <varValue item="Rear light behavior" value="0" />
+        <varValue item="Function output 1 effect generated" value="0" />
+        <varValue item="Function output 1 behavior" value="0" />
+        <varValue item="Function output 2 effect generated" value="0" />
+        <varValue item="Function output 2 behavior" value="0" />
+        <varValue item="Function output 3 effect generated" value="0" />
+        <varValue item="Function output 3 behavior" value="0" />
+        <varValue item="Function output 4 effect generated" value="0" />
+        <varValue item="Function output 4 behavior" value="0" />
+        <varValue item="Function output 5 effect generated" value="0" />
+        <varValue item="Function output 5 behavior" value="0" />
+        <varValue item="Functin output 6 effect generated" value="0" />
+        <varValue item="Function output 6 behavior" value="0" />
+        <varValue item="Function Output 4 as virtual Cam or Smoke Fan" value="0" />
+        <varValue item="Asymmetrical DCC Threshold" value="106" />
+        <varValue item="km/h speed regulation control and range" value="0" />
+        <varValue item="km/h speed regulation control number readout" value="0" />
+        <varValue item="Smoke PWM at standstill" value="0" />
+        <varValue item="Smoke PWM at minimum speed" value="0" />
+        <varValue item="Smoke PWM at max speed" value="0" />
+        <varValue item="Distance controlled stopping" value="0" />
+        <varValue item="Distance controlled stopping Distance" value="0" />
+        <varValue item="Distance controlled stopping speed correction (ABC)" value="12" />
+        <varValue item="Distance controlled stopping speed correction (HLU)" value="0" />
+        <varValue item="Jingle Sound CV Write" value="0" />
+        <varValue item="Service Mode Programming Read Locked" value="0" />
+        <varValue item="Service Mode Programming Locked" value="0" />
+        <varValue item="Software Update Locked" value="0" />
+        <varValue item="Motor Control Method" value="0" />
+        <varValue item="Motor Backlash Control" value="0" />
+        <varValue item="EMK measure timeout" value="0" />
+        <varValue item="Differential value" value="0" />
+        <varValue item="Adaptive proportional value" value="0" />
+        <varValue item="Regulation at full speed" value="0" />
+        <varValue item="Motor brake" value="0" />
+        <varValue item="Dim function output 7" value="1" />
+        <varValue item="Dim function output 8" value="1" />
+        <varValue item="FO3 + FO4 directional setting" value="0" />
+        <varValue item="User ID #1 (0-255)" value="0" />
+        <varValue item="User ID #2 (0-255)" value="0" />
+        <varValue item="Max drive Time after signal loss" value="0" />
+        <varValue item="Special Output Configuration" value="0" />
+        <varValue item="Drive Away if Startup sound still playing" value="0" />
+        <varValue item="Two Stage Air Compressor" value="0" />
+        <varValue item="Acnowledgement Pulse 'Forward only'" value="0" />
+        <varValue item="ACKnowledgement Pulse 'Reverse only'" value="0" />
+        <varValue item="Second Motorola Address" value="0" />
+        <varValue item="Delay Shutdown" value="0" />
+        <varValue item="Half Speed Key Extension" value="0" />
+        <varValue item="Shunt Function Key Extension" value="0" />
+        <varValue item="MAN Key Extension (Disable HLU or ABC signal control)" value="0" />
+        <varValue item="RailCom speed reporting method" value="0" />
+        <varValue item="Standing Sound on premature shutdown" value="0" />
+        <varValue item="Chuff rate at higher speed steps" value="0" />
+        <varValue item="Drop one speed step to lower turbocharger" value="0" />
+        <varValue item="Function output 7 effect generated" value="0" />
+        <varValue item="Function output 7 behavior" value="0" />
+        <varValue item="Function output 8 effect generated" value="0" />
+        <varValue item="Function output 8 behavior" value="0" />
+        <varValue item="Servo Protocol" value="0" />
+        <varValue item="Servo Control Signal" value="0" />
+        <varValue item="Servo Centering" value="0" />
+        <varValue item="Servo 1 Left Stop" value="49" />
+        <varValue item="Servo 1 Right Stop" value="205" />
+        <varValue item="Servo 1 Centre" value="127" />
+        <varValue item="Servo 1 Rotation Speed" value="30" />
+        <varValue item="Servo 2 Left Stop" value="49" />
+        <varValue item="Servo 2 Right Stop" value="205" />
+        <varValue item="Servo 2 Centre" value="127" />
+        <varValue item="Servo 2 Rotation Speed" value="30" />
+        <varValue item="Servo 1 Function Allocation" value="0" />
+        <varValue item="Servo 2 Function Allocation" value="0" />
+        <varValue item="Load Code 1" value="0" />
+        <varValue item="Load Code 2" value="0" />
+        <varValue item="Load Code 3" value="0" />
+        <varValue item="Load Code 4" value="0" />
+        <varValue item="Set sound program" value="0" />
+        <varValue item="Total volume" value="64" />
+        <varValue item="Virtual cam chuff frequency" value="70" />
+        <varValue item="Real cam sensor chuff rate 1" value="0" />
+        <varValue item="Real cam sensor chuff rate" value="0" />
+        <varValue item="Chuff for Articulated Locomotives" value="0" />
+        <varValue item="Lead chuff accentuated" value="0" />
+        <varValue item="Overlapping effect at high speeds" value="16" />
+        <varValue item="Blow-off time" value="50" />
+        <varValue item="Delayed start after blow-off time" value="0" />
+        <varValue item="Blow-off schedule" value="30" />
+        <varValue item="Chuff volume at low speed and no load" value="60" />
+        <varValue item="Chuff volume at high speed and no load" value="80" />
+        <varValue item="Degree of volume change under load" value="0" />
+        <varValue item="Load change threshold" value="0" />
+        <varValue item="Reaction time to load change" value="0" />
+        <varValue item="Load influence for diesel engines" value="0" />
+        <varValue item="Acceleration threshold for full load sound" value="1" />
+        <varValue item="Duration of acceleration sound" value="30" />
+        <varValue item="Engine volume at full acceleration" value="255" />
+        <varValue item="Threshold for deceleration sound" value="1" />
+        <varValue item="Duration of reduced volume on deceleration" value="30" />
+        <varValue item="Volume level during deceleration" value="20" />
+        <varValue item="Brake squeal threshold" value="20" />
+        <varValue item="Minimum driving time before brake squeal" value="50" />
+        <varValue item="Thyristor control: Sound pitch for stepping effect" value="1" />
+        <varValue item="Thyristor control: Sound pitch at medium speed" value="40" />
+        <varValue item="Thyristor control: Sound pitch at maximum speed" value="100" />
+        <varValue item="Thyristor control: Speed step for medium speed" value="100" />
+        <varValue item="Thyristor control: Volume at steady speed" value="30" />
+        <varValue item="Thyristor control: Volume during acceleration" value="100" />
+        <varValue item="Thyristor control: Volume during deceleration" value="50" />
+        <varValue item="Electric Engine Motor sound: highest volume" value="100" />
+        <varValue item="Electric Engine Motor sound: where sound becomes audible" value="30" />
+        <varValue item="Electric Engine Motor sound: starting point of full volume" value="128" />
+        <varValue item="Electric Engine Motor sound: dependence of the pitch on speed" value="100" />
+        <varValue item="Brake Key" value="0" />
+        <varValue item="On/off key for engine and random sound" value="8" />
+        <varValue item="On/off key for function sound" value="0" />
+        <varValue item="Blow-off key" value="4" />
+        <varValue item="Mute key" value="8" />
+        <varValue item="Fade in/out time" value="0" />
+        <varValue item="Minimum interval for random generator Z1" value="1" />
+        <varValue item="Maximum interval for random generator Z1" value="60" />
+        <varValue item="Playback length for random generator Z1" value="5" />
+        <varValue item="Minimum interval for random generator Z2" value="20" />
+        <varValue item="Maximum interval for random generator Z2" value="80" />
+        <varValue item="Playback length for random generator Z2" value="5" />
+        <varValue item="Minimum interval for random generator Z3" value="30" />
+        <varValue item="Maximum interval for random generator Z3" value="90" />
+        <varValue item="Playback length for random generator Z3" value="3" />
+        <varValue item="Minimum interval for random generator Z4" value="0" />
+        <varValue item="Maximum interval for random generator Z4" value="0" />
+        <varValue item="Playback length for random generator Z4" value="0" />
+        <varValue item="Minimum interval for random generator Z5" value="0" />
+        <varValue item="Maximum interval for random generator Z5" value="0" />
+        <varValue item="Playback length for random generator Z5" value="0" />
+        <varValue item="Minimum interval for random generator Z6" value="0" />
+        <varValue item="Maximum interval for random generator Z6" value="0" />
+        <varValue item="Playback length for random generator Z6" value="0" />
+        <varValue item="Minimum interval for random generator Z7" value="0" />
+        <varValue item="Maximum interval for random generator Z7" value="0" />
+        <varValue item="Playback length for random generator Z7" value="0" />
+        <varValue item="Minimum interval for random generator Z8" value="0" />
+        <varValue item="Maximum interval for random generator Z8" value="0" />
+        <varValue item="Playback length for random generator Z8" value="0" />
+        <varValue item="Switch input 1 playback time" value="0" />
+        <varValue item="Run-on time" value="0" />
+        <varValue item="Multi-system engine Quick Select key" value="0" />
+        <varValue item="Delay of Switchgear sound at startup" value="0" />
+        <varValue item="Smoke Fan Speed at Steady Speed" value="128" />
+        <varValue item="Smoke Fan Speed at Startup and Acceleration" value="255" />
+        <varValue item="Automatic Shut-down of Smoke Generator" value="0" />
+        <varValue item="Steam chuff frequency at speed step 1" value="0" />
+        <varValue item="Fan Speed at Standstill" value="0" />
+        <varValue item="Condition for switching sound sets" value="0" />
+        <varValue item="Fn key driving solo" value="0" />
+        <varValue item="Solo unhindered rpm" value="0" />
+        <varValue item="Solo change momentum" value="0" />
+        <varValue item="Solo change idle only" value="0" />
+        <varValue item="Brake Key Deceleration Rate" value="0" />
+        <varValue item="Second exhaust Fan and -steam" value="0" />
+        <varValue item="Brake squel can be suppressed with switch-over key" value="0" />
+        <varValue item="Thyristor Volume at Higher Speed" value="0" />
+        <varValue item="Thyristor Volume Change Speed Step" value="0" />
+        <varValue item="Switchgear noise Duration at speed change" value="30" />
+        <varValue item="Switchgear noise Duration after stop" value="0" />
+        <varValue item="Switchgear noise minimum Wait before the next play" value="0" />
+        <varValue item="Thyristor Second Switching Threshold" value="0" />
+        <varValue item="Switchgear noise Distribution of speed in Switching stages" value="0" />
+        <varValue item="Engine Speed Fallback when changing gear" value="0" />
+        <varValue item="Maximum speed before upshifting" value="0" />
+        <varValue item="Maximum volume of Turbocharger" value="48" />
+        <varValue item="Turbocharger dependence on speed" value="150" />
+        <varValue item="Turbocharger dependence on acceleration" value="100" />
+        <varValue item="Minimum load on the Turbocharger" value="30" />
+        <varValue item="Increase in frequency of the Turbocharger" value="25" />
+        <varValue item="Decrease in frequency of the Turbocharger" value="15" />
+        <varValue item="Function Key for Coasting" value="0" />
+        <varValue item="Sound Slot during Coasting" value="0" />
+        <varValue item="Volume dependent on Speed" value="0" />
+        <varValue item="Volume dependent on Braking" value="0" />
+        <varValue item="Percentage Reduction of Driving Sound Volume" value="0" />
+        <varValue item="Likeihood of switchgear sparks" value="0" />
+        <varValue item="Electric brake function key" value="0" />
+        <varValue item="Electric brake minimum speed" value="0" />
+        <varValue item="Electric brake maximum speed" value="0" />
+        <varValue item="Electric brake pitch" value="0" />
+        <varValue item="Electric brake deceleration threshold" value="0" />
+        <varValue item="Electric brake downhill" value="0" />
+        <varValue item="Electric brake loop time interval" value="0" />
+        <varValue item="Electric brake loop cutoff" value="0" />
+        <varValue item="Influence of Acceleration on Diesel Sound Steps" value="0" />
+        <varValue item="Influence of Deceleration on Diesel Sound Steps" value="0" />
+        <varValue item="Limitation of Acceleration on Diesel Sound Steps" value="0" />
+        <varValue item="Momentum reduction when driving solo" value="0" />
+        <varValue item="Driving idle sound speed step threshold" value="0" />
+        <varValue item="Lights flash with switchgear sound" value="0" />
+        <varValue item="Maximum Volume" value="0" />
+        <varValue item="Function Key to Reduce Volume" value="0" />
+        <varValue item="Function Key to Increase Volume" value="0" />
+        <varValue item="Automatic Coasting Speed Steps" value="0" />
+        <varValue item="Input mapping for internal F0" value="0" />
+        <varValue item="Input mapping for internal F1" value="0" />
+        <varValue item="Input mapping for internal F2" value="0" />
+        <varValue item="Input mapping for internal F3" value="0" />
+        <varValue item="Input mapping for internal F4" value="0" />
+        <varValue item="Input mapping for internal F5" value="0" />
+        <varValue item="Input mapping for internal F6" value="0" />
+        <varValue item="Input mapping for internal F7" value="0" />
+        <varValue item="Input mapping for internal F8" value="0" />
+        <varValue item="Input mapping for internal F9" value="0" />
+        <varValue item="Input mapping for internal F10" value="0" />
+        <varValue item="Input mapping for internal F11" value="0" />
+        <varValue item="Input mapping for internal F12" value="0" />
+        <varValue item="Input mapping for internal F13" value="0" />
+        <varValue item="Input mapping for internal F14" value="0" />
+        <varValue item="Input mapping for internal F15" value="0" />
+        <varValue item="Input mapping for internal F16" value="0" />
+        <varValue item="Input mapping for internal F17" value="0" />
+        <varValue item="Input mapping for internal F18" value="0" />
+        <varValue item="Input mapping for internal F19" value="0" />
+        <varValue item="Input mapping for internal F20" value="0" />
+        <varValue item="Input mapping for internal F21" value="0" />
+        <varValue item="Input mapping for internal F22" value="0" />
+        <varValue item="Input mapping for internal F23" value="0" />
+        <varValue item="Input mapping for internal F24" value="0" />
+        <varValue item="Input mapping for internal F25" value="0" />
+        <varValue item="Input mapping for internal F26" value="0" />
+        <varValue item="Input mapping for internal F27" value="0" />
+        <varValue item="Input mapping for internal F28" value="0" />
+        <varValue item="Speed Dependant Headlights" value="0" />
+        <varValue item="Swiss Mapping Group 1 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 1 M-key v33" value="0" />
+        <varValue item="Swiss Mapping Group 1 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 1 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 1 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 1 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 1 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 2 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 2 M-key v33" value="0" />
+        <varValue item="Swiss Mapping Group 2 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 2 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 2 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 2 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 2 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 3 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 3 M-key v33" value="0" />
+        <varValue item="Swiss Mapping Group 3 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 3 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 3 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 3 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 3 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 4 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 4 M-key v33" value="0" />
+        <varValue item="Swiss Mapping Group 4 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 4 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 4 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 4 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 4 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 5 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 5 M-key v33" value="0" />
+        <varValue item="Swiss Mapping Group 5 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 5 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 5 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 5 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 5 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 6 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 6 M-key v33" value="0" />
+        <varValue item="Swiss Mapping Group 6 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 6 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 6 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 6 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 6 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 7 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 7 M-key v33" value="0" />
+        <varValue item="Swiss Mapping Group 7 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 7 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 7 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 7 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 7 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 8 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 8 M-key v33" value="0" />
+        <varValue item="Swiss Mapping Group 8 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 8 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 8 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 8 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 8 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 9 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 9 M-key v33" value="0" />
+        <varValue item="Swiss Mapping Group 9 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 9 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 9 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 9 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 9 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 10 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 10 M-key v33" value="0" />
+        <varValue item="Swiss Mapping Group 10 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 10 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 10 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 10 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 10 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 11 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 11 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 11 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 11 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 11 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 11 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 12 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 12 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 12 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 12 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 12 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 12 A2 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 13 F-key" value="0" />
+        <varValue item="Swiss Mapping Group 13 M-key" value="0" />
+        <varValue item="Swiss Mapping Group 13 A1 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 13 A2 Fw" value="0" />
+        <varValue item="Swiss Mapping Group 13 A1 Rw" value="0" />
+        <varValue item="Swiss Mapping Group 13 A2 Rw" value="0" />
+        <varValue item="Overall Volume" value="0" />
+        <varValue item="F0" value="0" />
+        <varValue item="Volume on Key F0" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F1" value="0" />
+        <varValue item="Volume on Key F1" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F2" value="0" />
+        <varValue item="Volume on Key F2" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F3" value="0" />
+        <varValue item="Volume on Key F3" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F4" value="0" />
+        <varValue item="Volume on Key F4" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F5" value="0" />
+        <varValue item="Volume on Key F5" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F6" value="0" />
+        <varValue item="Volume on Key F6" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F7" value="0" />
+        <varValue item="Volume on Key F7" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F8" value="0" />
+        <varValue item="Volume on Key F8" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F9" value="0" />
+        <varValue item="Volume on Key F9" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F10" value="0" />
+        <varValue item="Volume on Key F10" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F11" value="0" />
+        <varValue item="Volume on Key F11" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F12" value="0" />
+        <varValue item="Volume on Key F12" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F13" value="0" />
+        <varValue item="Volume on Key F13" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F14" value="0" />
+        <varValue item="Volume on Key F14" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F15" value="0" />
+        <varValue item="Volume on Key F15" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F16" value="0" />
+        <varValue item="Volume on Key F16" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F17" value="0" />
+        <varValue item="Volume on Key F17" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F18" value="0" />
+        <varValue item="Volume on Key F18" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F19" value="0" />
+        <varValue item="Volume on Key F19" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="Boiling Sound" value="0" />
+        <varValue item="Boiling Sound" value="0" />
+        <varValue item="Change of Direction" value="0" />
+        <varValue item="Change of Direction" value="0" />
+        <varValue item="Brake Squeal" value="0" />
+        <varValue item="Brake Squeal" value="0" />
+        <varValue item="Thyristor Noise (Electric)" value="0" />
+        <varValue item="Thyristor Noise (Electric)" value="0" />
+        <varValue item="Starting Whistle or Horn" value="0" />
+        <varValue item="Starting Whistle or Horn" value="0" />
+        <varValue item="Drain Valves (Steam)" value="0" />
+        <varValue item="Drain Valves (Steam)" value="0" />
+        <varValue item="Electric Motor (Electric)" value="0" />
+        <varValue item="Electric Motor (Electric)" value="0" />
+        <varValue item="Rolling Noise" value="0" />
+        <varValue item="Rolling Noise" value="0" />
+        <varValue item="Switchgear noise (Electric)" value="0" />
+        <varValue item="Switchgear noise (Electric)" value="0" />
+        <varValue item="Second Thyrister (Electric)" value="0" />
+        <varValue item="Second Thyrister (Electric)" value="0" />
+        <varValue item="Turbocharger (Diesel)" value="0" />
+        <varValue item="Turbocharger (Diesel)" value="0" />
+        <varValue item="Dynamic Brake (Electric)" value="0" />
+        <varValue item="Dynamic Brake (Electric)" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F20" value="0" />
+        <varValue item="Volume on Key F20" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F21" value="0" />
+        <varValue item="Volume on Key F21" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F22" value="0" />
+        <varValue item="Volume on Key F22" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F23" value="0" />
+        <varValue item="Volume on Key F23" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F24" value="0" />
+        <varValue item="Volume on Key F24" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F25" value="0" />
+        <varValue item="Volume on Key F25" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F26" value="0" />
+        <varValue item="Volume on Key F26" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F27" value="0" />
+        <varValue item="Volume on Key F27" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="F28" value="0" />
+        <varValue item="Volume on Key F28" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="Switch input 1 Sound Sample" value="0" />
+        <varValue item="Switch triggered sound S1" value="0" />
+        <varValue item="Z1 " value="0" />
+        <varValue item="Random sound Z1" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="Z2 " value="0" />
+        <varValue item="Random sound Z2" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="Z3 " value="0" />
+        <varValue item="Random sound Z3" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="Z4 " value="0" />
+        <varValue item="Random sound Z4" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="Z5 " value="0" />
+        <varValue item="Random sound Z5" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="Z6 " value="0" />
+        <varValue item="Random sound Z6" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="Z7 " value="0" />
+        <varValue item="Random sound Z7" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+        <varValue item="Z8 " value="0" />
+        <varValue item="Random sound Z8" value="0" />
+        <varValue item=" " value="0" />
+        <varValue item=" " value="0" />
+      </decoderDef>
+      <CVvalue name="250" value="221" />
+      <CVvalue name="251" value="0" />
+      <CVvalue name="252" value="0" />
+      <CVvalue name="253" value="0" />
+      <CVvalue name="9" value="0" />
+      <CVvalue name="10" value="0" />
+      <CVvalue name="13" value="0" />
+      <CVvalue name="14" value="64" />
+      <CVvalue name="21" value="0" />
+      <CVvalue name="22" value="0" />
+      <CVvalue name="23" value="0" />
+      <CVvalue name="24" value="0" />
+      <CVvalue name="27" value="0" />
+      <CVvalue name="28" value="3" />
+      <CVvalue name="29" value="14" />
+      <CVvalue name="33" value="1" />
+      <CVvalue name="34" value="2" />
+      <CVvalue name="35" value="4" />
+      <CVvalue name="36" value="8" />
+      <CVvalue name="37" value="2" />
+      <CVvalue name="38" value="4" />
+      <CVvalue name="39" value="8" />
+      <CVvalue name="40" value="16" />
+      <CVvalue name="41" value="4" />
+      <CVvalue name="42" value="8" />
+      <CVvalue name="43" value="0" />
+      <CVvalue name="44" value="0" />
+      <CVvalue name="45" value="0" />
+      <CVvalue name="46" value="0" />
+      <CVvalue name="49" value="0" />
+      <CVvalue name="50" value="0" />
+      <CVvalue name="51" value="20" />
+      <CVvalue name="52" value="40" />
+      <CVvalue name="53" value="70" />
+      <CVvalue name="54" value="110" />
+      <CVvalue name="55" value="180" />
+      <CVvalue name="56" value="0" />
+      <CVvalue name="57" value="0" />
+      <CVvalue name="58" value="255" />
+      <CVvalue name="59" value="5" />
+      <CVvalue name="60" value="0" />
+      <CVvalue name="61" value="0" />
+      <CVvalue name="62" value="0" />
+      <CVvalue name="63" value="51" />
+      <CVvalue name="64" value="5" />
+      <CVvalue name="65" value="0" />
+      <CVvalue name="67" value="0" />
+      <CVvalue name="68" value="9" />
+      <CVvalue name="69" value="18" />
+      <CVvalue name="70" value="28" />
+      <CVvalue name="71" value="37" />
+      <CVvalue name="72" value="47" />
+      <CVvalue name="73" value="56" />
+      <CVvalue name="74" value="66" />
+      <CVvalue name="75" value="75" />
+      <CVvalue name="76" value="85" />
+      <CVvalue name="77" value="94" />
+      <CVvalue name="78" value="103" />
+      <CVvalue name="79" value="113" />
+      <CVvalue name="80" value="122" />
+      <CVvalue name="81" value="132" />
+      <CVvalue name="82" value="141" />
+      <CVvalue name="83" value="151" />
+      <CVvalue name="84" value="160" />
+      <CVvalue name="85" value="170" />
+      <CVvalue name="86" value="179" />
+      <CVvalue name="87" value="188" />
+      <CVvalue name="88" value="198" />
+      <CVvalue name="89" value="207" />
+      <CVvalue name="90" value="217" />
+      <CVvalue name="91" value="226" />
+      <CVvalue name="92" value="236" />
+      <CVvalue name="93" value="245" />
+      <CVvalue name="94" value="255" />
+      <CVvalue name="1" value="19" />
+      <CVvalue name="17" value="0" />
+      <CVvalue name="18" value="0" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
+      <CVvalue name="2" value="0" />
+      <CVvalue name="5" value="0" />
+      <CVvalue name="6" value="0" />
+      <CVvalue name="7" value="0" />
+      <CVvalue name="8" value="0" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="66" value="0" />
+      <CVvalue name="95" value="0" />
+      <CVvalue name="107" value="0" />
+      <CVvalue name="108" value="0" />
+      <CVvalue name="112" value="2" />
+      <CVvalue name="113" value="0" />
+      <CVvalue name="114" value="0" />
+      <CVvalue name="115" value="0" />
+      <CVvalue name="116" value="0" />
+      <CVvalue name="117" value="0" />
+      <CVvalue name="118" value="0" />
+      <CVvalue name="119" value="0" />
+      <CVvalue name="120" value="0" />
+      <CVvalue name="121" value="0" />
+      <CVvalue name="122" value="0" />
+      <CVvalue name="123" value="0" />
+      <CVvalue name="124" value="0" />
+      <CVvalue name="125" value="0" />
+      <CVvalue name="126" value="0" />
+      <CVvalue name="127" value="0" />
+      <CVvalue name="128" value="0" />
+      <CVvalue name="129" value="0" />
+      <CVvalue name="130" value="0" />
+      <CVvalue name="131" value="0" />
+      <CVvalue name="132" value="0" />
+      <CVvalue name="133" value="0" />
+      <CVvalue name="134" value="106" />
+      <CVvalue name="135" value="0" />
+      <CVvalue name="136" value="0" />
+      <CVvalue name="137" value="0" />
+      <CVvalue name="138" value="0" />
+      <CVvalue name="139" value="0" />
+      <CVvalue name="140" value="0" />
+      <CVvalue name="141" value="0" />
+      <CVvalue name="142" value="12" />
+      <CVvalue name="143" value="0" />
+      <CVvalue name="144" value="0" />
+      <CVvalue name="145" value="0" />
+      <CVvalue name="146" value="0" />
+      <CVvalue name="147" value="0" />
+      <CVvalue name="148" value="0" />
+      <CVvalue name="149" value="0" />
+      <CVvalue name="150" value="0" />
+      <CVvalue name="151" value="0" />
+      <CVvalue name="152" value="0" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
+      <CVvalue name="153" value="0" />
+      <CVvalue name="154" value="0" />
+      <CVvalue name="155" value="0" />
+      <CVvalue name="156" value="0" />
+      <CVvalue name="157" value="0" />
+      <CVvalue name="158" value="0" />
+      <CVvalue name="159" value="0" />
+      <CVvalue name="160" value="0" />
+      <CVvalue name="161" value="0" />
+      <CVvalue name="162" value="49" />
+      <CVvalue name="163" value="205" />
+      <CVvalue name="164" value="127" />
+      <CVvalue name="165" value="30" />
+      <CVvalue name="166" value="49" />
+      <CVvalue name="167" value="205" />
+      <CVvalue name="168" value="127" />
+      <CVvalue name="169" value="30" />
+      <CVvalue name="181" value="0" />
+      <CVvalue name="182" value="0" />
+      <CVvalue name="260" value="0" />
+      <CVvalue name="261" value="0" />
+      <CVvalue name="262" value="0" />
+      <CVvalue name="263" value="0" />
+      <CVvalue name="265" value="1" />
+      <CVvalue name="266" value="64" />
+      <CVvalue name="267" value="70" />
+      <CVvalue name="268" value="0" />
+      <CVvalue name="269" value="0" />
+      <CVvalue name="271" value="16" />
+      <CVvalue name="272" value="50" />
+      <CVvalue name="273" value="0" />
+      <CVvalue name="274" value="30" />
+      <CVvalue name="275" value="60" />
+      <CVvalue name="276" value="80" />
+      <CVvalue name="277" value="0" />
+      <CVvalue name="278" value="0" />
+      <CVvalue name="279" value="0" />
+      <CVvalue name="280" value="0" />
+      <CVvalue name="281" value="1" />
+      <CVvalue name="282" value="30" />
+      <CVvalue name="283" value="255" />
+      <CVvalue name="284" value="1" />
+      <CVvalue name="285" value="30" />
+      <CVvalue name="286" value="20" />
+      <CVvalue name="287" value="20" />
+      <CVvalue name="288" value="50" />
+      <CVvalue name="289" value="1" />
+      <CVvalue name="290" value="40" />
+      <CVvalue name="291" value="100" />
+      <CVvalue name="292" value="100" />
+      <CVvalue name="293" value="30" />
+      <CVvalue name="294" value="100" />
+      <CVvalue name="295" value="50" />
+      <CVvalue name="296" value="100" />
+      <CVvalue name="297" value="30" />
+      <CVvalue name="298" value="128" />
+      <CVvalue name="299" value="100" />
+      <CVvalue name="309" value="0" />
+      <CVvalue name="310" value="8" />
+      <CVvalue name="311" value="0" />
+      <CVvalue name="312" value="4" />
+      <CVvalue name="313" value="8" />
+      <CVvalue name="314" value="0" />
+      <CVvalue name="315" value="1" />
+      <CVvalue name="316" value="60" />
+      <CVvalue name="317" value="5" />
+      <CVvalue name="318" value="20" />
+      <CVvalue name="319" value="80" />
+      <CVvalue name="320" value="5" />
+      <CVvalue name="321" value="30" />
+      <CVvalue name="322" value="90" />
+      <CVvalue name="323" value="3" />
+      <CVvalue name="324" value="0" />
+      <CVvalue name="325" value="0" />
+      <CVvalue name="326" value="0" />
+      <CVvalue name="327" value="0" />
+      <CVvalue name="328" value="0" />
+      <CVvalue name="329" value="0" />
+      <CVvalue name="330" value="0" />
+      <CVvalue name="331" value="0" />
+      <CVvalue name="332" value="0" />
+      <CVvalue name="333" value="0" />
+      <CVvalue name="334" value="0" />
+      <CVvalue name="335" value="0" />
+      <CVvalue name="336" value="0" />
+      <CVvalue name="337" value="0" />
+      <CVvalue name="338" value="0" />
+      <CVvalue name="341" value="0" />
+      <CVvalue name="344" value="0" />
+      <CVvalue name="345" value="0" />
+      <CVvalue name="350" value="0" />
+      <CVvalue name="351" value="128" />
+      <CVvalue name="352" value="255" />
+      <CVvalue name="353" value="0" />
+      <CVvalue name="354" value="0" />
+      <CVvalue name="355" value="0" />
+      <CVvalue name="346" value="0" />
+      <CVvalue name="347" value="0" />
+      <CVvalue name="348" value="0" />
+      <CVvalue name="349" value="0" />
+      <CVvalue name="357" value="0" />
+      <CVvalue name="358" value="0" />
+      <CVvalue name="359" value="30" />
+      <CVvalue name="360" value="0" />
+      <CVvalue name="361" value="0" />
+      <CVvalue name="362" value="0" />
+      <CVvalue name="363" value="0" />
+      <CVvalue name="364" value="0" />
+      <CVvalue name="365" value="0" />
+      <CVvalue name="366" value="48" />
+      <CVvalue name="367" value="150" />
+      <CVvalue name="368" value="100" />
+      <CVvalue name="369" value="30" />
+      <CVvalue name="370" value="25" />
+      <CVvalue name="371" value="15" />
+      <CVvalue name="374" value="0" />
+      <CVvalue name="375" value="0" />
+      <CVvalue name="372" value="0" />
+      <CVvalue name="373" value="0" />
+      <CVvalue name="376" value="0" />
+      <CVvalue name="378" value="0" />
+      <CVvalue name="380" value="0" />
+      <CVvalue name="381" value="0" />
+      <CVvalue name="382" value="0" />
+      <CVvalue name="383" value="0" />
+      <CVvalue name="384" value="0" />
+      <CVvalue name="385" value="0" />
+      <CVvalue name="386" value="0" />
+      <CVvalue name="387" value="0" />
+      <CVvalue name="388" value="0" />
+      <CVvalue name="389" value="0" />
+      <CVvalue name="390" value="0" />
+      <CVvalue name="391" value="0" />
+      <CVvalue name="394" value="0" />
+      <CVvalue name="395" value="0" />
+      <CVvalue name="396" value="0" />
+      <CVvalue name="397" value="0" />
+      <CVvalue name="398" value="0" />
+      <CVvalue name="400" value="0" />
+      <CVvalue name="401" value="0" />
+      <CVvalue name="402" value="0" />
+      <CVvalue name="403" value="0" />
+      <CVvalue name="404" value="0" />
+      <CVvalue name="405" value="0" />
+      <CVvalue name="406" value="0" />
+      <CVvalue name="407" value="0" />
+      <CVvalue name="408" value="0" />
+      <CVvalue name="409" value="0" />
+      <CVvalue name="410" value="0" />
+      <CVvalue name="411" value="0" />
+      <CVvalue name="412" value="0" />
+      <CVvalue name="413" value="0" />
+      <CVvalue name="414" value="0" />
+      <CVvalue name="415" value="0" />
+      <CVvalue name="416" value="0" />
+      <CVvalue name="417" value="0" />
+      <CVvalue name="418" value="0" />
+      <CVvalue name="419" value="0" />
+      <CVvalue name="420" value="0" />
+      <CVvalue name="421" value="0" />
+      <CVvalue name="422" value="0" />
+      <CVvalue name="423" value="0" />
+      <CVvalue name="424" value="0" />
+      <CVvalue name="425" value="0" />
+      <CVvalue name="426" value="0" />
+      <CVvalue name="427" value="0" />
+      <CVvalue name="428" value="0" />
+      <CVvalue name="399" value="0" />
+      <CVvalue name="430" value="0" />
+      <CVvalue name="431" value="0" />
+      <CVvalue name="432" value="0" />
+      <CVvalue name="433" value="0" />
+      <CVvalue name="434" value="0" />
+      <CVvalue name="435" value="0" />
+      <CVvalue name="436" value="0" />
+      <CVvalue name="437" value="0" />
+      <CVvalue name="438" value="0" />
+      <CVvalue name="439" value="0" />
+      <CVvalue name="440" value="0" />
+      <CVvalue name="441" value="0" />
+      <CVvalue name="442" value="0" />
+      <CVvalue name="443" value="0" />
+      <CVvalue name="444" value="0" />
+      <CVvalue name="445" value="0" />
+      <CVvalue name="446" value="0" />
+      <CVvalue name="447" value="0" />
+      <CVvalue name="448" value="0" />
+      <CVvalue name="449" value="0" />
+      <CVvalue name="450" value="0" />
+      <CVvalue name="451" value="0" />
+      <CVvalue name="452" value="0" />
+      <CVvalue name="453" value="0" />
+      <CVvalue name="454" value="0" />
+      <CVvalue name="455" value="0" />
+      <CVvalue name="456" value="0" />
+      <CVvalue name="457" value="0" />
+      <CVvalue name="458" value="0" />
+      <CVvalue name="459" value="0" />
+      <CVvalue name="460" value="0" />
+      <CVvalue name="461" value="0" />
+      <CVvalue name="462" value="0" />
+      <CVvalue name="463" value="0" />
+      <CVvalue name="464" value="0" />
+      <CVvalue name="465" value="0" />
+      <CVvalue name="466" value="0" />
+      <CVvalue name="467" value="0" />
+      <CVvalue name="468" value="0" />
+      <CVvalue name="469" value="0" />
+      <CVvalue name="470" value="0" />
+      <CVvalue name="471" value="0" />
+      <CVvalue name="472" value="0" />
+      <CVvalue name="473" value="0" />
+      <CVvalue name="474" value="0" />
+      <CVvalue name="475" value="0" />
+      <CVvalue name="476" value="0" />
+      <CVvalue name="477" value="0" />
+      <CVvalue name="478" value="0" />
+      <CVvalue name="479" value="0" />
+      <CVvalue name="480" value="0" />
+      <CVvalue name="481" value="0" />
+      <CVvalue name="482" value="0" />
+      <CVvalue name="483" value="0" />
+      <CVvalue name="484" value="0" />
+      <CVvalue name="485" value="0" />
+      <CVvalue name="486" value="0" />
+      <CVvalue name="487" value="0" />
+      <CVvalue name="488" value="0" />
+      <CVvalue name="489" value="0" />
+      <CVvalue name="490" value="0" />
+      <CVvalue name="491" value="0" />
+      <CVvalue name="492" value="0" />
+      <CVvalue name="493" value="0" />
+      <CVvalue name="494" value="0" />
+      <CVvalue name="495" value="0" />
+      <CVvalue name="496" value="0" />
+      <CVvalue name="497" value="0" />
+      <CVvalue name="498" value="0" />
+      <CVvalue name="499" value="0" />
+      <CVvalue name="500" value="0" />
+      <CVvalue name="501" value="0" />
+      <CVvalue name="502" value="0" />
+      <CVvalue name="503" value="0" />
+      <CVvalue name="504" value="0" />
+      <CVvalue name="505" value="0" />
+      <CVvalue name="506" value="0" />
+      <CVvalue name="507" value="0" />
+      <CVvalue name="570" value="0" />
+      <CVvalue name="571" value="0" />
+      <CVvalue name="572" value="0" />
+      <CVvalue name="513" value="0" />
+      <CVvalue name="514" value="0" />
+      <CVvalue name="515" value="0" />
+      <CVvalue name="516" value="0" />
+      <CVvalue name="517" value="0" />
+      <CVvalue name="518" value="0" />
+      <CVvalue name="519" value="0" />
+      <CVvalue name="520" value="0" />
+      <CVvalue name="521" value="0" />
+      <CVvalue name="522" value="0" />
+      <CVvalue name="523" value="0" />
+      <CVvalue name="524" value="0" />
+      <CVvalue name="525" value="0" />
+      <CVvalue name="526" value="0" />
+      <CVvalue name="527" value="0" />
+      <CVvalue name="528" value="0" />
+      <CVvalue name="529" value="0" />
+      <CVvalue name="530" value="0" />
+      <CVvalue name="531" value="0" />
+      <CVvalue name="532" value="0" />
+      <CVvalue name="533" value="0" />
+      <CVvalue name="534" value="0" />
+      <CVvalue name="535" value="0" />
+      <CVvalue name="536" value="0" />
+      <CVvalue name="537" value="0" />
+      <CVvalue name="538" value="0" />
+      <CVvalue name="539" value="0" />
+      <CVvalue name="540" value="0" />
+      <CVvalue name="541" value="0" />
+      <CVvalue name="542" value="0" />
+      <CVvalue name="543" value="0" />
+      <CVvalue name="544" value="0" />
+      <CVvalue name="545" value="0" />
+      <CVvalue name="546" value="0" />
+      <CVvalue name="547" value="0" />
+      <CVvalue name="548" value="0" />
+      <CVvalue name="549" value="0" />
+      <CVvalue name="550" value="0" />
+      <CVvalue name="551" value="0" />
+      <CVvalue name="552" value="0" />
+      <CVvalue name="553" value="0" />
+      <CVvalue name="554" value="0" />
+      <CVvalue name="555" value="0" />
+      <CVvalue name="556" value="0" />
+      <CVvalue name="557" value="0" />
+      <CVvalue name="558" value="0" />
+      <CVvalue name="559" value="0" />
+      <CVvalue name="560" value="0" />
+      <CVvalue name="561" value="0" />
+      <CVvalue name="562" value="0" />
+      <CVvalue name="563" value="0" />
+      <CVvalue name="564" value="0" />
+      <CVvalue name="565" value="0" />
+      <CVvalue name="566" value="0" />
+      <CVvalue name="567" value="0" />
+      <CVvalue name="568" value="0" />
+      <CVvalue name="569" value="0" />
+      <CVvalue name="573" value="0" />
+      <CVvalue name="574" value="0" />
+      <CVvalue name="575" value="0" />
+      <CVvalue name="576" value="0" />
+      <CVvalue name="577" value="0" />
+      <CVvalue name="578" value="0" />
+      <CVvalue name="579" value="0" />
+      <CVvalue name="580" value="0" />
+      <CVvalue name="581" value="0" />
+      <CVvalue name="582" value="0" />
+      <CVvalue name="583" value="0" />
+      <CVvalue name="584" value="0" />
+      <CVvalue name="585" value="0" />
+      <CVvalue name="586" value="0" />
+      <CVvalue name="587" value="0" />
+      <CVvalue name="588" value="0" />
+      <CVvalue name="589" value="0" />
+      <CVvalue name="590" value="0" />
+      <CVvalue name="591" value="0" />
+      <CVvalue name="592" value="0" />
+      <CVvalue name="599" value="0" />
+      <CVvalue name="600" value="0" />
+      <CVvalue name="601" value="0" />
+      <CVvalue name="602" value="0" />
+      <CVvalue name="508" value="0" />
+      <CVvalue name="509" value="0" />
+      <CVvalue name="510" value="0" />
+      <CVvalue name="511" value="0" />
+      <CVvalue name="512" value="0" />
+      <CVvalue name="673" value="0" />
+      <CVvalue name="674" value="0" />
+      <CVvalue name="675" value="0" />
+      <CVvalue name="676" value="0" />
+      <CVvalue name="677" value="0" />
+      <CVvalue name="678" value="0" />
+      <CVvalue name="679" value="0" />
+      <CVvalue name="680" value="0" />
+      <CVvalue name="681" value="0" />
+      <CVvalue name="682" value="0" />
+      <CVvalue name="683" value="0" />
+      <CVvalue name="684" value="0" />
+      <CVvalue name="685" value="0" />
+      <CVvalue name="686" value="0" />
+      <CVvalue name="687" value="0" />
+      <CVvalue name="688" value="0" />
+      <CVvalue name="689" value="0" />
+      <CVvalue name="690" value="0" />
+      <CVvalue name="691" value="0" />
+      <CVvalue name="692" value="0" />
+      <CVvalue name="693" value="0" />
+      <CVvalue name="694" value="0" />
+      <CVvalue name="695" value="0" />
+      <CVvalue name="696" value="0" />
+      <CVvalue name="697" value="0" />
+      <CVvalue name="698" value="0" />
+      <CVvalue name="699" value="0" />
+      <CVvalue name="738" value="0" />
+      <CVvalue name="739" value="0" />
+      <CVvalue name="744" value="0" />
+      <CVvalue name="745" value="0" />
+      <CVvalue name="746" value="0" />
+      <CVvalue name="747" value="0" />
+      <CVvalue name="748" value="0" />
+      <CVvalue name="749" value="0" />
+      <CVvalue name="750" value="0" />
+      <CVvalue name="751" value="0" />
+      <CVvalue name="752" value="0" />
+      <CVvalue name="753" value="0" />
+      <CVvalue name="754" value="0" />
+      <CVvalue name="755" value="0" />
+      <CVvalue name="756" value="0" />
+      <CVvalue name="757" value="0" />
+      <CVvalue name="758" value="0" />
+      <CVvalue name="759" value="0" />
+      <CVvalue name="760" value="0" />
+      <CVvalue name="761" value="0" />
+      <CVvalue name="762" value="0" />
+      <CVvalue name="763" value="0" />
+      <CVvalue name="764" value="0" />
+      <CVvalue name="765" value="0" />
+      <CVvalue name="766" value="0" />
+      <CVvalue name="767" value="0" />
+    </values>
+  </locomotive>
+</locomotive-config>

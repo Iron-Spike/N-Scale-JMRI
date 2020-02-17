@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/idtags.xsl" type="text/xsl"?>
+<idtagtable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/idtags.xsd">
+  <!--Written by JMRI version 4.18+R37ad3d0 on Wed Jan 15 12:02:09 CST 2020-->
+  <configuration>
+    <storeState>no</storeState>
+    <useFastClock>no</useFastClock>
+  </configuration>
+  <idtags>
+    <idtag>
+      <systemName>LD2284</systemName>
+    </idtag>
+  </idtags>
+</idtagtable>

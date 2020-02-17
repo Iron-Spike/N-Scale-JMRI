@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.10+R419243e on Sat Jul 20 13:28:08 CDT 2019-->
+  <locomotive id="475 GNR 2-6-0 Mogul" fileName="475.xml" roadNumber="475" roadName="" mfg="" owner="Iron Spike" model="2-6-0 Mogul Item #876041" dccAddress="475" comment="dcc &amp; sound equipped GN" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2019-07-20T18:28:08Z</dateUpdated>
+    <decoder model="AD370" family="MRC AD370 Sound decoders" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="475" longaddress="yes" />
+      <number>475</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <attributepairs>
+      <keyvaluepair>
+        <key>LastOperated</key>
+        <value>2019-07-20T18:20:23Z</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>OperatingDuration</key>
+        <value>2</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Start Volts" value="10" />
+        <varValue item="Max Volts" value="32" />
+        <varValue item="Light Effect Setting" value="1" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="475" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Acceleration Rate" value="0" />
+        <varValue item="Deceleration Rate" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Manufacturer Version No: " value="21" />
+        <varValue item="Manufacturer ID: " value="143" />
+        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="User ID #1 (0-255)" value="0" />
+        <varValue item="User ID #2 (0-255)" value="0" />
+      </decoderDef>
+      <CVvalue name="2" value="10" />
+      <CVvalue name="5" value="32" />
+      <CVvalue name="64" value="63" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="193" />
+      <CVvalue name="18" value="219" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
+      <CVvalue name="7" value="21" />
+      <CVvalue name="8" value="143" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
+    </values>
+  </locomotive>
+</locomotive-config>
