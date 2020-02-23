@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Oct 27 13:22:21 CDT 2018-->
-  <locomotive id="Sou 8099" fileName="Sou_8099.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="15227" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-27T18:22:21Z</dateUpdated>
-    <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="" />
+  <!--Written by JMRI version 4.10+R419243e on Sat Jul 13 11:45:55 CDT 2019-->
+  <locomotive id="Santa Fe 5253" fileName="Santa_Fe_5253.xml" roadNumber="5253" roadName="Santa Fe" mfg="Kato" owner="Iron Spike" model="176-9212-DCC EMD SDP40F" dccAddress="5253" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2019-07-13T16:45:55Z</dateUpdated>
+    <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="TCS K7D4 decoder, not in jmri at the moment&#xA;" />
     <locoaddress>
-      <dcclocoaddress number="15227" longaddress="yes" />
-      <number>15227</number>
+      <dcclocoaddress number="5253" longaddress="yes" />
+      <number>5253</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <values>
@@ -22,8 +22,8 @@
         <varValue item="CTC/Railcommand Power Conversion" value="0" />
         <varValue item="Speed Table/Mid Range Cab Speed Step" value="0" />
         <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
-        <varValue item="Primary Address" value="123" />
-        <varValue item="Extended Address" value="15227" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="5253" />
         <varValue item="Address Format" value="1" />
         <varValue item="Acceleration Rate" value="0" />
         <varValue item="Deceleration Rate" value="0" />
@@ -51,17 +51,17 @@
         <varValue item="Consist Address Active For F8" value="0" />
         <varValue item="Consist Address Active For FL in Forward" value="0" />
         <varValue item="Consist Address Active For FL in Reverse" value="0" />
-        <varValue item="Advanced Consist Address" value="123" />
+        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="Locomotive Direction In Consist" value="0" />
         <varValue item="Consist Acceleration Adjustment" value="0" />
         <varValue item="Consist Acceleration Adjustment Sign" value="0" />
         <varValue item="Consist Deceleration Adjustment" value="0" />
         <varValue item="Consist Deceleration Adjustment Sign" value="0" />
-        <varValue item="Locomotive Direction" value="1" />
+        <varValue item="Locomotive Direction" value="0" />
         <varValue item="Speed Steps" value="1" />
-        <varValue item="Power Source Conversion" value="0" />
-        <varValue item="Advanced Decoder Acknowledgement" value="1" />
-        <varValue item="Use Speed Table" value="1" />
+        <varValue item="Power Source Conversion" value="1" />
+        <varValue item="Advanced Decoder Acknowledgement" value="0" />
+        <varValue item="Use Speed Table" value="0" />
         <varValue item="FL(f) controls output 1" value="0" />
         <varValue item="FL(f) controls output 2" value="0" />
         <varValue item="FL(f) controls output 3" value="0" />
@@ -213,10 +213,10 @@
       <CVvalue name="92" value="236" />
       <CVvalue name="93" value="245" />
       <CVvalue name="94" value="255" />
-      <CVvalue name="1" value="123" />
-      <CVvalue name="17" value="123" />
-      <CVvalue name="18" value="123" />
-      <CVvalue name="29" value="123" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="212" />
+      <CVvalue name="18" value="133" />
+      <CVvalue name="29" value="38" />
       <CVvalue name="3" value="0" />
       <CVvalue name="4" value="0" />
       <CVvalue name="2" value="0" />
@@ -228,7 +228,7 @@
       <CVvalue name="16" value="0" />
       <CVvalue name="21" value="0" />
       <CVvalue name="22" value="0" />
-      <CVvalue name="19" value="123" />
+      <CVvalue name="19" value="0" />
       <CVvalue name="23" value="0" />
       <CVvalue name="24" value="0" />
       <CVvalue name="33" value="0" />

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jan 25 12:47:14 CST 2020-->
+  <locomotive id="7541" fileName="7541.xml" roadNumber="" roadName="7541" mfg="Broadway Limited UP 7541" owner="Tom Tate" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2020-01-25T18:47:14.210+0000</dateUpdated>
+    <decoder model="Rolling Thunder" family="Paragon 3" comment="" />
+    <locoaddress>
+      <dcclocoaddress number="3" longaddress="no" />
+      <number>3</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Packet Time-out Value" value="2" />
+        <varValue item="Receivers Volume Rate of Change" value="2" />
+        <varValue item="Receivers Maximum Volume" value="128" />
+        <varValue item="Receivers Minimum Volume" value="0" />
+        <varValue item="RSS Digital Filter Coefficient" value="4" />
+        <varValue item="Signal Strength Volume Increase" value="135" />
+        <varValue item="Signal Strength Volume Decrease" value="111" />
+        <varValue item="Signal Search Dwell Time" value="80" />
+        <varValue item="Lock Signal Strength" value="100" />
+        <varValue item="Start Scan Channel" value="1" />
+        <varValue item="End Scan Channel" value="1" />
+        <varValue item="Frequency" value="1" />
+        <varValue item="Sensitivity." value="0" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="0" />
+        <varValue item="Address Format" value="0" />
+        <varValue item="Manufacturer Version No: " value="0" />
+        <varValue item="Manufacturer ID: " value="0" />
+      </decoderDef>
+      <CVvalue name="11" value="2" />
+      <CVvalue name="130" value="2" />
+      <CVvalue name="131" value="128" />
+      <CVvalue name="132" value="0" />
+      <CVvalue name="133" value="4" />
+      <CVvalue name="135" value="135" />
+      <CVvalue name="136" value="111" />
+      <CVvalue name="140" value="80" />
+      <CVvalue name="141" value="100" />
+      <CVvalue name="142" value="1" />
+      <CVvalue name="143" value="1" />
+      <CVvalue name="213" value="128" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="0" />
+      <CVvalue name="18" value="0" />
+      <CVvalue name="29" value="0" />
+      <CVvalue name="7" value="0" />
+      <CVvalue name="8" value="0" />
+    </values>
+  </locomotive>
+</locomotive-config>
