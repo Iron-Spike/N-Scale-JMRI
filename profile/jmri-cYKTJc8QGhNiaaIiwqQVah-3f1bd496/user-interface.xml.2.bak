@@ -109,6 +109,7 @@
                 <column hidden="false" name="System Name" order="0" width="70"/>
             </columns>
             <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
                 <sortKey column="1" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
@@ -180,6 +181,9 @@
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SectionTableAction:Sections">
+            <columns/>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:RailCom">
             <columns/>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:All">
@@ -371,7 +375,7 @@
         <window xmlns="" class="PanelPro" height="231.0" locX="1002.0" locY="23.0" width="592.0"/>
         <window xmlns="" class="Add New Block" locX="22.0" locY="23.0"/>
         <window xmlns="" class="Edit Track Segment" locX="50.0" locY="23.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="885.0" locX="-1.0" locY="115.0" width="1680.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="885.0" locX="0.0" locY="115.0" width="1680.0">
             <properties>
                 <property>
                     <key>DropDownListsDisplayOrder.Enter name of Block for new turnout, level crossing, or track segment.</key>
@@ -433,7 +437,7 @@
         <window xmlns="" class="jmri.jmrit.beantable.AudioTableAction$1" height="532.0" locX="0.0" locY="23.0" width="490.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.oblock.TableFrames:OBlock Table" height="572.0" locX="10.0" locY="23.0" width="1100.0"/>
         <window xmlns="" class="Service Mode (Programming Track) Programmer Setup" height="635.0" locX="161.0" locY="151.0" width="435.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" locX="0.0" locY="23.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Sensors" height="990.0" locX="0.0" locY="23.0" width="1680.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program UP 844 in Service Mode (Programming Track)" height="1015.0" locX="22.0" locY="23.0" width="1052.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.locomon.LocoMonPane" height="373.0" locX="261.0" locY="643.0" width="974.0"/>
         <window xmlns="" class="apps.gui3.TabbedPreferencesFrame:Preferences" height="605.0" locX="0.0" locY="23.0" width="937.0"/>

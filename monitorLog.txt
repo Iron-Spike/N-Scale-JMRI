@@ -1,0 +1,1360 @@
+Byte Read on Main Track (Ops Mode): Decoder address 648: CV1.
+LONG_ACK: The Slot Write command was rejected.
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request data/status for slot 6.
+Report of slot 6 information:
+	Loco 648 is Not Consisted, Common, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=On, F1=On, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=On
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 0.
+Report of slot 0 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 1,
+	F0=On, F1=On, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=On
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 1.
+Report of slot 1 information:
+	Loco 64 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 2.
+Report of slot 2 information:
+	Loco 2 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Reverse at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 3.
+Report of slot 3 information:
+	Loco 110 (short, or "B0") is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x52 0x0E (10510).
+Request data/status for slot 4.
+Report of slot 4 information:
+	Loco 1003 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 5.
+Report of slot 5 information:
+	Loco 3 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=On
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x52 0x0E (10510).
+Request data/status for slot 6.
+Report of slot 6 information:
+	Loco 648 is Not Consisted, Common, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=On, F1=On, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=On
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 7.
+Report of slot 7 information:
+	Loco 1104 is Not Consisted, Free, operating in 128 SS mode, and is moving Reverse at speed 1,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 8.
+Report of slot 8 information:
+	Loco 11 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 9.
+Report of slot 9 information:
+	Loco 145 is Not Consisted, Free, operating in 128 SS mode, and is moving Reverse at speed 1,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=On, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 10.
+Report of slot 10 information:
+	Loco 100 (short, or "A0") is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x53 0x6B (10731).
+Request data/status for slot 11.
+Report of slot 11 information:
+	Loco 5354 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x53 0x6B (10731).
+Request data/status for slot 12.
+Report of slot 12 information:
+	Loco 5253 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x53 0x6B (10731).
+Request data/status for slot 13.
+Report of slot 13 information:
+	Loco 330 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=On, F6=On, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 14.
+Report of slot 14 information:
+	Loco 1 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=On, F2=Off, F3=On, F4=Off, F5=Off, F6=Off, F7=On, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x77 0x6A (15338).
+Request data/status for slot 15.
+Report of slot 15 information:
+	Loco 9918 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 16.
+Report of slot 16 information:
+	Loco 47 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 17.
+Report of slot 17 information:
+	Loco 4 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Reverse at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 18.
+Report of slot 18 information:
+	Loco 475 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x77 0x6A (15338).
+Request data/status for slot 19.
+Report of slot 19 information:
+	Loco 525 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x53 0x6B (10731).
+Request data/status for slot 20.
+Report of slot 20 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Reverse at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x77 0x6A (15338).
+Request data/status for slot 21.
+Report of slot 21 information:
+	Loco 7541 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=On, F4=Off, F5=Off, F6=On, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 22.
+Report of slot 22 information:
+	Loco 754 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x52 0x0E (10510).
+Request data/status for slot 23.
+Report of slot 23 information:
+	Loco 44 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 24.
+Report of slot 24 information:
+	Loco 9 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x77 0x6A (15338).
+Request data/status for slot 25.
+Report of slot 25 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 26.
+Report of slot 26 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 27.
+Report of slot 27 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 28.
+Report of slot 28 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 29.
+Report of slot 29 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 30.
+Report of slot 30 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 31.
+Report of slot 31 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 32.
+Report of slot 32 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 33.
+Report of slot 33 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 34.
+Report of slot 34 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 35.
+Report of slot 35 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 36.
+Report of slot 36 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 37.
+Report of slot 37 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 38.
+Report of slot 38 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 39.
+Report of slot 39 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 40.
+Report of slot 40 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 41.
+Report of slot 41 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 42.
+Report of slot 42 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 43.
+Report of slot 43 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 44.
+Report of slot 44 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 45.
+Report of slot 45 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 46.
+Report of slot 46 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 47.
+Report of slot 47 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 48.
+Report of slot 48 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 49.
+Report of slot 49 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 50.
+Report of slot 50 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 51.
+Report of slot 51 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 52.
+Report of slot 52 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 53.
+Report of slot 53 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 54.
+Report of slot 54 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 55.
+Report of slot 55 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 56.
+Report of slot 56 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 57.
+Report of slot 57 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 58.
+Report of slot 58 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 59.
+Report of slot 59 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 60.
+Report of slot 60 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 61.
+Report of slot 61 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 62.
+Report of slot 62 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 63.
+Report of slot 63 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 64.
+Report of slot 64 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 65.
+Report of slot 65 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 66.
+Report of slot 66 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 67.
+Report of slot 67 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 68.
+Report of slot 68 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 69.
+Report of slot 69 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 70.
+Report of slot 70 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 71.
+Report of slot 71 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 72.
+Report of slot 72 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 73.
+Report of slot 73 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 74.
+Report of slot 74 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 75.
+Report of slot 75 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 76.
+Report of slot 76 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 77.
+Report of slot 77 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 78.
+Report of slot 78 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 79.
+Report of slot 79 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 80.
+Report of slot 80 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 81.
+Report of slot 81 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 82.
+Report of slot 82 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 83.
+Report of slot 83 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 84.
+Report of slot 84 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 85.
+Report of slot 85 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 86.
+Report of slot 86 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 87.
+Report of slot 87 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 88.
+Report of slot 88 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 89.
+Report of slot 89 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 90.
+Report of slot 90 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 91.
+Report of slot 91 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 92.
+Report of slot 92 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 93.
+Report of slot 93 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 94.
+Report of slot 94 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 95.
+Report of slot 95 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 96.
+Report of slot 96 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 97.
+Report of slot 97 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 98.
+Report of slot 98 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 99.
+Report of slot 99 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 100.
+Report of slot 100 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 101.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 102.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 103.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 104.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 105.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 106.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 107.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 108.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 109.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 110.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 111.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 112.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 113.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 114.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 115.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 116.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 117.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 118.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 119.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 120.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Unable to parse LocoNet message.
+contents: BB 79 00 3D
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Unable to parse LocoNet message.
+contents: BB 7A 00 3E
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request Fast Clock information.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request Programming Track information.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Unable to parse LocoNet message.
+contents: BB 7D 00 39
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request Extended Command Station OpSwitches (DCS210/DCS240 only).
+Report of current Extended Command Station OpSw values:
+	OpSw65=Closed, OpSw66=Thrown, OpSw67=Thrown, OpSw68=Thrown, OpSw69=Closed, OpSw70=Thrown, OpSw71=Thrown, OpSw72=Thrown,
+	OpSw73=Thrown, OpSw74=Thrown, OpSw75=Thrown, OpSw76=Thrown, OpSw77=Thrown, OpSw78=Thrown, OpSw79=Thrown, OpSw80=Thrown,
+	OpSw81=Thrown, OpSw82=Closed, OpSw83=Thrown, OpSw84=Thrown, OpSw85=Thrown, OpSw86=Closed, OpSw87=Thrown, OpSw88=Thrown,
+	OpSw89=Thrown, OpSw90=Thrown, OpSw91=Thrown, OpSw92=Thrown, OpSw93=Thrown, OpSw94=Thrown, OpSw95=Thrown, OpSw96=Thrown,
+	OpSw97=Closed, OpSw98=Closed, OpSw99=Thrown, OpSw100=Thrown, OpSw101=Closed, OpSw102=Closed, OpSw103=Thrown, OpSw104=Thrown,
+	OpSw105=Thrown, OpSw106=Thrown, OpSw107=Thrown, OpSw108=Thrown, OpSw109=Thrown, OpSw110=Thrown, OpSw111=Thrown, OpSw112=Thrown,
+	OpSw113=Thrown, OpSw114=Thrown, OpSw115=Closed, OpSw116=Thrown, OpSw117=Thrown, OpSw118=Thrown, OpSw119=Closed, OpSw120=Thrown,
+	OpSw121=Thrown, OpSw122=Thrown, OpSw123=Thrown, OpSw124=Thrown, OpSw125=Thrown, OpSw126=Thrown, OpSw127=Thrown, OpSw128=Thrown.
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request data/status for slot 6.
+Report of slot 6 information:
+	Loco 648 is Not Consisted, Common, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=On, F1=On, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=On
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request data/status for slot 6.
+Report of slot 6 information:
+	Loco 648 is Not Consisted, Common, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=On, F1=On, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=On
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request data/status for slot 6.
+Report of slot 6 information:
+	Loco 648 is Not Consisted, Common, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=On, F1=On, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=On
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Write slot 6 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Byte Read on Main Track (Ops Mode): Decoder address 648: CV1.
+LONG_ACK: The Slot Write command was rejected.
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Master is busy.
+LocoIO@0x22=> LocoIO@0x22 Write SV42 = 0 Firmware rev 2.0.
+Set PR3 to MS100 mode without PR3 termination of LocoNet (i.e. use PR3 with command station present).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request data/status for slot 0.
+Report of slot 0 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 1,
+	F0=On, F1=On, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=On
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 1.
+Report of slot 1 information:
+	Loco 64 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 2.
+Report of slot 2 information:
+	Loco 2 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Reverse at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 3.
+Report of slot 3 information:
+	Loco 110 (short, or "B0") is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x52 0x0E (10510).
+Request data/status for slot 4.
+Report of slot 4 information:
+	Loco 1003 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 5.
+Report of slot 5 information:
+	Loco 3 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=On
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x52 0x0E (10510).
+Request data/status for slot 6.
+Report of slot 6 information:
+	Loco 648 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=On, F1=On, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=On
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 7.
+Report of slot 7 information:
+	Loco 1104 is Not Consisted, Free, operating in 128 SS mode, and is moving Reverse at speed 1,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 8.
+Report of slot 8 information:
+	Loco 11 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 9.
+Report of slot 9 information:
+	Loco 145 is Not Consisted, Free, operating in 128 SS mode, and is moving Reverse at speed 1,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=On, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 10.
+Report of slot 10 information:
+	Loco 100 (short, or "A0") is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x53 0x6B (10731).
+Request data/status for slot 11.
+Report of slot 11 information:
+	Loco 5354 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x53 0x6B (10731).
+Request data/status for slot 12.
+Report of slot 12 information:
+	Loco 5253 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x53 0x6B (10731).
+Request data/status for slot 13.
+Report of slot 13 information:
+	Loco 330 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=On, F6=On, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 14.
+Report of slot 14 information:
+	Loco 1 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=On, F2=Off, F3=On, F4=Off, F5=Off, F6=Off, F7=On, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x77 0x6A (15338).
+Request data/status for slot 15.
+Report of slot 15 information:
+	Loco 9918 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 16.
+Report of slot 16 information:
+	Loco 47 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 17.
+Report of slot 17 information:
+	Loco 4 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Reverse at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 18.
+Report of slot 18 information:
+	Loco 475 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x77 0x6A (15338).
+Request data/status for slot 19.
+Report of slot 19 information:
+	Loco 525 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=On, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x53 0x6B (10731).
+Request data/status for slot 20.
+Report of slot 20 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Reverse at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x77 0x6A (15338).
+Request data/status for slot 21.
+Report of slot 21 information:
+	Loco 7541 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=On, F4=Off, F5=Off, F6=On, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 22.
+Report of slot 22 information:
+	Loco 754 is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x52 0x0E (10510).
+Request data/status for slot 23.
+Report of slot 23 information:
+	Loco 44 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x02 0x71 (369).
+Request data/status for slot 24.
+Report of slot 24 information:
+	Loco 9 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x77 0x6A (15338).
+Request data/status for slot 25.
+Report of slot 25 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 26.
+Report of slot 26 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 27.
+Report of slot 27 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 28.
+Report of slot 28 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 29.
+Report of slot 29 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 30.
+Report of slot 30 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 31.
+Report of slot 31 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 32.
+Report of slot 32 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 33.
+Report of slot 33 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request data/status for slot 34.
+Report of slot 34 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 35.
+Report of slot 35 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 36.
+Report of slot 36 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 37.
+Report of slot 37 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 38.
+Report of slot 38 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 39.
+Report of slot 39 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 40.
+Report of slot 40 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 41.
+Report of slot 41 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 42.
+Report of slot 42 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 43.
+Report of slot 43 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 44.
+Report of slot 44 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 45.
+Report of slot 45 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 46.
+Report of slot 46 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 47.
+Report of slot 47 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 48.
+Report of slot 48 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 49.
+Report of slot 49 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 50.
+Report of slot 50 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 51.
+Report of slot 51 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 52.
+Report of slot 52 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 53.
+Report of slot 53 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 54.
+Report of slot 54 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 55.
+Report of slot 55 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 56.
+Report of slot 56 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 57.
+Report of slot 57 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 58.
+Report of slot 58 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 59.
+Report of slot 59 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 60.
+Report of slot 60 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 61.
+Report of slot 61 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 62.
+Report of slot 62 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 63.
+Report of slot 63 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 64.
+Report of slot 64 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 65.
+Report of slot 65 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 66.
+Report of slot 66 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 67.
+Report of slot 67 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 68.
+Report of slot 68 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 69.
+Report of slot 69 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 70.
+Report of slot 70 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 71.
+Report of slot 71 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 72.
+Report of slot 72 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 73.
+Report of slot 73 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 74.
+Report of slot 74 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 75.
+Report of slot 75 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 76.
+Report of slot 76 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 77.
+Report of slot 77 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 78.
+Report of slot 78 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 79.
+Report of slot 79 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 80.
+Report of slot 80 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 81.
+Report of slot 81 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 82.
+Report of slot 82 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 83.
+Report of slot 83 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 84.
+Report of slot 84 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 85.
+Report of slot 85 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 86.
+Report of slot 86 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 87.
+Report of slot 87 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 88.
+Report of slot 88 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 89.
+Report of slot 89 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 90.
+Report of slot 90 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 91.
+Report of slot 91 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 92.
+Report of slot 92 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 93.
+Report of slot 93 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 94.
+Report of slot 94 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 95.
+Report of slot 95 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 96.
+Report of slot 96 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 97.
+Report of slot 97 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 98.
+Report of slot 98 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 99.
+Report of slot 99 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 100.
+Report of slot 100 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Request data/status for slot 101.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 102.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 103.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 104.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 105.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 106.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 107.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 108.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 109.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 110.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 111.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 112.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 113.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 114.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 115.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 116.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 117.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 118.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 119.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request data/status for slot 120.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Unable to parse LocoNet message.
+contents: BB 79 00 3D
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Unable to parse LocoNet message.
+contents: BB 7A 00 3E
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request Fast Clock information.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request Programming Track information.
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Unable to parse LocoNet message.
+contents: BB 7D 00 39
+Unable to parse LocoNet message.
+contents: B4 3B 00 70
+Request Extended Command Station OpSwitches (DCS210/DCS240 only).
+Report of current Extended Command Station OpSw values:
+	OpSw65=Closed, OpSw66=Thrown, OpSw67=Thrown, OpSw68=Thrown, OpSw69=Closed, OpSw70=Thrown, OpSw71=Thrown, OpSw72=Thrown,
+	OpSw73=Thrown, OpSw74=Thrown, OpSw75=Thrown, OpSw76=Thrown, OpSw77=Thrown, OpSw78=Thrown, OpSw79=Thrown, OpSw80=Thrown,
+	OpSw81=Thrown, OpSw82=Closed, OpSw83=Thrown, OpSw84=Thrown, OpSw85=Thrown, OpSw86=Closed, OpSw87=Thrown, OpSw88=Thrown,
+	OpSw89=Thrown, OpSw90=Thrown, OpSw91=Thrown, OpSw92=Thrown, OpSw93=Thrown, OpSw94=Thrown, OpSw95=Thrown, OpSw96=Thrown,
+	OpSw97=Closed, OpSw98=Closed, OpSw99=Thrown, OpSw100=Thrown, OpSw101=Closed, OpSw102=Closed, OpSw103=Thrown, OpSw104=Thrown,
+	OpSw105=Thrown, OpSw106=Thrown, OpSw107=Thrown, OpSw108=Thrown, OpSw109=Thrown, OpSw110=Thrown, OpSw111=Thrown, OpSw112=Thrown,
+	OpSw113=Thrown, OpSw114=Thrown, OpSw115=Closed, OpSw116=Thrown, OpSw117=Thrown, OpSw118=Thrown, OpSw119=Closed, OpSw120=Thrown,
+	OpSw121=Thrown, OpSw122=Thrown, OpSw123=Thrown, OpSw124=Thrown, OpSw125=Thrown, OpSw126=Thrown, OpSw127=Thrown, OpSw128=Thrown.
+Request data/status for slot 1.
+Report of slot 1 information:
+	Loco 64 (short) is Not Consisted, Free, operating in 128 SS mode, and is moving Forward at speed 1,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+Write slot 1 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 2 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 3 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 4 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 5 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 6 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 7 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 8 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 9 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 10 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 11 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 12 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 13 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 14 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 15 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 16 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 17 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 18 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 19 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 20 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 21 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 22 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 23 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 24 with status value 3 (0x03) - Loco is Not Consisted, Free and operating in 128 speed step mode.
+Write slot 25 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 26 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 27 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 28 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 29 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 30 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 31 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 32 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 33 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 34 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 35 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 36 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 37 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 38 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 39 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 40 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 41 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 42 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 43 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 44 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 45 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 46 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 47 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 48 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 49 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 50 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 51 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 52 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 53 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 54 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 55 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 56 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 57 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 58 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 59 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 60 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 61 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 62 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 63 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 64 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 65 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 66 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 67 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 68 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 69 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 70 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 71 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 72 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 73 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 74 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 75 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 76 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 77 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 78 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 79 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 80 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 81 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 82 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 83 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 84 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 85 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 86 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 87 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 88 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 89 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 90 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 91 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 92 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 93 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 94 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 95 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 96 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 97 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 98 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 99 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 100 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 101 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 102 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 103 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 104 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 105 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 106 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 107 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 108 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 109 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 110 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 111 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 112 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 113 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 114 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 115 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 116 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 117 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 118 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 119 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 120 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 121 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 122 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 123 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 125 with status value 0 (0x00) - Loco is Not Consisted, Free and operating in 28 speed step mode.
+Write slot 126 with status value 1 (0x01) - Loco is Not Consisted, Free and operating in 28 (Motorola) speed step mode.
+Write slot 126 with status value 1 (0x01) - Loco is Not Consisted, Free and operating in 28 (Motorola) speed step mode.
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
+Request Command Station OpSwitches (or DCS210/DCS240 check for multiple command stations on LocoNet).
