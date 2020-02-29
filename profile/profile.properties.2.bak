@@ -1,8 +1,8 @@
-#JMRI Preferences version 4.16+R6f9aced
-#Sun Sep 15 14:44:51 CDT 2019
+#JMRI Preferences version 4.18+R37ad3d0
+#Sat Feb 29 15:18:49 CST 2020
 apps-gui.editorUseOldLocSize=false
 apps-gui.fontSize=0
-apps-gui.graphicTableState=false
+apps-gui.graphicTableState=true
 apps-gui.locale=en-US
 apps-gui.lookAndFeel=com.apple.laf.AquaLookAndFeel
 apps-gui.nonstandardMouseEvent=false
@@ -20,6 +20,7 @@ jmri-jmris-json.validateClientMessages=false
 jmri-jmris-json.validateServerMessages=false
 jmri-jmris-simpleserver.port=2048
 jmri-jmris-srcp.port=4303
+jmri-jmrit-consisttool.updateCV19=false
 jmri-jmrit-roster.defaultOwner=
 jmri-jmrit-roster.directory=preference\:
 jmri-jmrit-symbolicprog.canCacheDefault=false
@@ -28,10 +29,10 @@ jmri-jmrit-symbolicprog.showCvNumbers=false
 jmri-jmrit-symbolicprog.showEmptyPanes=true
 jmri-jmrix-loconet-loconetovertcp.port=1234
 jmri-managers.allInternalDefaults=false
-jmri-managers.defaults.jmri-AddressedProgrammerManager=LocoNet1
-jmri-managers.defaults.jmri-CommandStation=LocoNet1
-jmri-managers.defaults.jmri-ConsistManager=LocoNet1
-jmri-managers.defaults.jmri-GlobalProgrammerManager=LocoNet1
+jmri-managers.defaults.jmri-AddressedProgrammerManager=LocoNet
+jmri-managers.defaults.jmri-CommandStation=LocoNet
+jmri-managers.defaults.jmri-ConsistManager=LocoNet
+jmri-managers.defaults.jmri-GlobalProgrammerManager=LocoNet
 jmri-managers.defaults.jmri-PowerManager=LocoNet
 jmri-managers.defaults.jmri-ThrottleManager=LocoNet
 jmri-web-server.allowRemoteConfig=false
@@ -54,4 +55,4 @@ jmri-web-server.simple=false
 jmri-web-server.useAjax=true
 jmri-web-server.useZeroConf=true
 profile.id=IronSpike.3f1bd496
-profile.name=IronSpike
+profile.name=Iron Spike N Scale

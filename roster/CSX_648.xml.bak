@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Feb 08 14:33:49 CST 2020-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Feb 08 14:35:19 CST 2020-->
   <locomotive id="CSX 648" fileName="CSX_648.xml" roadNumber="648" roadName="CSX" mfg="Broadway Limited Imports" owner="Scott Nelson" model="3746" dccAddress="648" comment="" maxSpeed="50" imageFilePath="preference:roster/CSX_648-2.jpg" iconFilePath="preference:roster/CSX_648.PNG" URL="" IsShuntingOn="">
-    <dateUpdated>2020-02-08T20:33:49.013+0000</dateUpdated>
+    <dateUpdated>2020-02-08T20:35:19.268+0000</dateUpdated>
     <decoder model="Diesel" family="Paragon 3" comment="" />
     <locoaddress>
       <dcclocoaddress number="648" longaddress="yes" />
@@ -220,7 +220,7 @@
         <varValue item="Use Speed Table" value="1" />
         <varValue item="Kick Start" value="40" />
         <varValue item="Forward Trim" value="0" />
-        <varValue item="Speed Table" value="0,26,51,73,92,110,126,140,153,165,175,185,193,201,208,214,219,224,229,233,237,240,243,245,248,250,252,254" />
+        <varValue item="Speed Table" value="1,1,1,1,2,2,3,4,5,6,7,9,11,14,17,21,26,32,40,49,60,73,90,111,136,167,206,253" />
         <varValue item="Reverse Trim" value="0" />
         <varValue item="L4/L5 Power Up State" value="0" />
         <varValue item="L4 Logic" value="0" />
@@ -386,34 +386,34 @@
       <CVvalue name="24" value="0" />
       <CVvalue name="65" value="40" />
       <CVvalue name="66" value="0" />
-      <CVvalue name="67" value="0" />
-      <CVvalue name="68" value="26" />
-      <CVvalue name="69" value="51" />
-      <CVvalue name="70" value="73" />
-      <CVvalue name="71" value="92" />
-      <CVvalue name="72" value="110" />
-      <CVvalue name="73" value="126" />
-      <CVvalue name="74" value="140" />
-      <CVvalue name="75" value="153" />
-      <CVvalue name="76" value="165" />
-      <CVvalue name="77" value="175" />
-      <CVvalue name="78" value="185" />
-      <CVvalue name="79" value="193" />
-      <CVvalue name="80" value="201" />
-      <CVvalue name="81" value="208" />
-      <CVvalue name="82" value="214" />
-      <CVvalue name="83" value="219" />
-      <CVvalue name="84" value="224" />
-      <CVvalue name="85" value="229" />
-      <CVvalue name="86" value="233" />
-      <CVvalue name="87" value="237" />
-      <CVvalue name="88" value="240" />
-      <CVvalue name="89" value="243" />
-      <CVvalue name="90" value="245" />
-      <CVvalue name="91" value="248" />
-      <CVvalue name="92" value="250" />
-      <CVvalue name="93" value="252" />
-      <CVvalue name="94" value="254" />
+      <CVvalue name="67" value="1" />
+      <CVvalue name="68" value="1" />
+      <CVvalue name="69" value="1" />
+      <CVvalue name="70" value="1" />
+      <CVvalue name="71" value="2" />
+      <CVvalue name="72" value="2" />
+      <CVvalue name="73" value="3" />
+      <CVvalue name="74" value="4" />
+      <CVvalue name="75" value="5" />
+      <CVvalue name="76" value="6" />
+      <CVvalue name="77" value="7" />
+      <CVvalue name="78" value="9" />
+      <CVvalue name="79" value="11" />
+      <CVvalue name="80" value="14" />
+      <CVvalue name="81" value="17" />
+      <CVvalue name="82" value="21" />
+      <CVvalue name="83" value="26" />
+      <CVvalue name="84" value="32" />
+      <CVvalue name="85" value="40" />
+      <CVvalue name="86" value="49" />
+      <CVvalue name="87" value="60" />
+      <CVvalue name="88" value="73" />
+      <CVvalue name="89" value="90" />
+      <CVvalue name="90" value="111" />
+      <CVvalue name="91" value="136" />
+      <CVvalue name="92" value="167" />
+      <CVvalue name="93" value="206" />
+      <CVvalue name="94" value="253" />
       <CVvalue name="95" value="0" />
       <CVvalue name="176" value="0" />
       <CVvalue name="177" value="90" />

@@ -259,7 +259,7 @@
         <window xmlns="" class="jmri.jmrix.loconet.slotmon.SlotMonPane" height="496.0" locX="0.0" locY="23.0" width="1168.0"/>
         <window xmlns="" class="jmri.jmrit.entryexit.AddEntryExitPairFrame" height="583.0" locX="22.0" locY="24.0" width="892.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster" locX="0.0" locY="0.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Bedford Peninsula" height="884.0" locX="2.0" locY="142.0" width="1680.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Bedford Peninsula" height="884.0" locX="0.0" locY="142.0" width="1680.0">
             <properties>
                 <property>
                     <key>DropDownListsDisplayOrder.Enter name of Block for new turnout, level crossing, or track segment.</key>
