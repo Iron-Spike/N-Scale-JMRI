@@ -218,7 +218,7 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="843.0" locX="20.0" locY="20.0" width="1467.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="855.0" locX="20.0" locY="8.0" width="1483.0">
             <properties>
                 <property>
                     <key>zoom</key>
@@ -273,7 +273,7 @@
         </window>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="50.0" locY="50.0" width="330.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame" height="94.0" locX="0.0" locY="0.0" width="176.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Routes" height="359.0" locX="415.0" locY="121.0" width="1027.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Routes" height="357.0" locX="415.0" locY="121.0" width="1021.0"/>
         <window xmlns="" class="Set Sensors at Turnout" locX="70.0" locY="30.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.locogen.LocoGenPanel" height="287.0" locX="50.0" locY="50.0" width="472.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.pm4.PM4Panel" height="478.0" locX="25.0" locY="25.0" width="628.0"/>
@@ -308,7 +308,7 @@
         <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame:1" height="94.0" locX="287.0" locY="35.0" width="176.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.loconetovertcp.LnTcpServerFrame:LocoNet over TCP Server" height="83.0" locX="25.0" locY="25.0" width="285.0"/>
         <window xmlns="" class="jmri.jmrit.simpleprog.SimpleProgFrame" height="550.0" locX="50.0" locY="50.0" width="706.0"/>
-        <window xmlns="" class="PanelPro" height="251.0" locX="434.0" locY="483.0" width="288.0"/>
+        <window xmlns="" class="PanelPro" height="243.0" locX="802.0" locY="590.0" width="592.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="365.0" locX="446.0" locY="364.0" width="1045.0"/>
     </windowDetails>
 </auxiliary-configuration>

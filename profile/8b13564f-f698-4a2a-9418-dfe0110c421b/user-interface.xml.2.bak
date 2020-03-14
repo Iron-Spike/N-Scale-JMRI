@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
-        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
-        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
     </classPreferences>
     <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
         <comboBox xmlns="" lastSelected="LocoNet" name="jmri.jmrit.beantable.SensorTableAction.SystemSelected"/>
@@ -232,7 +218,7 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="840.0" locX="20.0" locY="23.0" width="1463.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="852.0" locX="20.0" locY="11.0" width="1479.0">
             <properties>
                 <property>
                     <key>zoom</key>
@@ -277,7 +263,7 @@
         <window xmlns="" class="jmri.jmrit.simpleturnoutctrl.SimpleTurnoutCtrlFrame" height="258.0" locX="0.0" locY="0.0" width="204.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster" locX="0.0" locY="0.0"/>
         <window xmlns="" class="Add New Turnout" locX="25.0" locY="25.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Bedford Peninsula" height="860.0" locX="0.0" locY="0.0" width="1600.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Bedford Peninsula" height="862.0" locX="0.0" locY="0.0" width="1600.0">
             <properties>
                 <property>
                     <key>toolBarFontSize</key>
@@ -287,11 +273,12 @@
         </window>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="50.0" locY="50.0" width="330.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame" height="94.0" locX="0.0" locY="0.0" width="176.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Routes" height="359.0" locX="415.0" locY="121.0" width="1027.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Routes" height="357.0" locX="415.0" locY="121.0" width="1021.0"/>
         <window xmlns="" class="Set Sensors at Turnout" locX="70.0" locY="30.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.locogen.LocoGenPanel" height="287.0" locX="50.0" locY="50.0" width="472.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.pm4.PM4Panel" height="478.0" locX="25.0" locY="25.0" width="628.0"/>
         <window xmlns="" class="jmri.jmrit.withrottle.UserInterface" height="253.0" locX="1196.0" locY="236.0" width="404.0"/>
+        <window xmlns="" class="jmri.jmrit.withrottle.ControllerFilterFrame:Filter Controls" height="357.0" locX="25.0" locY="25.0" width="688.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.pr3.swing.Pr3SelectPane" height="84.0" locX="1047.0" locY="148.0" width="524.0"/>
         <window xmlns="" class="jmri.jmrit.display.controlPanelEditor.ControlPanelEditor:Control Panel" height="367.0" locX="649.0" locY="291.0" width="648.0"/>
         <window xmlns="" class="Add/Edit Route" locX="100.0" locY="30.0"/>
@@ -321,7 +308,7 @@
         <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame:1" height="94.0" locX="287.0" locY="35.0" width="176.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.loconetovertcp.LnTcpServerFrame:LocoNet over TCP Server" height="83.0" locX="25.0" locY="25.0" width="285.0"/>
         <window xmlns="" class="jmri.jmrit.simpleprog.SimpleProgFrame" height="550.0" locX="50.0" locY="50.0" width="706.0"/>
-        <window xmlns="" class="PanelPro" height="253.0" locX="434.0" locY="483.0" width="294.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="367.0" locX="446.0" locY="364.0" width="1051.0"/>
+        <window xmlns="" class="PanelPro" height="245.0" locX="434.0" locY="483.0" width="270.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="365.0" locX="446.0" locY="364.0" width="1045.0"/>
     </windowDetails>
 </auxiliary-configuration>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Feb 29 11:59:05 CST 2020-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Mar 14 15:09:17 CDT 2020-->
   <roster>
     <locomotive id="1104" fileName="1103.xml" roadNumber="" roadName="1104" mfg="" owner="Doug" model="walthers" dccAddress="1104" comment="test loco HO scale" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-03T16:54:43.763+0000</dateUpdated>
@@ -171,7 +171,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="CSX 648" fileName="CSX_648.xml" roadNumber="648" roadName="CSX" mfg="Broadway Limited Imports" owner="Scott Nelson" model="3746" dccAddress="648" comment="" maxSpeed="50" imageFilePath="preference:roster/CSX_648-2.jpg" iconFilePath="preference:roster/CSX_648.PNG" URL="" IsShuntingOn="">
-      <dateUpdated>2020-02-29T17:59:05.249+0000</dateUpdated>
+      <dateUpdated>2020-03-14T16:29:31.433+0000</dateUpdated>
       <decoder model="Diesel" family="Paragon 3" comment="" />
       <locoaddress>
         <dcclocoaddress number="648" longaddress="yes" />
@@ -213,11 +213,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2020-02-29T17:51:13.233+0000</value>
+          <value>2020-03-14T15:57:15.903+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>4186</value>
+          <value>5137</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -293,23 +293,25 @@
       <soundlabels />
     </locomotive>
     <locomotive id="S4 Diesel #145" fileName="S4_Diesel__145.xml" roadNumber="145" roadName="Western Mayland" mfg="Bachman" owner="Iron Spike" model="" dccAddress="145" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-07-13T16:19:45.000+0000</dateUpdated>
+      <dateUpdated>2020-03-14T20:09:17.517+0000</dateUpdated>
       <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
       <locoaddress>
         <dcclocoaddress number="145" longaddress="yes" />
         <number>145</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
-      <functionlabels />
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Lights</functionlabel>
+      </functionlabels>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2019-07-13T16:15:34Z</value>
+          <value>2020-03-14T20:06:05.757+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>0</value>
+          <value>22</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>

@@ -218,7 +218,7 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="834.0" locX="20.0" locY="27.0" width="1455.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="846.0" locX="20.0" locY="17.0" width="1471.0">
             <properties>
                 <property>
                     <key>zoom</key>
@@ -263,7 +263,7 @@
         <window xmlns="" class="jmri.jmrit.simpleturnoutctrl.SimpleTurnoutCtrlFrame" height="258.0" locX="0.0" locY="0.0" width="204.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster" locX="0.0" locY="0.0"/>
         <window xmlns="" class="Add New Turnout" locX="25.0" locY="25.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Bedford Peninsula" height="867.0" locX="0.0" locY="0.0" width="1600.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Bedford Peninsula" height="860.0" locX="0.0" locY="0.0" width="1600.0">
             <properties>
                 <property>
                     <key>toolBarFontSize</key>
@@ -273,11 +273,12 @@
         </window>
         <window xmlns="" class="Local JMRI throttles" height="230.0" locX="50.0" locY="50.0" width="330.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame" height="94.0" locX="0.0" locY="0.0" width="176.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Routes" height="361.0" locX="415.0" locY="121.0" width="1033.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Routes" height="359.0" locX="415.0" locY="121.0" width="1027.0"/>
         <window xmlns="" class="Set Sensors at Turnout" locX="70.0" locY="30.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.locogen.LocoGenPanel" height="287.0" locX="50.0" locY="50.0" width="472.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.pm4.PM4Panel" height="478.0" locX="25.0" locY="25.0" width="628.0"/>
         <window xmlns="" class="jmri.jmrit.withrottle.UserInterface" height="253.0" locX="1196.0" locY="236.0" width="404.0"/>
+        <window xmlns="" class="jmri.jmrit.withrottle.ControllerFilterFrame:Filter Controls" height="357.0" locX="25.0" locY="25.0" width="688.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.pr3.swing.Pr3SelectPane" height="84.0" locX="1047.0" locY="148.0" width="524.0"/>
         <window xmlns="" class="jmri.jmrit.display.controlPanelEditor.ControlPanelEditor:Control Panel" height="367.0" locX="649.0" locY="291.0" width="648.0"/>
         <window xmlns="" class="Add/Edit Route" locX="100.0" locY="30.0"/>
@@ -305,9 +306,9 @@
         <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Panel " locX="20.0" locY="20.0"/>
         <window xmlns="" class="Panel " height="364.0" locX="800.0" locY="450.0" width="418.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame:1" height="94.0" locX="287.0" locY="35.0" width="176.0"/>
-        <window xmlns="" class="jmri.jmrix.loconet.loconetovertcp.LnTcpServerFrame:LocoNet over TCP Server" height="83.0" locX="25.0" locY="25.0" width="285.0"/>
+        <window xmlns="" class="jmri.jmrix.loconet.loconetovertcp.LnTcpServerFrame:LocoNet over TCP Server" height="80.0" locX="25.0" locY="25.0" width="281.0"/>
         <window xmlns="" class="jmri.jmrit.simpleprog.SimpleProgFrame" height="550.0" locX="50.0" locY="50.0" width="706.0"/>
-        <window xmlns="" class="PanelPro" height="257.0" locX="434.0" locY="483.0" width="306.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="367.0" locX="446.0" locY="364.0" width="1051.0"/>
+        <window xmlns="" class="PanelPro" height="249.0" locX="434.0" locY="483.0" width="282.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="365.0" locX="446.0" locY="364.0" width="1045.0"/>
     </windowDetails>
 </auxiliary-configuration>
