@@ -42,8 +42,10 @@
         </perform>
         <perform xmlns="" class="apps.configurexml.PerformFileModelXml" name="preference:panels.xml" type="XmlFile"/>
         <perform xmlns="" class="apps.startup.configurexml.StartupPauseModelXml" name="Pause" type="Pause">
-            <property name="delay" value="5"/>
+            <property name="delay" value="10"/>
         </perform>
+        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Augusta Inner Loop" type="Action"/>
+        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Augusta Inner Loop" type="Action"/>
         <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Augusta Inner Loop" type="Action"/>
     </startup>
 </auxiliary-configuration>
