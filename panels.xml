@@ -316,6 +316,22 @@
         </property>
       </properties>
     </turnout>
+    <turnout feedback="MONITORING" inverted="true" automate="Off">
+      <systemName>LT100</systemName>
+      <userName>bedford s siding</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT101</systemName>
+      <userName>Bedford TBD</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT102</systemName>
+      <userName>Bedford Mains NW</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT103</systemName>
+      <userName>Bedford Mains NE</userName>
+    </turnout>
   </turnouts>
   <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
     <operations automate="false">
@@ -756,7 +772,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="4:12 PM">
+    <memory value="12:31 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -1709,7 +1725,7 @@
       </path>
       <path todir="128" fromdir="64" block="IB35">
         <beansetting setting="2">
-          <turnout systemName="Bedford 3" />
+          <turnout systemName="bedford s siding" />
         </beansetting>
       </path>
     </block>
@@ -1719,13 +1735,13 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB34">
         <beansetting setting="2">
-          <turnout systemName="Bedford 3" />
+          <turnout systemName="bedford s siding" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB36" />
       <path todir="64" fromdir="128" block="IB55">
         <beansetting setting="4">
-          <turnout systemName="Bedford 3" />
+          <turnout systemName="bedford s siding" />
         </beansetting>
       </path>
     </block>
@@ -1980,7 +1996,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB35">
         <beansetting setting="4">
-          <turnout systemName="Bedford 3" />
+          <turnout systemName="bedford s siding" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB33">
@@ -3023,7 +3039,7 @@
     <logicDelay>500</logicDelay>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Sep 15 14:29:03 CDT 2019" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="20" y="20" windowheight="840" windowwidth="1463" panelheight="816" panelwidth="1381" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="26" y="0" windowheight="860" windowwidth="1483" panelheight="816" panelwidth="1381" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Augusta Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -3260,7 +3276,7 @@
     <positionablepoint ident="A10" type="1" x="1142.0" y="648.5" connect1name="T6" connect2name="T58" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="1" x="72.0" y="651.0" connect1name="T77" connect2name="T67" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="0" y="0" windowheight="860" windowwidth="1600" panelheight="702" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="0" y="0" windowheight="860" windowwidth="1600" panelheight="702" panelwidth="932" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Bedford Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -3287,36 +3303,36 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="781" y="636" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="To Augusta" fontname="Dialog.plain" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="781" y="636" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="To Augusta" fontname="Dialog.plain" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <layoutturnout ident="TO1" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="641.0" ycen="192.0" xa="661.0" ya="192.0" xb="621.0" yb="192.0" xc="621.0" yc="202.0" xd="661.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 1" secondturnoutname="Bedford 7" blockname="Bedford 9" connectaname="T9" connectbname="T13" connectcname="T8" />
-    <layoutturnout ident="TO2" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="580.0" ycen="222.0" xa="560.0" ya="222.0" xb="600.0" yb="222.0" xc="602.0" yc="211.0" xd="560.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 7" secondturnoutname="Bedford 1" blockname="Bedford 9" connectaname="T10" connectbname="T21" connectcname="T8" />
-    <layoutturnout ident="TO3" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="502.0" ycen="222.0" xa="522.0" ya="222.0" xb="482.0" yb="222.0" xc="463.0" yc="252.0" xd="522.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 8" blockname="Bedford 19" connectaname="T10" connectbname="T11" connectcname="T12" />
-    <layoutturnout ident="TO4" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="359.0" ycen="222.0" xa="339.0" ya="222.0" xb="379.0" yb="222.0" xc="397.0" yc="252.0" xd="339.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 9" blockname="Bedford 17" connectaname="T15" connectbname="T11" connectcname="T12" />
-    <layoutturnout ident="TO5" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="275.0" ycen="222.0" xa="295.0" ya="222.0" xb="255.0" yb="222.0" xc="255.0" yc="212.0" xd="295.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 10" secondturnoutname="Bedford 2" blockname="Bedford 7" connectaname="T15" connectbname="T16" connectcname="T14" />
-    <layoutturnout ident="TO6" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="212.0" ycen="192.0" xa="192.0" ya="192.0" xb="232.0" yb="192.0" xc="232.0" yc="202.0" xd="192.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 2" secondturnoutname="Bedford 10" blockname="Bedford 7" connectaname="T24" connectbname="T13" connectcname="T14" />
-    <layoutturnout ident="TO7" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="182.0" ycen="222.0" xa="162.0" ya="222.0" xb="202.0" yb="222.0" xc="202.0" yc="235.0" xd="162.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 11" blockname="Bedford 14" connectaname="T25" connectbname="T16" connectcname="T17" />
+    <layoutturnout ident="TO1" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="641.0" ycen="192.0" xa="687.0" ya="192.0" xb="595.0" yb="192.0" xc="610.0" yc="207.0" xd="687.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford Mains NE" secondturnoutname="Bedford 7" blockname="Bedford 9" connectaname="T9" connectbname="T13" connectcname="T8" />
+    <layoutturnout ident="TO2" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="580.0" ycen="222.0" xa="549.0" ya="221.0" xb="611.0" yb="223.0" xc="611.0" yc="207.0" xd="549.0" yd="221.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 7" secondturnoutname="Bedford 1" blockname="Bedford 9" connectaname="T10" connectbname="T21" connectcname="T8" />
+    <layoutturnout ident="TO3" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="502.0" ycen="222.0" xa="543.0" ya="221.0" xb="461.0" yb="223.0" xc="463.0" yc="252.0" xd="543.0" yd="221.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 8" secondturnoutname="Bedford 9" blockname="Bedford 19" connectaname="T10" connectbname="T11" connectcname="T12" />
+    <layoutturnout ident="TO4" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="359.0" ycen="222.0" xa="329.0" ya="222.0" xb="389.0" yb="222.0" xc="397.0" yc="252.0" xd="329.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 9" secondturnoutname="Bedford 8" blockname="Bedford 17" connectaname="T15" connectbname="T11" connectcname="T12" />
+    <layoutturnout ident="TO5" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="275.0" ycen="222.0" xa="309.0" ya="221.0" xb="241.0" yb="223.0" xc="246.0" yc="208.0" xd="309.0" yd="221.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 10" secondturnoutname="Bedford 2" blockname="Bedford 7" connectaname="T15" connectbname="T16" connectcname="T14" />
+    <layoutturnout ident="TO6" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="212.0" ycen="192.0" xa="172.0" ya="192.0" xb="252.0" yb="192.0" xc="244.0" yc="206.0" xd="172.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford Mains NW" secondturnoutname="Bedford 10" blockname="Bedford 7" connectaname="T24" connectbname="T13" connectcname="T14" />
+    <layoutturnout ident="TO7" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="182.0" ycen="222.0" xa="151.0" ya="222.0" xb="213.0" yb="222.0" xc="203.0" yc="246.0" xd="151.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 11" blockname="Bedford 14" connectaname="T25" connectbname="T16" connectcname="T17" />
     <layoutturnout ident="TO8" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="268.0" ycen="312.0" xa="242.0" ya="292.0" xb="294.0" yb="332.0" xc="325.0" yc="312.0" xd="242.0" yd="292.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 16" blockname="Bedford 28" connectaname="T17" connectbname="T28" connectcname="T23" />
-    <layoutturnout ident="TO10" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="683.0" ycen="222.0" xa="703.0" ya="222.0" xb="663.0" yb="222.0" xc="663.0" yc="232.0" xd="703.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 6" blockname="Bedford 22" connectaname="T18" connectbname="T21" connectcname="T20" />
+    <layoutturnout ident="TO10" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="683.0" ycen="222.0" xa="715.0" ya="222.0" xb="651.0" yb="222.0" xc="661.0" yc="243.0" xd="715.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 6" blockname="Bedford 22" connectaname="T18" connectbname="T21" connectcname="T20" />
     <layoutturnout ident="TO12" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="582.0" ycen="311.0" xa="612.0" ya="291.0" xb="552.0" yb="331.0" xc="539.0" yc="310.0" xd="612.0" yd="291.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 13" blockname="Bedford 30" connectaname="T20" connectbname="T31" connectcname="T23" />
     <layoutturnout ident="TO13" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="509.0" ycen="362.0" xa="525.0" ya="352.0" xb="493.0" yb="372.0" xc="481.0" yc="342.0" xd="525.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 14" blockname="Bedford 35" connectaname="T31" connectbname="T30" connectcname="T29" />
     <layoutturnout ident="TO15" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="328.0" ycen="359.0" xa="312.0" ya="346.0" xb="344.0" yb="372.0" xc="357.0" yc="341.0" xd="312.0" yd="346.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 15" blockname="Bedford 33" connectaname="T28" connectbname="T30" connectcname="T29" />
     <layoutturnout ident="TO9" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="215.0" ycen="489.0" xa="184.0" ya="510.0" xb="246.0" yb="468.0" xc="251.0" yc="489.0" xd="184.0" yd="510.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 12" blockname="Bedford 12" connectaname="T34" connectbname="T38" connectcname="T39" />
-    <layoutturnout ident="TO11" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="251.0" ycen="551.0" xa="231.0" ya="551.0" xb="271.0" yb="551.0" xc="300.0" yc="520.0" xd="231.0" yd="551.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 3" blockname="Bedford 5" connectaname="T36" connectbname="T35" connectcname="T37" />
-    <layoutturnout ident="TO14" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="482.0" ycen="551.0" xa="502.0" ya="551.0" xb="462.0" yb="551.0" xc="439.0" yc="521.0" xd="502.0" yd="551.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 4" blockname="Bedford 3" connectaname="T42" connectbname="T35" connectcname="T37" />
+    <layoutturnout ident="TO11" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="251.0" ycen="551.0" xa="218.0" ya="552.0" xb="284.0" yb="550.0" xc="300.0" yc="520.0" xd="218.0" yd="552.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="bedford s siding" secondturnoutname="Bedford 4" blockname="Bedford 5" connectaname="T36" connectbname="T35" connectcname="T37" />
+    <layoutturnout ident="TO14" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="482.0" ycen="551.0" xa="522.0" ya="551.0" xb="442.0" yb="551.0" xc="439.0" yc="521.0" xd="522.0" yd="551.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 4" secondturnoutname="Bedford 3" blockname="Bedford 3" connectaname="T42" connectbname="T35" connectcname="T37" />
     <layoutturnout ident="TO16" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="812.0" ycen="581.0" xa="812.0" ya="601.0" xb="812.0" yb="561.0" xc="782.0" yc="550.0" xd="812.0" yd="601.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 5" blockname="Bedford 1" connectaname="T51" connectbname="T49" connectcname="T50" />
     <tracksegment ident="T1" blockname="Bedford 23" connect1name="EC3" type1="1" connect2name="A4" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T2" blockname="Bedford 23" connect1name="A4" type1="1" connect2name="A3" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Bedford 10" connect1name="EC1" type1="1" connect2name="A5" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" blockname="Bedford 23" connect1name="A3" type1="1" connect2name="A6" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T5" blockname="Bedford 10" connect1name="A5" type1="1" connect2name="A7" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T6" blockname="Bedford 23" connect1name="A6" type1="1" connect2name="A8" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T5" blockname="Bedford 10" connect1name="A5" type1="1" connect2name="A7" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="90.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" blockname="Bedford 23" connect1name="A6" type1="1" connect2name="A8" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="90.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T8" blockname="Bedford 9" connect1name="TO2" type1="4" connect2name="TO1" type2="4" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T9" blockname="Bedford 10" connect1name="TO1" type1="2" connect2name="A7" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T10" blockname="Bedford 20" connect1name="TO3" type1="2" connect2name="TO2" type2="2" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T11" blockname="Bedford 18" connect1name="TO4" type1="3" connect2name="TO3" type2="3" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T12" blockname="Bedford 24" connect1name="TO4" type1="4" connect2name="TO3" type2="4" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T12" blockname="Bedford 24" connect1name="TO4" type1="4" connect2name="TO3" type2="4" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T13" blockname="Bedford 8" connect1name="TO6" type1="3" connect2name="TO1" type2="3" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T14" blockname="Bedford 7" connect1name="TO6" type1="4" connect2name="TO5" type2="4" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T15" blockname="Bedford 16" connect1name="TO5" type1="2" connect2name="TO4" type2="2" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -3328,16 +3344,16 @@
     <tracksegment ident="T23" blockname="Bedford 29" connect1name="TO8" type1="4" connect2name="TO12" type2="4" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T24" blockname="Bedford 6" connect1name="A9" type1="1" connect2name="TO6" type2="2" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T25" blockname="Bedford 13" connect1name="A10" type1="1" connect2name="TO7" type2="2" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T26" blockname="Bedford 13" connect1name="A10" type1="1" connect2name="A11" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T27" blockname="Bedford 6" connect1name="A9" type1="1" connect2name="A12" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T26" blockname="Bedford 13" connect1name="A10" type1="1" connect2name="A11" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="yes" circle="yes" angle="90.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T27" blockname="Bedford 6" connect1name="A9" type1="1" connect2name="A12" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="yes" circle="yes" angle="90.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T28" blockname="Bedford 32" connect1name="TO8" type1="3" connect2name="TO15" type2="2" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T29" blockname="Bedford 37" connect1name="TO15" type1="4" connect2name="TO13" type2="4" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T30" blockname="Bedford 34" connect1name="TO15" type1="3" connect2name="TO13" type2="3" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T31" blockname="Bedford 36" connect1name="TO13" type1="2" connect2name="TO12" type2="3" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T7" blockname="Bedford 6" connect1name="A12" type1="1" connect2name="A1" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T19" blockname="Bedford 13" connect1name="A11" type1="1" connect2name="A2" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T22" blockname="Bedford 13" connect1name="A2" type1="1" connect2name="A13" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T32" blockname="Bedford 6" connect1name="A1" type1="1" connect2name="A14" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T22" blockname="Bedford 13" connect1name="A2" type1="1" connect2name="A13" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="yes" circle="yes" angle="90.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T32" blockname="Bedford 6" connect1name="A1" type1="1" connect2name="A14" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="yes" circle="yes" angle="90.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T33" blockname="Bedford 13" connect1name="A13" type1="1" connect2name="A15" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T34" blockname="Bedford 13" connect1name="A15" type1="1" connect2name="TO9" type2="2" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T36" blockname="Bedford 6" connect1name="A14" type1="1" connect2name="TO11" type2="2" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -3353,9 +3369,9 @@
     </tracksegment>
     <tracksegment ident="T42" blockname="Bedford 2" connect1name="TO14" type1="2" connect2name="A19" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T44" blockname="Bedford 11" connect1name="A18" type1="1" connect2name="A21" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T45" blockname="Bedford 11" connect1name="A21" type1="1" connect2name="A24" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T45" blockname="Bedford 11" connect1name="A21" type1="1" connect2name="A24" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="90.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T46" blockname="Bedford 2" connect1name="A19" type1="1" connect2name="A22" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T47" blockname="Bedford 2" connect1name="A22" type1="1" connect2name="A23" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T47" blockname="Bedford 2" connect1name="A22" type1="1" connect2name="A23" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="90.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T48" connect1name="EB2" type1="1" connect2name="EB3" type2="1" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
       <decorations>
         <bumper end="both" color="#000000" linewidth="1" length="8" />
@@ -3399,104 +3415,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Feb 29 16:09:49 CST 2020</date>
+      <date>Sat Apr 18 10:08:10 CDT 2020</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Feb 29 16:09:54 CST 2020</date>
+      <date>Sat Apr 18 10:08:22 CDT 2020</date>
       <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Sat Feb 29 15:19:09 CST 2020</date>
+          <date>Fri Apr 17 10:40:20 CDT 2020</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Sat Feb 29 15:19:14 CST 2020</date>
+          <date>Fri Apr 17 10:40:35 CDT 2020</date>
           <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Sat Feb 29 15:00:59 CST 2020</date>
+              <date>Tue Apr 14 10:41:37 CDT 2020</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Sat Feb 29 15:01:04 CST 2020</date>
+              <date>Tue Apr 14 10:41:48 CDT 2020</date>
               <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sat Feb 29 14:53:43 CST 2020</date>
+                  <date>Sat Feb 29 16:09:49 CST 2020</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sat Feb 29 14:53:49 CST 2020</date>
+                  <date>Sat Feb 29 16:09:54 CST 2020</date>
                   <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sat Feb 29 09:02:46 CST 2020</date>
+                      <date>Sat Feb 29 15:19:09 CST 2020</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sat Feb 29 09:02:56 CST 2020</date>
+                      <date>Sat Feb 29 15:19:14 CST 2020</date>
                       <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Thu Feb 27 10:26:15 CST 2020</date>
+                          <date>Sat Feb 29 15:00:59 CST 2020</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Thu Feb 27 10:26:31 CST 2020</date>
+                          <date>Sat Feb 29 15:01:04 CST 2020</date>
                           <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Thu Feb 27 14:08:18 CST 2020</date>
+                          <date>Sat Feb 29 15:13:40 CST 2020</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sat Feb 29 14:47:16 CST 2020</date>
+                      <date>Sat Feb 29 16:06:13 CST 2020</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sat Feb 29 14:55:03 CST 2020</date>
+                  <date>Sat Feb 29 16:12:26 CST 2020</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Sat Feb 29 15:13:40 CST 2020</date>
+              <date>Tue Apr 14 12:01:17 CDT 2020</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Sat Feb 29 16:06:13 CST 2020</date>
+          <date>Fri Apr 17 12:10:59 CDT 2020</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Feb 29 16:12:26 CST 2020</date>
+      <date>Sat Apr 18 12:31:42 CDT 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Feb 29 16:12:26 CST 2020-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Apr 18 12:31:42 CDT 2020-->
 </layout-config>
