@@ -772,7 +772,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="12:31 PM">
+    <memory value="1:35 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -1680,12 +1680,12 @@
           <turnout systemName="Bedford 5" />
         </beansetting>
       </path>
-      <path todir="16" fromdir="32" block="IB41">
+      <path todir="32" fromdir="16" block="IB41">
         <beansetting setting="2">
           <turnout systemName="Bedford 5" />
         </beansetting>
       </path>
-      <path todir="32" fromdir="16" block="IB57" />
+      <path todir="16" fromdir="32" block="IB57" />
     </block>
     <block systemName="IB32" length="0.0" curve="0">
       <systemName>IB32</systemName>
@@ -1759,7 +1759,7 @@
       <path todir="128" fromdir="64" block="IB36" />
       <path todir="64" fromdir="128" block="IB38">
         <beansetting setting="2">
-          <turnout systemName="Bedford 2" />
+          <turnout systemName="Bedford Mains NW" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB45">
@@ -1775,12 +1775,12 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB37">
         <beansetting setting="2">
-          <turnout systemName="Bedford 2" />
+          <turnout systemName="Bedford Mains NW" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB39">
         <beansetting setting="2">
-          <turnout systemName="Bedford 1" />
+          <turnout systemName="Bedford Mains NE" />
         </beansetting>
       </path>
     </block>
@@ -1790,7 +1790,7 @@
       <permissive>no</permissive>
       <path todir="128" fromdir="64" block="IB38">
         <beansetting setting="2">
-          <turnout systemName="Bedford 1" />
+          <turnout systemName="Bedford Mains NE" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB40" />
@@ -1811,7 +1811,7 @@
       <systemName>IB41</systemName>
       <userName>Bedford 11</userName>
       <permissive>no</permissive>
-      <path todir="32" fromdir="16" block="IB31">
+      <path todir="16" fromdir="32" block="IB31">
         <beansetting setting="2">
           <turnout systemName="Bedford 5" />
         </beansetting>
@@ -2016,8 +2016,8 @@
       <systemName>IB57</systemName>
       <userName>Bedford 26</userName>
       <permissive>no</permissive>
-      <path todir="16" fromdir="32" block="IB31" />
-      <path todir="32" fromdir="16" block="IB17" />
+      <path todir="32" fromdir="16" block="IB31" />
+      <path todir="16" fromdir="32" block="IB17" />
     </block>
     <block systemName="IB58" length="0.0" curve="0">
       <systemName>IB58</systemName>
@@ -2990,6 +2990,10 @@
       <routeOutputTurnout systemName="Augusta Stub" state="CLOSED" />
       <routeOutputTurnout systemName="Augusta North Loops" state="CLOSED" />
       <routeOutputTurnout systemName="Augusta North Yard/Loops" state="CLOSED" />
+      <routeOutputTurnout systemName="bedford s siding" state="CLOSED" />
+      <routeOutputTurnout systemName="Bedford TBD" state="CLOSED" />
+      <routeOutputTurnout systemName="Bedford Mains NW" state="CLOSED" />
+      <routeOutputTurnout systemName="Bedford Mains NE" state="CLOSED" />
     </route>
     <route userName="Diagnostic:All Thrown">
       <systemName>IR:AUTO:0005</systemName>
@@ -3011,6 +3015,10 @@
       <routeOutputTurnout systemName="Augusta Stub" state="THROWN" />
       <routeOutputTurnout systemName="Augusta North Loops" state="THROWN" />
       <routeOutputTurnout systemName="Augusta North Yard/Loops" state="THROWN" />
+      <routeOutputTurnout systemName="bedford s siding" state="THROWN" />
+      <routeOutputTurnout systemName="Bedford TBD" state="THROWN" />
+      <routeOutputTurnout systemName="Bedford Mains NW" state="THROWN" />
+      <routeOutputTurnout systemName="Bedford Mains NE" state="THROWN" />
     </route>
     <route userName="Augusta:Shortcut -- Toggle">
       <systemName>IR:AUTO:0006</systemName>
@@ -3034,12 +3042,48 @@
       </properties>
       <routeOutputTurnout systemName="Augusta Siding West" state="TOGGLE" />
     </route>
+    <route userName="Default Route">
+      <systemName>IR:AUTO:0008</systemName>
+      <userName>Default Route</userName>
+      <routeOutputTurnout systemName="Augusta Loop" state="CLOSED" />
+      <routeOutputTurnout systemName="Augusta West Mains" state="THROWN" />
+      <routeOutputTurnout systemName="Augusta Yard Main" state="THROWN" />
+      <routeOutputTurnout systemName="Augusta Yard North" state="THROWN" />
+      <routeOutputTurnout systemName="Augusta Siding West" state="CLOSED" />
+      <routeOutputTurnout systemName="Augusta Stub" state="CLOSED" />
+      <routeOutputTurnout systemName="Augusta North Loops" state="THROWN" />
+      <routeOutputTurnout systemName="Augusta North Yard/Loops" state="THROWN" />
+      <routeOutputTurnout systemName="bedford s siding" state="CLOSED" />
+      <routeOutputTurnout systemName="Bedford Mains NW" state="THROWN" />
+      <routeOutputTurnout systemName="Bedford Mains NE" state="CLOSED" />
+    </route>
+    <route userName="Bedford:South Siding">
+      <systemName>IR:AUTO:0009</systemName>
+      <userName>Bedford:South Siding</userName>
+      <routeOutputTurnout systemName="bedford s siding" state="TOGGLE" />
+    </route>
+    <route userName="Alternate Route">
+      <systemName>IR:AUTO:0010</systemName>
+      <userName>Alternate Route</userName>
+      <routeOutputTurnout systemName="Augusta Loop" state="CLOSED" />
+      <routeOutputTurnout systemName="Augusta West Mains" state="THROWN" />
+      <routeOutputTurnout systemName="Augusta Yard Main" state="CLOSED" />
+      <routeOutputTurnout systemName="Augusta Yard North" state="THROWN" />
+      <routeOutputTurnout systemName="Augusta Yard South" state="THROWN" />
+      <routeOutputTurnout systemName="Augusta Siding West" state="CLOSED" />
+      <routeOutputTurnout systemName="Augusta Stub" state="CLOSED" />
+      <routeOutputTurnout systemName="Augusta North Loops" state="CLOSED" />
+      <routeOutputTurnout systemName="Augusta North Yard/Loops" state="THROWN" />
+      <routeOutputTurnout systemName="bedford s siding" state="CLOSED" />
+      <routeOutputTurnout systemName="Bedford Mains NW" state="THROWN" />
+      <routeOutputTurnout systemName="Bedford Mains NE" state="CLOSED" />
+    </route>
   </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Sep 15 14:29:03 CDT 2019" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="26" y="0" windowheight="860" windowwidth="1483" panelheight="816" panelwidth="1381" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="1608" y="393" windowheight="665" windowwidth="1080" panelheight="816" panelwidth="1381" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Augusta Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -3070,8 +3114,8 @@
     <positionablelabel x="300" y="536" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT6" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="396" y="607" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT7" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="353" y="503" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT8" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="101" y="260" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT1" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="242" y="71" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT1-B" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="262" y="56" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT1" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="96" y="264" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT1-B" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1000" y="751" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="To State Refinery &amp; Capital City" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1077" y="16" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1156" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Xfer Station Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -3082,7 +3126,7 @@
     <positionablelabel x="193" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Yard North" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="396" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Yard South" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="5" y="305" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta West Mains" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="97" y="247" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Loop" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="97" y="247" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="(Augusta Loop)" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="244" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Loop" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="489" y="16" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Siding West" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="964" y="22" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Siding East" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -3092,29 +3136,29 @@
     <layoutturnout ident="TO2" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1035.0" ycen="51.0" xa="1064.0" ya="51.0" xb="1006.0" yb="51.0" xc="998.0" yc="80.0" xd="1064.0" yd="51.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Siding East" secondturnoutname="Augusta Siding West" blockname="Augusta 16" connectaname="T2" connectbname="T4" connectcname="T3" />
     <layoutturnout ident="TO3" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="669.0" ycen="51.0" xa="640.0" ya="51.0" xb="698.0" yb="51.0" xc="712.0" yc="20.0" xd="640.0" yd="51.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Stub" blockname="Augusta 13" connectaname="T7" connectbname="T4" connectcname="T5" />
     <layoutturnout ident="TO4" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="591.0" ycen="51.0" xa="560.0" ya="51.0" xb="622.0" yb="51.0" xc="642.0" yc="80.0" xd="560.0" yd="51.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Siding West" secondturnoutname="Augusta Siding East" blockname="Augusta 11" connectaname="T37" connectbname="T7" connectcname="T38" />
-    <layoutturnout ident="TO5" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="744.0" ycen="133.0" xa="720.0" ya="133.0" xb="768.0" yb="133.0" xc="779.0" yc="163.0" xd="720.0" yd="133.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 26" blockname="Augusta 2" connectaname="T16" connectbname="T8" connectcname="T9" />
+    <layoutturnout ident="TO5" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="744.0" ycen="133.0" xa="720.0" ya="133.0" xb="768.0" yb="133.0" xc="779.0" yc="163.0" xd="720.0" yd="133.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 26" blockname="Augusta 2" connectaname="T16" connectbname="T8" connectcname="T9" />
     <layoutturnout ident="TO6" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="745.0" ycen="194.0" xa="708.0" ya="194.0" xb="782.0" yb="194.0" xc="776.0" yc="213.0" xd="708.0" yd="194.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta North Loops" blockname="Augusta 2" connectaname="T17" connectbname="T13" connectcname="T14" />
     <layoutturnout ident="TO7" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="659.0" ycen="133.0" xa="621.0" ya="133.0" xb="697.0" yb="133.0" xc="683.0" yc="163.0" xd="621.0" yd="133.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta North Yard/Loops" blockname="Augusta 2" connectaname="T18" connectbname="T16" connectcname="T17" />
-    <layoutturnout ident="TO1" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="602.0" ycen="133.0" xa="622.0" ya="133.0" xb="582.0" yb="133.0" xc="582.0" yc="143.0" xd="622.0" yd="133.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 2" connectaname="T18" connectbname="T90" connectcname="T19" />
-    <layoutturnout ident="TO8" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="541.0" ycen="162.0" xa="561.0" ya="162.0" xb="521.0" yb="162.0" xc="486.0" yc="223.0" xd="561.0" yd="162.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 2" connectaname="T19" connectbname="T24" connectcname="T20" />
-    <layoutturnout ident="TO9" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="444.0" ycen="222.0" xa="464.0" ya="222.0" xb="424.0" yb="222.0" xc="431.0" yc="241.0" xd="464.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 2" connectaname="T20" connectbname="T28" connectcname="T21" />
-    <layoutturnout ident="TO10" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="394.0" ycen="252.0" xa="422.0" ya="251.0" xb="366.0" yb="253.0" xc="374.0" yc="262.0" xd="422.0" yd="251.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 24" blockname="Augusta 2" connectaname="T21" connectbname="T22" connectcname="T23" />
-    <layoutturnout ident="TO11" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="323.0" ycen="253.0" xa="342.0" ya="253.0" xb="304.0" yb="253.0" xc="294.0" yc="223.0" xd="342.0" yd="253.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 22" blockname="Augusta 2" connectaname="T22" connectbname="T32" connectcname="T31" />
-    <layoutturnout ident="TO12" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="323.0" ycen="280.0" xa="343.0" ya="280.0" xb="303.0" yb="280.0" xc="309.0" yc="298.0" xd="343.0" yd="280.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 23" blockname="Augusta 2" connectaname="T23" connectbname="T30" connectcname="T29" />
-    <layoutturnout ident="TO13" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="286.0" ycen="163.0" xa="306.0" ya="163.0" xb="266.0" yb="163.0" xc="248.0" yc="193.0" xd="306.0" yd="163.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 21" blockname="Augusta 2" connectaname="T24" connectbname="T25" connectcname="T26" />
-    <layoutturnout ident="TO14" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="238.0" ycen="321.0" xa="279.0" ya="321.0" xb="197.0" yb="321.0" xc="219.0" yc="306.0" xd="279.0" yd="321.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 20" blockname="Augusta 2" connectaname="T29" connectbname="T33" connectcname="T34" />
+    <layoutturnout ident="TO1" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="602.0" ycen="133.0" xa="622.0" ya="133.0" xb="582.0" yb="133.0" xc="582.0" yc="143.0" xd="622.0" yd="133.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 2" connectaname="T18" connectbname="T90" connectcname="T19" />
+    <layoutturnout ident="TO8" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="541.0" ycen="162.0" xa="561.0" ya="162.0" xb="521.0" yb="162.0" xc="486.0" yc="223.0" xd="561.0" yd="162.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 2" connectaname="T19" connectbname="T24" connectcname="T20" />
+    <layoutturnout ident="TO9" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="444.0" ycen="222.0" xa="464.0" ya="222.0" xb="424.0" yb="222.0" xc="431.0" yc="241.0" xd="464.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 2" connectaname="T20" connectbname="T28" connectcname="T21" />
+    <layoutturnout ident="TO10" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="394.0" ycen="252.0" xa="422.0" ya="251.0" xb="366.0" yb="253.0" xc="374.0" yc="262.0" xd="422.0" yd="251.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 24" blockname="Augusta 2" connectaname="T21" connectbname="T22" connectcname="T23" />
+    <layoutturnout ident="TO11" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="323.0" ycen="253.0" xa="342.0" ya="253.0" xb="304.0" yb="253.0" xc="294.0" yc="223.0" xd="342.0" yd="253.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 22" blockname="Augusta 2" connectaname="T22" connectbname="T32" connectcname="T31" />
+    <layoutturnout ident="TO12" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="323.0" ycen="280.0" xa="343.0" ya="280.0" xb="303.0" yb="280.0" xc="309.0" yc="298.0" xd="343.0" yd="280.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 23" blockname="Augusta 2" connectaname="T23" connectbname="T30" connectcname="T29" />
+    <layoutturnout ident="TO13" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="286.0" ycen="163.0" xa="306.0" ya="163.0" xb="266.0" yb="163.0" xc="248.0" yc="193.0" xd="306.0" yd="163.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 21" blockname="Augusta 2" connectaname="T24" connectbname="T25" connectcname="T26" />
+    <layoutturnout ident="TO14" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="238.0" ycen="321.0" xa="279.0" ya="321.0" xb="197.0" yb="321.0" xc="219.0" yc="306.0" xd="279.0" yd="321.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 20" blockname="Augusta 2" connectaname="T29" connectbname="T33" connectcname="T34" />
     <layoutturnout ident="TO15" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="245.0" ycen="51.0" xa="298.0" ya="51.0" xb="192.0" yb="51.0" xc="212.0" yc="70.0" xd="298.0" yd="51.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Loop" secondturnoutname="Augusta 4" secondturnoutinverted="true" blockname="Augusta 11" connectaname="T37" connectbname="T43" connectcname="T36" />
     <layoutturnout ident="TO16" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="81.0" ycen="257.0" xa="81.0" ya="292.0" xb="81.0" yb="222.0" xc="112.0" yc="221.0" xd="81.0" yd="292.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 4" secondturnoutname="Augusta Loop" secondturnoutinverted="true" blockname="Augusta 1" connectaname="T45" connectbname="T42" connectcname="T41" />
     <layoutturnout ident="TO17" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="21.0" ycen="276.0" xa="20.0" ya="240.0" xb="22.0" yb="312.0" xc="51.0" yc="323.0" xd="20.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta West Mains" blockname="Augusta 9" connectaname="T87" connectbname="T81" connectcname="T82" />
-    <layoutturnout ident="TO18" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="621.0" ycen="482.0" xa="601.0" ya="482.0" xb="641.0" yb="482.0" xc="652.0" yc="452.0" xd="601.0" yd="482.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 14" blockname="Augusta 7" connectaname="T53" connectbname="T52" connectcname="T49" />
-    <layoutturnout ident="TO19" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="833.0" ycen="482.0" xa="813.0" ya="482.0" xb="853.0" yb="482.0" xc="860.0" yc="451.0" xd="813.0" yd="482.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 13" blockname="Augusta 7" connectaname="T52" connectbname="T50" connectcname="T51" />
-    <layoutturnout ident="TO20" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="473.0" ycen="483.0" xa="454.0" ya="483.0" xb="492.0" yb="483.0" xc="513.0" yc="513.0" xd="454.0" yd="483.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 15" blockname="Augusta 7" connectaname="T55" connectbname="T53" connectcname="T54" />
+    <layoutturnout ident="TO18" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="621.0" ycen="482.0" xa="601.0" ya="482.0" xb="641.0" yb="482.0" xc="652.0" yc="452.0" xd="601.0" yd="482.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 14" blockname="Augusta 7" connectaname="T53" connectbname="T52" connectcname="T49" />
+    <layoutturnout ident="TO19" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="833.0" ycen="482.0" xa="813.0" ya="482.0" xb="853.0" yb="482.0" xc="860.0" yc="451.0" xd="813.0" yd="482.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 13" blockname="Augusta 7" connectaname="T52" connectbname="T50" connectcname="T51" />
+    <layoutturnout ident="TO20" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="473.0" ycen="483.0" xa="454.0" ya="483.0" xb="492.0" yb="483.0" xc="513.0" yc="513.0" xd="454.0" yd="483.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 15" blockname="Augusta 7" connectaname="T55" connectbname="T53" connectcname="T54" />
     <layoutturnout ident="TO21" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="366.0" ycen="531.0" xa="336.0" ya="548.0" xb="396.0" yb="514.0" xc="401.0" yc="533.0" xd="336.0" yd="548.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="LT8" blockname="Augusta 7" connectaname="T65" connectbname="T55" connectcname="T56" />
     <layoutturnout ident="TO24" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="363.0" ycen="622.0" xa="331.0" ya="621.0" xb="395.0" yb="623.0" xc="399.0" yc="592.0" xd="331.0" yd="621.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Yard South" blockname="Augusta 8" connectaname="T71" connectbname="T48" connectcname="T70" />
-    <layoutturnout ident="TO23" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="281.0" ycen="623.0" xa="261.0" ya="623.0" xb="301.0" yb="623.0" xc="311.0" yc="638.0" xd="261.0" yd="623.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 8" connectaname="T75" connectbname="T71" connectcname="T72" />
-    <layoutturnout ident="TO25" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="330.0" ycen="650.0" xa="377.0" ya="650.0" xb="283.0" yb="650.0" xc="311.0" yc="638.0" xd="377.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 2" secondturnoutname="Augusta 8" blockname="Augusta 8" connectaname="T6" connectbname="T67" connectcname="T72" />
+    <layoutturnout ident="TO23" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="281.0" ycen="623.0" xa="261.0" ya="623.0" xb="301.0" yb="623.0" xc="311.0" yc="638.0" xd="261.0" yd="623.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 8" connectaname="T75" connectbname="T71" connectcname="T72" />
+    <layoutturnout ident="TO25" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="330.0" ycen="650.0" xa="377.0" ya="650.0" xb="283.0" yb="650.0" xc="311.0" yc="638.0" xd="377.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 2" secondturnoutname="Augusta 8" blockname="Augusta 8" connectaname="T6" connectbname="T67" connectcname="T72" />
     <layoutturnout ident="TO26" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="203.0" ycen="623.0" xa="174.0" ya="623.0" xb="232.0" yb="623.0" xc="236.0" yc="605.0" xd="174.0" yd="623.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Yard Main" blockname="Augusta 9" connectaname="T78" connectbname="T75" connectcname="T66" />
-    <layoutturnout ident="TO27" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1198.0" ycen="720.0" xa="1197.0" ya="699.0" xb="1199.0" yb="741.0" xc="1214.0" yc="685.0" xd="1197.0" yd="699.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 1" blockname="Augusta 24" connectaname="T58" connectcname="T68" />
+    <layoutturnout ident="TO27" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="1198.0" ycen="720.0" xa="1197.0" ya="699.0" xb="1199.0" yb="741.0" xc="1214.0" yc="685.0" xd="1197.0" yd="699.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 1" blockname="Augusta 24" connectaname="T58" connectcname="T68" />
     <layoutturnout ident="TO22" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="312.0" ycen="562.0" xa="287.0" ya="578.0" xb="337.0" yb="546.0" xc="397.0" yc="563.0" xd="287.0" yd="578.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Yard North" blockname="Augusta 7" connectaname="T66" connectbname="T65" connectcname="T40" />
     <tracksegment ident="T1" blockname="Augusta 16" connect1name="EC1" type1="1" connect2name="A1" type2="1" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T2" blockname="Augusta 16" connect1name="TO2" type1="2" connect2name="A1" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -3276,7 +3320,7 @@
     <positionablepoint ident="A10" type="1" x="1142.0" y="648.5" connect1name="T6" connect2name="T58" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="1" x="72.0" y="651.0" connect1name="T77" connect2name="T67" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="0" y="0" windowheight="860" windowwidth="1600" panelheight="702" panelwidth="932" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="2688" y="393" windowheight="664" windowwidth="807" panelheight="703" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Bedford Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -3303,25 +3347,28 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="781" y="636" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="To Augusta" fontname="Dialog.plain" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="781" y="636" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="To Augusta" fontname="Dialog.plain" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
+    <positionablelabel x="195" y="160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford Mains NW" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="552" y="164" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford Mains NE" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="308" y="567" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford S. Siding" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="641.0" ycen="192.0" xa="687.0" ya="192.0" xb="595.0" yb="192.0" xc="610.0" yc="207.0" xd="687.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford Mains NE" secondturnoutname="Bedford 7" blockname="Bedford 9" connectaname="T9" connectbname="T13" connectcname="T8" />
     <layoutturnout ident="TO2" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="580.0" ycen="222.0" xa="549.0" ya="221.0" xb="611.0" yb="223.0" xc="611.0" yc="207.0" xd="549.0" yd="221.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 7" secondturnoutname="Bedford 1" blockname="Bedford 9" connectaname="T10" connectbname="T21" connectcname="T8" />
-    <layoutturnout ident="TO3" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="502.0" ycen="222.0" xa="543.0" ya="221.0" xb="461.0" yb="223.0" xc="463.0" yc="252.0" xd="543.0" yd="221.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 8" secondturnoutname="Bedford 9" blockname="Bedford 19" connectaname="T10" connectbname="T11" connectcname="T12" />
-    <layoutturnout ident="TO4" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="359.0" ycen="222.0" xa="329.0" ya="222.0" xb="389.0" yb="222.0" xc="397.0" yc="252.0" xd="329.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 9" secondturnoutname="Bedford 8" blockname="Bedford 17" connectaname="T15" connectbname="T11" connectcname="T12" />
-    <layoutturnout ident="TO5" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="275.0" ycen="222.0" xa="309.0" ya="221.0" xb="241.0" yb="223.0" xc="246.0" yc="208.0" xd="309.0" yd="221.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 10" secondturnoutname="Bedford 2" blockname="Bedford 7" connectaname="T15" connectbname="T16" connectcname="T14" />
+    <layoutturnout ident="TO3" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="502.0" ycen="222.0" xa="543.0" ya="221.0" xb="461.0" yb="223.0" xc="463.0" yc="252.0" xd="543.0" yd="221.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 8" secondturnoutname="Bedford 9" blockname="Bedford 19" connectaname="T10" connectbname="T11" connectcname="T12" />
+    <layoutturnout ident="TO4" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="359.0" ycen="222.0" xa="329.0" ya="222.0" xb="389.0" yb="222.0" xc="397.0" yc="252.0" xd="329.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 9" secondturnoutname="Bedford 8" blockname="Bedford 17" connectaname="T15" connectbname="T11" connectcname="T12" />
+    <layoutturnout ident="TO5" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="275.0" ycen="222.0" xa="309.0" ya="221.0" xb="241.0" yb="223.0" xc="246.0" yc="208.0" xd="309.0" yd="221.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 10" secondturnoutname="Bedford Mains NW" blockname="Bedford 7" connectaname="T15" connectbname="T16" connectcname="T14" />
     <layoutturnout ident="TO6" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="212.0" ycen="192.0" xa="172.0" ya="192.0" xb="252.0" yb="192.0" xc="244.0" yc="206.0" xd="172.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford Mains NW" secondturnoutname="Bedford 10" blockname="Bedford 7" connectaname="T24" connectbname="T13" connectcname="T14" />
-    <layoutturnout ident="TO7" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="182.0" ycen="222.0" xa="151.0" ya="222.0" xb="213.0" yb="222.0" xc="203.0" yc="246.0" xd="151.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 11" blockname="Bedford 14" connectaname="T25" connectbname="T16" connectcname="T17" />
-    <layoutturnout ident="TO8" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="268.0" ycen="312.0" xa="242.0" ya="292.0" xb="294.0" yb="332.0" xc="325.0" yc="312.0" xd="242.0" yd="292.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 16" blockname="Bedford 28" connectaname="T17" connectbname="T28" connectcname="T23" />
-    <layoutturnout ident="TO10" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="683.0" ycen="222.0" xa="715.0" ya="222.0" xb="651.0" yb="222.0" xc="661.0" yc="243.0" xd="715.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 6" blockname="Bedford 22" connectaname="T18" connectbname="T21" connectcname="T20" />
-    <layoutturnout ident="TO12" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="582.0" ycen="311.0" xa="612.0" ya="291.0" xb="552.0" yb="331.0" xc="539.0" yc="310.0" xd="612.0" yd="291.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 13" blockname="Bedford 30" connectaname="T20" connectbname="T31" connectcname="T23" />
-    <layoutturnout ident="TO13" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="509.0" ycen="362.0" xa="525.0" ya="352.0" xb="493.0" yb="372.0" xc="481.0" yc="342.0" xd="525.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 14" blockname="Bedford 35" connectaname="T31" connectbname="T30" connectcname="T29" />
-    <layoutturnout ident="TO15" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="328.0" ycen="359.0" xa="312.0" ya="346.0" xb="344.0" yb="372.0" xc="357.0" yc="341.0" xd="312.0" yd="346.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 15" blockname="Bedford 33" connectaname="T28" connectbname="T30" connectcname="T29" />
-    <layoutturnout ident="TO9" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="215.0" ycen="489.0" xa="184.0" ya="510.0" xb="246.0" yb="468.0" xc="251.0" yc="489.0" xd="184.0" yd="510.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 12" blockname="Bedford 12" connectaname="T34" connectbname="T38" connectcname="T39" />
+    <layoutturnout ident="TO7" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="182.0" ycen="222.0" xa="151.0" ya="222.0" xb="213.0" yb="222.0" xc="203.0" yc="246.0" xd="151.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 11" blockname="Bedford 14" connectaname="T25" connectbname="T16" connectcname="T17" />
+    <layoutturnout ident="TO8" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="268.0" ycen="312.0" xa="242.0" ya="292.0" xb="294.0" yb="332.0" xc="325.0" yc="312.0" xd="242.0" yd="292.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 16" blockname="Bedford 28" connectaname="T17" connectbname="T28" connectcname="T23" />
+    <layoutturnout ident="TO10" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="683.0" ycen="222.0" xa="715.0" ya="222.0" xb="651.0" yb="222.0" xc="661.0" yc="243.0" xd="715.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 6" blockname="Bedford 22" connectaname="T18" connectbname="T21" connectcname="T20" />
+    <layoutturnout ident="TO12" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="582.0" ycen="311.0" xa="612.0" ya="291.0" xb="552.0" yb="331.0" xc="539.0" yc="310.0" xd="612.0" yd="291.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 13" blockname="Bedford 30" connectaname="T20" connectbname="T31" connectcname="T23" />
+    <layoutturnout ident="TO13" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="509.0" ycen="362.0" xa="525.0" ya="352.0" xb="493.0" yb="372.0" xc="481.0" yc="342.0" xd="525.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 14" blockname="Bedford 35" connectaname="T31" connectbname="T30" connectcname="T29" />
+    <layoutturnout ident="TO15" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="328.0" ycen="359.0" xa="312.0" ya="346.0" xb="344.0" yb="372.0" xc="357.0" yc="341.0" xd="312.0" yd="346.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 15" blockname="Bedford 33" connectaname="T28" connectbname="T30" connectcname="T29" />
+    <layoutturnout ident="TO9" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="215.0" ycen="489.0" xa="184.0" ya="510.0" xb="246.0" yb="468.0" xc="251.0" yc="489.0" xd="184.0" yd="510.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 12" blockname="Bedford 12" connectaname="T34" connectbname="T38" connectcname="T39" />
     <layoutturnout ident="TO11" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="251.0" ycen="551.0" xa="218.0" ya="552.0" xb="284.0" yb="550.0" xc="300.0" yc="520.0" xd="218.0" yd="552.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="bedford s siding" secondturnoutname="Bedford 4" blockname="Bedford 5" connectaname="T36" connectbname="T35" connectcname="T37" />
     <layoutturnout ident="TO14" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="482.0" ycen="551.0" xa="522.0" ya="551.0" xb="442.0" yb="551.0" xc="439.0" yc="521.0" xd="522.0" yd="551.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 4" secondturnoutname="Bedford 3" blockname="Bedford 3" connectaname="T42" connectbname="T35" connectcname="T37" />
-    <layoutturnout ident="TO16" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="812.0" ycen="581.0" xa="812.0" ya="601.0" xb="812.0" yb="561.0" xc="782.0" yc="550.0" xd="812.0" yd="601.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 5" blockname="Bedford 1" connectaname="T51" connectbname="T49" connectcname="T50" />
+    <layoutturnout ident="TO16" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="812.0" ycen="581.0" xa="816.0" ya="650.0" xb="808.0" yb="512.0" xc="782.0" yc="550.0" xd="816.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 5" blockname="Bedford 1" connectaname="T51" connectbname="T49" connectcname="T50" />
     <tracksegment ident="T1" blockname="Bedford 23" connect1name="EC3" type1="1" connect2name="A4" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T2" blockname="Bedford 23" connect1name="A4" type1="1" connect2name="A3" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Bedford 10" connect1name="EC1" type1="1" connect2name="A5" type2="1" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -3415,104 +3462,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Apr 18 10:08:10 CDT 2020</date>
+      <date>Fri Apr 24 11:57:28 CDT 2020</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Apr 18 10:08:22 CDT 2020</date>
+      <date>Fri Apr 24 11:57:33 CDT 2020</date>
       <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Apr 17 10:40:20 CDT 2020</date>
+          <date>Fri Apr 24 10:29:33 CDT 2020</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Apr 17 10:40:35 CDT 2020</date>
+          <date>Fri Apr 24 10:29:48 CDT 2020</date>
           <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Tue Apr 14 10:41:37 CDT 2020</date>
+              <date>Sat Apr 18 10:08:10 CDT 2020</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Tue Apr 14 10:41:48 CDT 2020</date>
+              <date>Sat Apr 18 10:08:22 CDT 2020</date>
               <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sat Feb 29 16:09:49 CST 2020</date>
+                  <date>Fri Apr 17 10:40:20 CDT 2020</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sat Feb 29 16:09:54 CST 2020</date>
+                  <date>Fri Apr 17 10:40:35 CDT 2020</date>
                   <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sat Feb 29 15:19:09 CST 2020</date>
+                      <date>Tue Apr 14 10:41:37 CDT 2020</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sat Feb 29 15:19:14 CST 2020</date>
+                      <date>Tue Apr 14 10:41:48 CDT 2020</date>
                       <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Sat Feb 29 15:00:59 CST 2020</date>
+                          <date>Sat Feb 29 16:09:49 CST 2020</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Sat Feb 29 15:01:04 CST 2020</date>
+                          <date>Sat Feb 29 16:09:54 CST 2020</date>
                           <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Sat Feb 29 15:13:40 CST 2020</date>
+                          <date>Sat Feb 29 16:12:26 CST 2020</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sat Feb 29 16:06:13 CST 2020</date>
+                      <date>Tue Apr 14 12:01:17 CDT 2020</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sat Feb 29 16:12:26 CST 2020</date>
+                  <date>Fri Apr 17 12:10:59 CDT 2020</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Tue Apr 14 12:01:17 CDT 2020</date>
+              <date>Sat Apr 18 12:31:42 CDT 2020</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Apr 17 12:10:59 CDT 2020</date>
+          <date>Fri Apr 24 11:55:48 CDT 2020</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Apr 18 12:31:42 CDT 2020</date>
+      <date>Fri Apr 24 13:35:39 CDT 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Apr 18 12:31:42 CDT 2020-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Fri Apr 24 13:35:39 CDT 2020-->
 </layout-config>

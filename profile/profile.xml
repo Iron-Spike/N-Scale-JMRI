@@ -44,8 +44,8 @@
         <perform xmlns="" class="apps.startup.configurexml.StartupPauseModelXml" name="Pause" type="Pause">
             <property name="delay" value="4"/>
         </perform>
-        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Augusta:Inner Loop" type="Action"/>
-        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Augusta:Inner Loop" type="Action"/>
-        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Augusta:Inner Loop" type="Action"/>
+        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Default Route" type="Action"/>
+        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Default Route" type="Action"/>
+        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Default Route" type="Action"/>
     </startup>
 </auxiliary-configuration>

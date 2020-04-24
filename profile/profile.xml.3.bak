@@ -45,5 +45,7 @@
             <property name="delay" value="5"/>
         </perform>
         <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Augusta Inner Loop" type="Action"/>
+        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Augusta Inner Loop" type="Action"/>
+        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Augusta Inner Loop" type="Action"/>
     </startup>
 </auxiliary-configuration>
