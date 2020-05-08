@@ -33,6 +33,7 @@
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula.toolBarThin</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Bedford Peninsula.toolBarThin</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Bedford Peninsula.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula.antialiasingOn</setting>
     </settings>
     <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
         <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:Internal">
@@ -276,7 +277,7 @@
         <window xmlns="" class="jmri.jmrix.loconet.slotmon.SlotMonPane" height="496.0" locX="0.0" locY="23.0" width="1168.0"/>
         <window xmlns="" class="jmri.jmrit.entryexit.AddEntryExitPairFrame" height="583.0" locX="22.0" locY="24.0" width="892.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster" locX="0.0" locY="0.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Bedford Peninsula" height="884.0" locX="0.0" locY="142.0" width="1680.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Bedford Peninsula" height="884.0" locX="0.0" locY="532.0" width="1680.0">
             <properties>
                 <property>
                     <key>DropDownListsDisplayOrder.Enter name of Block for new turnout, level crossing, or track segment.</key>
@@ -329,7 +330,7 @@
         <window xmlns="" class="jmri.jmrix.loconet.pr3.swing.Pr3SelectPane:1" height="61.0" locX="783.0" locY="257.0" width="485.0"/>
         <window xmlns="" class="Set Signal Heads at Turnout" locX="70.0" locY="23.0"/>
         <window xmlns="" class="Edit Slip" locX="50.0" locY="23.0"/>
-        <window xmlns="" class="jmri.jmrit.withrottle.UserInterface" height="250.0" locX="233.0" locY="23.0" width="400.0"/>
+        <window xmlns="" class="jmri.jmrit.withrottle.UserInterface" height="250.0" locX="233.0" locY="413.0" width="400.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.locostats.swing.LocoStatsPanel" height="77.0" locX="5.0" locY="23.0" width="622.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="566.0" locX="293.0" locY="146.0" width="696.0"/>
         <window xmlns="" class="Create New Loco" height="555.0" locX="22.0" locY="24.0" width="1226.0"/>
@@ -385,10 +386,10 @@
             </properties>
         </window>
         <window xmlns="" class="Add Logix" height="165.0" locX="50.0" locY="23.0" width="644.0"/>
-        <window xmlns="" class="PanelPro" height="231.0" locX="1002.0" locY="23.0" width="592.0"/>
+        <window xmlns="" class="PanelPro" height="231.0" locX="1002.0" locY="413.0" width="592.0"/>
         <window xmlns="" class="Add New Block" locX="22.0" locY="23.0"/>
         <window xmlns="" class="Edit Track Segment" locX="50.0" locY="23.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="885.0" locX="0.0" locY="115.0" width="1680.0">
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="885.0" locX="0.0" locY="505.0" width="1680.0">
             <properties>
                 <property>
                     <key>DropDownListsDisplayOrder.Enter name of Block for new turnout, level crossing, or track segment.</key>
@@ -458,7 +459,7 @@
         <window xmlns="" class="Add New Reporter" locX="22.0" locY="24.0"/>
         <window xmlns="" class="Add New Turnout" locX="22.0" locY="23.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program Amtrak 66 in Service Mode (Programming Track)" height="1015.0" locX="22.0" locY="23.0" width="1052.0"/>
-        <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame" height="106.0" locX="233.0" locY="23.0" width="181.0"/>
+        <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame" height="106.0" locX="233.0" locY="413.0" width="181.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program UP 3985 in Service Mode (Programming Track)" height="874.0" locX="22.0" locY="24.0" width="1287.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Southern 8099" height="1015.0" locX="22.0" locY="23.0" width="1273.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.pm4.PM4Panel" height="265.0" locX="22.0" locY="24.0" width="498.0"/>
@@ -473,6 +474,7 @@
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:Program &lt;new loco&gt; in Service Mode (Programming Track)" height="947.0" locX="22.0" locY="23.0" width="1524.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.pr3.swing.Pr3SelectPane" height="61.0" locX="22.0" locY="24.0" width="485.0"/>
         <window xmlns="" class="Add/Edit Route" locX="100.0" locY="23.0"/>
+        <window xmlns="" class="jmri.jmrit.display.controlPanelEditor.ControlPanelEditor:Control Panel" height="341.0" locX="20.0" locY="413.0" width="1138.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="600.0" locX="76.0" locY="402.0" width="1320.0">
             <properties>
                 <property>
@@ -481,6 +483,9 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="jmri.jmrit.analogclock.AnalogClockFrame:Analog Clock" height="200.0" locX="22.0" locY="414.0" width="200.0"/>
+        <window xmlns="" class="jmri.jmrix.loconet.loconetovertcp.LnTcpServerFrame:LocoNet over TCP Server" height="83.0" locX="0.0" locY="413.0" width="252.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.AbstractTableAction$1" height="486.0" locX="22.0" locY="414.0" width="891.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:Southern 8099" height="1015.0" locX="22.0" locY="23.0" width="1273.0"/>
         <window xmlns="" class="Set Grid Sizes" height="133.0" locX="70.0" locY="23.0" width="224.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame$4:Sou 8099" height="561.0" locX="22.0" locY="24.0" width="865.0"/>
