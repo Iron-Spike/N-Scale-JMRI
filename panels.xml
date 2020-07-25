@@ -772,7 +772,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="2:13 PM">
+    <memory value="12:33 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -2698,6 +2698,56 @@
       <permissive>no</permissive>
     </block>
   </blocks>
+  <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml">
+    <oblock systemName="OB-Aug01" userName="Aug01" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug01</userName>
+    </oblock>
+    <oblock systemName="OB-Aug02" userName="Aug02" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug02</userName>
+    </oblock>
+    <oblock systemName="OB-Aug03" userName="Aug03" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug03</userName>
+    </oblock>
+    <oblock systemName="OB-Aug04" userName="Aug04" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug04</userName>
+    </oblock>
+    <oblock systemName="OB-Aug05" userName="Aug05" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug05</userName>
+    </oblock>
+    <oblock systemName="OB-Aug06" userName="Aug06" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug06</userName>
+    </oblock>
+    <oblock systemName="OB-Aug07" userName="Aug07" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug07</userName>
+    </oblock>
+    <oblock systemName="OB-Aug08" userName="Aug08" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug08</userName>
+    </oblock>
+    <oblock systemName="OB-Aug09" userName="Aug09" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug09</userName>
+    </oblock>
+    <oblock systemName="OB-Aug10" userName="Aug10" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug10</userName>
+    </oblock>
+    <oblock systemName="OB-Aug11" userName="Aug11" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug11</userName>
+    </oblock>
+    <oblock systemName="OB-Aug12" userName="Aug12" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug12</userName>
+    </oblock>
+    <oblock systemName="OB-Aug13" userName="Aug13" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug13</userName>
+    </oblock>
+    <oblock systemName="OB-Aug14" userName="Aug14" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug14</userName>
+    </oblock>
+    <oblock systemName="OB-Aug15" userName="Aug15" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug15</userName>
+    </oblock>
+    <oblock systemName="OB-Aug16" userName="Aug16" length="0.0" units="false" curve="0" permissive="false" speedNotch="">
+      <userName>Aug16</userName>
+    </oblock>
+  </oblocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml">
     <layoutblock systemName="ILB1" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB1</systemName>
@@ -3083,7 +3133,7 @@
     <logicDelay>500</logicDelay>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Sep 15 14:29:03 CDT 2019" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="1608" y="427" windowheight="640" windowwidth="1085" panelheight="816" panelwidth="1381" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="0" y="23" windowheight="885" windowwidth="1680" panelheight="816" panelwidth="1358" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Augusta Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -3110,35 +3160,35 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="189" y="597" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT5" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="300" y="536" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT6" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="396" y="607" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT7" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="353" y="503" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT8" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="262" y="56" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT1" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="96" y="264" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT1-B" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1000" y="751" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="To State Refinery &amp; Capital City" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1077" y="16" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1156" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Xfer Station Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1173" y="616" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Western Staging Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="819" y="739" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Western Staging Main" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="6" y="290" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT2" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="102" y="584" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Yard Main" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="193" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Yard North" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="396" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Yard South" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="5" y="305" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta West Mains" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="97" y="247" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="(Augusta Loop)" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="244" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Loop" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="489" y="16" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Siding West" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="964" y="22" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Siding East" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="788" y="198" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta North Loops" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="648" y="103" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta North Yard/Loops" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="790" y="139" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta North Yard" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="189" y="597" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT5" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="300" y="536" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT6" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="396" y="607" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT7" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="353" y="503" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT8" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="262" y="56" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT1" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="96" y="264" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT1-B" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1000" y="751" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="To State Refinery &amp; Capital City" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1077" y="16" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Bedford Main" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1156" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Xfer Station Main" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1173" y="616" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Western Staging Main" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="819" y="739" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Western Staging Main" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="6" y="290" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT2" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="102" y="584" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Yard Main" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="193" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Yard North" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="396" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Yard South" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="5" y="305" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta West Mains" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="97" y="247" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="(Augusta Loop)" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="244" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Loop" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="489" y="16" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Siding West" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="964" y="22" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Siding East" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="788" y="198" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta North Loops" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="648" y="103" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta North Yard/Loops" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="790" y="139" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta North Yard" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO2" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1035.0" ycen="51.0" xa="1064.0" ya="51.0" xb="1006.0" yb="51.0" xc="998.0" yc="80.0" xd="1064.0" yd="51.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Siding East" secondturnoutname="Augusta Siding West" blockname="Augusta 16" connectaname="T2" connectbname="T4" connectcname="T3" />
-    <layoutturnout ident="TO3" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="669.0" ycen="51.0" xa="640.0" ya="51.0" xb="698.0" yb="51.0" xc="712.0" yc="20.0" xd="640.0" yd="51.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Stub" blockname="Augusta 13" connectaname="T7" connectbname="T4" connectcname="T5" />
+    <layoutturnout ident="TO3" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="669.0" ycen="50.0" xa="646.0" ya="50.0" xb="692.0" yb="50.0" xc="712.0" yc="19.0" xd="646.0" yd="50.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Stub" blockname="Augusta 13" connectaname="T7" connectbname="T4" connectcname="T5" />
     <layoutturnout ident="TO4" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="591.0" ycen="51.0" xa="560.0" ya="51.0" xb="622.0" yb="51.0" xc="642.0" yc="80.0" xd="560.0" yd="51.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta Siding West" secondturnoutname="Augusta Siding East" blockname="Augusta 11" connectaname="T37" connectbname="T7" connectcname="T38" />
     <layoutturnout ident="TO5" type="1" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="744.0" ycen="133.0" xa="720.0" ya="133.0" xb="768.0" yb="133.0" xc="779.0" yc="163.0" xd="720.0" yd="133.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta 26" blockname="Augusta 2" connectaname="T16" connectbname="T8" connectcname="T9" />
-    <layoutturnout ident="TO6" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="745.0" ycen="194.0" xa="708.0" ya="194.0" xb="782.0" yb="194.0" xc="776.0" yc="213.0" xd="708.0" yd="194.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta North Loops" blockname="Augusta 2" connectaname="T17" connectbname="T13" connectcname="T14" />
-    <layoutturnout ident="TO7" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="659.0" ycen="133.0" xa="621.0" ya="133.0" xb="697.0" yb="133.0" xc="683.0" yc="163.0" xd="621.0" yd="133.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta North Yard/Loops" blockname="Augusta 2" connectaname="T18" connectbname="T16" connectcname="T17" />
+    <layoutturnout ident="TO6" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="745.0" ycen="194.0" xa="708.0" ya="194.0" xb="782.0" yb="194.0" xc="770.0" yc="211.0" xd="708.0" yd="194.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta North Loops" blockname="Augusta 2" connectaname="T17" connectbname="T13" connectcname="T14" />
+    <layoutturnout ident="TO7" type="1" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="660.0" ycen="132.0" xa="623.0" ya="132.0" xb="697.0" yb="132.0" xc="684.0" yc="162.0" xd="623.0" yd="132.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Augusta North Yard/Loops" blockname="Augusta 2" connectaname="T18" connectbname="T16" connectcname="T17" />
     <layoutturnout ident="TO1" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="602.0" ycen="133.0" xa="622.0" ya="133.0" xb="582.0" yb="133.0" xc="582.0" yc="143.0" xd="622.0" yd="133.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 2" connectaname="T18" connectbname="T90" connectcname="T19" />
     <layoutturnout ident="TO8" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="541.0" ycen="162.0" xa="561.0" ya="162.0" xb="521.0" yb="162.0" xc="486.0" yc="223.0" xd="561.0" yd="162.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 2" connectaname="T19" connectbname="T24" connectcname="T20" />
     <layoutturnout ident="TO9" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="444.0" ycen="222.0" xa="464.0" ya="222.0" xb="424.0" yb="222.0" xc="431.0" yc="241.0" xd="464.0" yd="222.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" blockname="Augusta 2" connectaname="T20" connectbname="T28" connectcname="T21" />
@@ -3320,7 +3370,7 @@
     <positionablepoint ident="A10" type="1" x="1142.0" y="648.5" connect1name="T6" connect2name="T58" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="1" x="72.0" y="651.0" connect1name="T77" connect2name="T67" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="2690" y="428" windowheight="632" windowwidth="826" panelheight="703" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="0" y="142" windowheight="884" windowwidth="1680" panelheight="703" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Bedford Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -3347,12 +3397,12 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="781" y="636" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="To Augusta" fontname="Dialog.plain" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="781" y="636" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="To Augusta" fontname="Dialog" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="195" y="160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford Mains NW" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="552" y="164" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford Mains NE" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="308" y="567" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford S. Siding" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="195" y="160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford Mains NW" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="552" y="164" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford Mains NE" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="308" y="567" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford S. Siding" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="641.0" ycen="192.0" xa="687.0" ya="192.0" xb="595.0" yb="192.0" xc="610.0" yc="207.0" xd="687.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford Mains NE" secondturnoutname="Bedford 7" blockname="Bedford 9" connectaname="T9" connectbname="T13" connectcname="T8" />
     <layoutturnout ident="TO2" type="2" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="580.0" ycen="222.0" xa="549.0" ya="221.0" xb="611.0" yb="223.0" xc="611.0" yc="207.0" xd="549.0" yd="221.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 7" secondturnoutname="Bedford 1" blockname="Bedford 9" connectaname="T10" connectbname="T21" connectcname="T8" />
     <layoutturnout ident="TO3" type="2" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="502.0" ycen="222.0" xa="543.0" ya="221.0" xb="461.0" yb="223.0" xc="463.0" yc="252.0" xd="543.0" yd="221.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTurnoutXml" turnoutname="Bedford 8" secondturnoutname="Bedford 9" blockname="Bedford 19" connectaname="T10" connectbname="T11" connectcname="T12" />
@@ -3459,107 +3509,2226 @@
     <positionablepoint ident="EC2" type="3" x="812.0" y="634.0" connect1name="T51" connect2name="T1" linkedpanel="Augusta Peninsula" linkpointid="EC1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A25" type="1" x="300.0" y="432.75" connect1name="T38" connect2name="T52" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
+  <paneleditor class="jmri.jmrit.display.controlPanelEditor.configurexml.ControlPanelEditorXml" name="Untitled(Control Panel)" x="-1346" y="540" height="570" width="1076" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="both" redBackground="64" greenBackground="64" blueBackground="64" state="0" shapeSelect="yes">
+    <icons>
+      <visible>
+        <url>program:resources/icons/throttles/RoundRedCircle20.png</url>
+      </visible>
+      <path_edit>
+        <url>program:resources/icons/greenSquare.gif</url>
+      </path_edit>
+      <hidden>
+        <url>program:resources/icons/Invisible.gif</url>
+      </hidden>
+      <to_arrow>
+        <url>program:resources/icons/track/toArrow.gif</url>
+      </to_arrow>
+      <from_arrow>
+        <url>program:resources/icons/track/fromArrow.gif</url>
+      </from_arrow>
+    </icons>
+    <indicatorturnouticon x="390" y="359" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
+      <tooltip>OBlock "Aug08"</tooltip>
+      <turnout>LT7</turnout>
+      <occupancyblock>Aug08</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmaps family="USS-LeftTurnout">
+        <OccupiedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </OccupiedTrack>
+        <ClearTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ClearTrack>
+        <AllocatedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </AllocatedTrack>
+        <DontUseTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </DontUseTrack>
+        <PositionTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </PositionTrack>
+        <ErrorTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ErrorTrack>
+      </iconmaps>
+      <paths />
+    </indicatorturnouticon>
+    <indicatortrackicon x="432" y="382" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug08"</tooltip>
+      <occupancyblock>Aug08</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+      <paths />
+    </indicatortrackicon>
+    <indicatortrackicon x="432" y="359" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug08"</tooltip>
+      <occupancyblock>Aug08</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+      <paths />
+    </indicatortrackicon>
+    <indicatortrackicon x="347" y="382" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug08"</tooltip>
+      <occupancyblock>Aug08</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+      <paths />
+    </indicatortrackicon>
+    <indicatorturnouticon x="305" y="359" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
+      <tooltip>OBlock "Aug09"</tooltip>
+      <turnout>LT5</turnout>
+      <occupancyblock>Aug09</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmaps family="USS-LeftTurnout">
+        <OccupiedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </OccupiedTrack>
+        <ClearTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ClearTrack>
+        <AllocatedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </AllocatedTrack>
+        <DontUseTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </DontUseTrack>
+        <PositionTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </PositionTrack>
+        <ErrorTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ErrorTrack>
+      </iconmaps>
+      <paths />
+    </indicatorturnouticon>
+    <indicatortrackicon x="338" y="333" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="315" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="420" y="319" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug07"</tooltip>
+      <occupancyblock>Aug07</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="264" y="382" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug09"</tooltip>
+      <occupancyblock>Aug09</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="222" y="382" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug09"</tooltip>
+      <occupancyblock>Aug09</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="180" y="382" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug09"</tooltip>
+      <occupancyblock>Aug09</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatorturnouticon x="138" y="382" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
+      <tooltip>OBlock "Aug09"</tooltip>
+      <turnout>LT2</turnout>
+      <occupancyblock>Aug09</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmaps family="USS-LeftTurnout">
+        <OccupiedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </OccupiedTrack>
+        <ClearTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ClearTrack>
+        <AllocatedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </AllocatedTrack>
+        <DontUseTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </DontUseTrack>
+        <PositionTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </PositionTrack>
+        <ErrorTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ErrorTrack>
+      </iconmaps>
+    </indicatorturnouticon>
+    <indicatortrackicon x="161" y="71" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug09"</tooltip>
+      <occupancyblock>Aug09</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="203" y="71" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug09"</tooltip>
+      <occupancyblock>Aug09</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="244" y="71" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug09"</tooltip>
+      <occupancyblock>Aug09</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatorturnouticon x="285" y="71" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
+      <tooltip>OBlock "Aug11"</tooltip>
+      <turnout>LT1</turnout>
+      <occupancyblock>Aug11</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmaps family="USS-LeftTurnout">
+        <OccupiedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </OccupiedTrack>
+        <ClearTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ClearTrack>
+        <AllocatedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </AllocatedTrack>
+        <DontUseTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </DontUseTrack>
+        <PositionTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </PositionTrack>
+        <ErrorTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ErrorTrack>
+      </iconmaps>
+    </indicatorturnouticon>
+    <indicatortrackicon x="326" y="71" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug11"</tooltip>
+      <occupancyblock>Aug11</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="368" y="71" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug11"</tooltip>
+      <occupancyblock>Aug11</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatorturnouticon x="410" y="71" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
+      <tooltip>OBlock "Aug11"</tooltip>
+      <turnout>LT9</turnout>
+      <occupancyblock>Aug11</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmaps family="USS-RightTurnout">
+        <OccupiedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </OccupiedTrack>
+        <ClearTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ClearTrack>
+        <AllocatedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </AllocatedTrack>
+        <DontUseTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </DontUseTrack>
+        <PositionTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </PositionTrack>
+        <ErrorTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ErrorTrack>
+      </iconmaps>
+    </indicatorturnouticon>
+    <indicatortrackicon x="452" y="71" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug13"</tooltip>
+      <occupancyblock>Aug13</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatorturnouticon x="494" y="48" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
+      <tooltip>OBlock "Aug13"</tooltip>
+      <turnout>LT10</turnout>
+      <occupancyblock>Aug13</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmaps family="USS-LeftTurnout">
+        <OccupiedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </OccupiedTrack>
+        <ClearTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ClearTrack>
+        <AllocatedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </AllocatedTrack>
+        <DontUseTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </DontUseTrack>
+        <PositionTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </PositionTrack>
+        <ErrorTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ErrorTrack>
+      </iconmaps>
+    </indicatorturnouticon>
+    <indicatortrackicon x="536" y="71" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug13"</tooltip>
+      <occupancyblock>Aug13</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="451" y="94" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug12"</tooltip>
+      <occupancyblock>Aug12</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="493" y="94" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug14"</tooltip>
+      <occupancyblock>Aug14</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+      <paths />
+    </indicatortrackicon>
+    <indicatortrackicon x="536" y="94" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug15"</tooltip>
+      <occupancyblock>Aug15</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatorturnouticon x="578" y="71" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
+      <tooltip>OBlock "Aug16"</tooltip>
+      <turnout>IT12</turnout>
+      <occupancyblock>Aug16</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmaps family="USS-LeftTurnout">
+        <OccupiedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </OccupiedTrack>
+        <ClearTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ClearTrack>
+        <AllocatedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </AllocatedTrack>
+        <DontUseTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </DontUseTrack>
+        <PositionTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </PositionTrack>
+        <ErrorTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-unknown-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-closed-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-thrown-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/LeftTO/os-lefthand-east-error-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ErrorTrack>
+      </iconmaps>
+    </indicatorturnouticon>
+    <indicatortrackicon x="612" y="46" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="315" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug16"</tooltip>
+      <occupancyblock>Aug16</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="536" y="48" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug13"</tooltip>
+      <occupancyblock>Aug13</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="242" y="94" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug10"</tooltip>
+      <occupancyblock>Aug10</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="162" y="283" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug10"</tooltip>
+      <occupancyblock>Aug10</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatorturnouticon x="204" y="260" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
+      <tooltip>OBlock "Aug01"</tooltip>
+      <turnout>IT11</turnout>
+      <occupancyblock>Aug01</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmaps family="USS-RightTurnout">
+        <OccupiedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-yellow.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </OccupiedTrack>
+        <ClearTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ClearTrack>
+        <AllocatedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-green.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </AllocatedTrack>
+        <DontUseTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-gray.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </DontUseTrack>
+        <PositionTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-blue.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </PositionTrack>
+        <ErrorTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-red.gif" degrees="180" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ErrorTrack>
+      </iconmaps>
+    </indicatorturnouticon>
+    <indicatortrackicon x="161" y="260" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug02"</tooltip>
+      <occupancyblock>Aug02</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="274" y="148" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="315" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug02"</tooltip>
+      <occupancyblock>Aug02</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="315" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="308" y="145" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug02"</tooltip>
+      <occupancyblock>Aug02</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatorturnouticon x="350" y="145" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
+      <tooltip>OBlock "Aug02"</tooltip>
+      <turnout>LT12</turnout>
+      <occupancyblock>Aug02</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmaps family="USS-RightTurnout">
+        <OccupiedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </OccupiedTrack>
+        <ClearTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ClearTrack>
+        <AllocatedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </AllocatedTrack>
+        <DontUseTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </DontUseTrack>
+        <PositionTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </PositionTrack>
+        <ErrorTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ErrorTrack>
+      </iconmaps>
+    </indicatorturnouticon>
+    <indicatortrackicon x="383" y="171" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug02"</tooltip>
+      <occupancyblock>Aug02</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatorturnouticon x="418" y="196" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
+      <tooltip>OBlock "Aug02"</tooltip>
+      <turnout>LT11</turnout>
+      <occupancyblock>Aug02</occupancyblock>
+      <showTrainName>no</showTrainName>
+      <iconmaps family="USS-RightTurnout">
+        <OccupiedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-yellow.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </OccupiedTrack>
+        <ClearTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-white.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ClearTrack>
+        <AllocatedTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-green.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </AllocatedTrack>
+        <DontUseTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-gray.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </DontUseTrack>
+        <PositionTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-blue.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </PositionTrack>
+        <ErrorTrack>
+          <BeanStateUnknown url="program:resources/icons/track/USS/RightTO/os-righthand-east-unknown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateUnknown>
+          <TurnoutStateClosed url="program:resources/icons/track/USS/RightTO/os-righthand-east-closed-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateClosed>
+          <TurnoutStateThrown url="program:resources/icons/track/USS/RightTO/os-righthand-east-thrown-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </TurnoutStateThrown>
+          <BeanStateInconsistent url="program:resources/icons/track/USS/RightTO/os-righthand-east-error-red.gif" degrees="0" scale="1.0">
+            <rotation>0</rotation>
+          </BeanStateInconsistent>
+        </ErrorTrack>
+      </iconmaps>
+    </indicatorturnouticon>
+    <indicatortrackicon x="460" y="195" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug03"</tooltip>
+      <occupancyblock>Aug03</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="501" y="195" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug03"</tooltip>
+      <occupancyblock>Aug03</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="575" y="198" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug03"</tooltip>
+      <occupancyblock>Aug03</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="459" y="218" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug04"</tooltip>
+      <occupancyblock>Aug04</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="500" y="218" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug04"</tooltip>
+      <occupancyblock>Aug04</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="534" y="220" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug04"</tooltip>
+      <occupancyblock>Aug04</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="45" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="560" y="254" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug04"</tooltip>
+      <occupancyblock>Aug04</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="545" y="320" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug04"</tooltip>
+      <occupancyblock>Aug04</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="502" y="320" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug05"</tooltip>
+      <occupancyblock>Aug05</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="461" y="320" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug05"</tooltip>
+      <occupancyblock>Aug05</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="600" y="233" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug04"</tooltip>
+      <occupancyblock>Aug04</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="541" y="195" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug04"</tooltip>
+      <occupancyblock>Aug04</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="474" y="359" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug06"</tooltip>
+      <occupancyblock>Aug06</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="515" y="359" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug06"</tooltip>
+      <occupancyblock>Aug06</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="557" y="359" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug03"</tooltip>
+      <occupancyblock>Aug03</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+      <paths />
+    </indicatortrackicon>
+    <indicatortrackicon x="600" y="274" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug03"</tooltip>
+      <occupancyblock>Aug03</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="90" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="598" y="359" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug03"</tooltip>
+      <occupancyblock>Aug03</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="246" y="283" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug01"</tooltip>
+      <occupancyblock>Aug01</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="287" y="283" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug01"</tooltip>
+      <occupancyblock>Aug01</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="328" y="283" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug01"</tooltip>
+      <occupancyblock>Aug01</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+    <indicatortrackicon x="370" y="282" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
+      <tooltip>OBlock "Aug01"</tooltip>
+      <occupancyblock>Aug01</occupancyblock>
+      <showTrainName>yes</showTrainName>
+      <iconmap family="USS-BlockSegment">
+        <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </OccupiedTrack>
+        <ClearTrack url="program:resources/icons/track/USS/TrackSeg/block-white.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ClearTrack>
+        <AllocatedTrack url="program:resources/icons/track/USS/TrackSeg/block-green.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </AllocatedTrack>
+        <DontUseTrack url="program:resources/icons/track/USS/TrackSeg/block-gray.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </DontUseTrack>
+        <PositionTrack url="program:resources/icons/track/USS/TrackSeg/block-blue.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </PositionTrack>
+        <ErrorTrack url="program:resources/icons/track/USS/TrackSeg/block-red.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </ErrorTrack>
+      </iconmap>
+    </indicatortrackicon>
+  </paneleditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Apr 24 14:08:19 CDT 2020</date>
+      <date>Sat Jul 25 12:05:06 CDT 2020</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Apr 24 14:08:24 CDT 2020</date>
-      <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
+      <date>Sat Jul 25 12:05:11 CDT 2020</date>
+      <filename>/Users/sbn/Library/Preferences/JMRI/IronSpike/panels.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Apr 24 14:06:45 CDT 2020</date>
+          <date>Fri Jun 12 10:34:24 CDT 2020</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Apr 24 14:06:50 CDT 2020</date>
-          <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
+          <date>Fri Jun 12 10:34:28 CDT 2020</date>
+          <filename>/Users/sbn/Library/Preferences/JMRI/IronSpike/panels.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Apr 24 13:39:32 CDT 2020</date>
+              <date>Fri Apr 24 14:08:19 CDT 2020</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Apr 24 13:40:00 CDT 2020</date>
+              <date>Fri Apr 24 14:08:24 CDT 2020</date>
               <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Apr 24 11:57:28 CDT 2020</date>
+                  <date>Fri Apr 24 14:06:45 CDT 2020</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Apr 24 11:57:33 CDT 2020</date>
+                  <date>Fri Apr 24 14:06:50 CDT 2020</date>
                   <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Fri Apr 24 10:29:33 CDT 2020</date>
+                      <date>Fri Apr 24 13:39:32 CDT 2020</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Fri Apr 24 10:29:48 CDT 2020</date>
+                      <date>Fri Apr 24 13:40:00 CDT 2020</date>
                       <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Sat Apr 18 10:08:10 CDT 2020</date>
+                          <date>Fri Apr 24 11:57:28 CDT 2020</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Sat Apr 18 10:08:22 CDT 2020</date>
+                          <date>Fri Apr 24 11:57:33 CDT 2020</date>
                           <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Sat Apr 18 12:31:42 CDT 2020</date>
+                          <date>Fri Apr 24 13:35:39 CDT 2020</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Fri Apr 24 11:55:48 CDT 2020</date>
+                      <date>Fri Apr 24 14:01:28 CDT 2020</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Fri Apr 24 13:35:39 CDT 2020</date>
+                  <date>Fri Apr 24 14:07:55 CDT 2020</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Apr 24 14:01:28 CDT 2020</date>
+              <date>Fri Apr 24 14:13:09 CDT 2020</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Apr 24 14:07:55 CDT 2020</date>
+          <date>Fri Jun 12 11:25:42 CDT 2020</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Apr 24 14:13:09 CDT 2020</date>
+      <date>Sat Jul 25 12:33:55 CDT 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.18+R37ad3d0 on Fri Apr 24 14:13:09 CDT 2020-->
+  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Jul 25 12:33:55 CDT 2020-->
 </layout-config>

@@ -17,5 +17,8 @@
                 </option>
             </options>
         </connection>
+        <connection xmlns="" class="jmri.jmrix.dccpp.simulator.configurexml.ConnectionConfigXml" disabled="no" systemPrefix="D" userName="DCC++">
+            <options/>
+        </connection>
     </connections>
 </auxiliary-configuration>

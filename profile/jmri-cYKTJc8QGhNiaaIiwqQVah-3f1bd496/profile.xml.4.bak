@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" address="(none)" class="jmri.jmrix.loconet.loconetovertcp.configurexml.ConnectionConfigXml" disabled="yes" manufacturer="Digitrax" mdnsConfigure="false" port="(none selected)" systemPrefix="L" userName="LocoNet">
+        <connection xmlns="" class="jmri.jmrix.loconet.hexfile.configurexml.ConnectionConfigXml" disabled="yes" manufacturer="Digitrax" systemPrefix="L" userName="LocoNet">
             <options>
                 <option>
-                    <name>CommandStation</name>
-                    <value>DCS210 (Evolution Command Station)</value>
-                </option>
-                <option>
-                    <name>TranspondingPresent</name>
-                    <value>No</value>
-                </option>
-                <option>
-                    <name>TurnoutHandle</name>
-                    <value>Normal</value>
+                    <name>SensorDefaultState</name>
+                    <value>Unknown</value>
                 </option>
             </options>
         </connection>
@@ -24,6 +16,9 @@
                     <value>Unknown</value>
                 </option>
             </options>
+        </connection>
+        <connection xmlns="" class="jmri.jmrix.dccpp.simulator.configurexml.ConnectionConfigXml" disabled="no" systemPrefix="D" userName="DCC++">
+            <options/>
         </connection>
     </connections>
 </auxiliary-configuration>

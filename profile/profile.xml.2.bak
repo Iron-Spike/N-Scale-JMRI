@@ -4,27 +4,11 @@
         <connection xmlns="" class="jmri.jmrix.dccpp.simulator.configurexml.ConnectionConfigXml" disabled="yes" systemPrefix="D" userName="DCC++">
             <options/>
         </connection>
-        <connection xmlns="" class="jmri.jmrix.loconet.pr3.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" port="ttyACM0" speed="57600" systemPrefix="L" userName="LocoNet">
+        <connection xmlns="" class="jmri.jmrix.loconet.hexfile.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" systemPrefix="L" userName="LocoNet">
             <options>
                 <option>
-                    <name>CommandStation</name>
-                    <value>DCS210 (Evolution Command Station)</value>
-                </option>
-                <option>
-                    <name>FlowControl</name>
-                    <value>hardware flow control (recommended)</value>
-                </option>
-                <option>
-                    <name>PacketizerType</name>
-                    <value>Normal (recommended)</value>
-                </option>
-                <option>
-                    <name>TranspondingPresent</name>
-                    <value>No</value>
-                </option>
-                <option>
-                    <name>TurnoutHandle</name>
-                    <value>Normal</value>
+                    <name>SensorDefaultState</name>
+                    <value>Unknown</value>
                 </option>
             </options>
         </connection>
@@ -47,5 +31,11 @@
         <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Default Route" type="Action"/>
         <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Default Route" type="Action"/>
         <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" name="Default Route" type="Action"/>
+        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmrit.beantable.RouteTableAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
+        <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmrit.analogclock.AnalogClockAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
     </startup>
 </auxiliary-configuration>
