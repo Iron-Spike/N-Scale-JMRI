@@ -10,51 +10,67 @@
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <sensor inverted="false">
       <systemName>LS1</systemName>
+      <userName>Aug01</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS2</systemName>
+      <userName>Aug02</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS3</systemName>
+      <userName>Aug03</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS4</systemName>
+      <userName>Aug04</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS5</systemName>
+      <userName>Aug05</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS6</systemName>
+      <userName>Aug06</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS7</systemName>
+      <userName>Aug07</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS8</systemName>
+      <userName>Aug08</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS9</systemName>
+      <userName>Aug09</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS10</systemName>
+      <userName>Aug10</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS11</systemName>
+      <userName>Aug11</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS12</systemName>
+      <userName>Aug12</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS13</systemName>
+      <userName>Aug13</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS14</systemName>
+      <userName>Aug14</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS15</systemName>
+      <userName>Aug15</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS16</systemName>
+      <userName>Aug16</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS73</systemName>
@@ -772,7 +788,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="8:06 PM">
+    <memory value="2:50 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -780,10 +796,6 @@
     </memory>
   </memories>
   <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
-    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
-      <systemName>IF$vsm:AAR-1946:SL-2-high-abs($0003)</systemName>
-      <unlit allowed="yes" />
-    </signalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0001)</systemName>
       <userName>Aug02&gt;Aug01</userName>
@@ -792,11 +804,6 @@
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0002)</systemName>
       <userName>Aug10&gt;Aug01</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0003)</systemName>
-      <userName>Aug01&gt;Aug02</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -810,18 +817,8 @@
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0006)</systemName>
-      <userName>Aug02&gt;Aug03</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0007)</systemName>
       <userName>Aug06&gt;Aug03</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0008)</systemName>
-      <userName>Aug02&gt;Aug04</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -845,28 +842,13 @@
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0013)</systemName>
-      <userName>Aug08&gt;Aug06</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0014)</systemName>
       <userName>Aug05&gt;Aug07</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0015)</systemName>
-      <userName>Aug09&gt;Aug07</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0016)</systemName>
       <userName>Aug06&gt;Aug08</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0017)</systemName>
-      <userName>Aug09&gt;Aug08</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -877,21 +859,6 @@
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0019)</systemName>
       <userName>Aug08&gt;Aug09</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0020)</systemName>
-      <userName>Aug11&gt;Aug09</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0021)</systemName>
-      <userName>Aug01&gt;Aug10</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0022)</systemName>
-      <userName>Aug11&gt;Aug10</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -915,23 +882,8 @@
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0027)</systemName>
-      <userName>Aug11&gt;Aug12</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0028)</systemName>
       <userName>Aug14&gt;Aug12</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0029)</systemName>
-      <userName>Aug11&gt;Aug13</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0030)</systemName>
-      <userName>Aug16&gt;Aug13</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -950,11 +902,6 @@
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
-      <systemName>IF$vsm:basic:one-low($0034)</systemName>
-      <userName>Aug16&gt;Aug15</userName>
-      <unlit allowed="no" />
-    </virtualsignalmast>
-    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0035)</systemName>
       <userName>Aug13&gt;Aug16</userName>
       <unlit allowed="no" />
@@ -962,6 +909,91 @@
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0036)</systemName>
       <userName>Aug15&gt;Aug16</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0045)</systemName>
+      <userName>Aug09&gt;Capital</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0046)</systemName>
+      <userName>Aug08&gt;Capital</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0047)</systemName>
+      <userName>Aug01&gt;XferStation</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0049)</systemName>
+      <userName>NYard&gt;Aug02</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0050)</systemName>
+      <userName>Aug07&gt;LT6</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0051)</systemName>
+      <userName>Aug08&gt;LT7</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0052)</systemName>
+      <userName>Aug09LT5&gt;LT2</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0053)</systemName>
+      <userName>Aug16&gt;Bedford</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:two-low($0037)</systemName>
+      <userName>Aug01&gt;LT1B</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:two-low($0038)</systemName>
+      <userName>Aug02&gt;LT11</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:two-low($0039)</systemName>
+      <userName>Aug11&gt;Aug12/Aug13</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:two-low($0040)</systemName>
+      <userName>Aug11&gt;LT1</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:two-low($0042)</systemName>
+      <userName>Aug08&gt;Aug06/Staging</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:two-low($0043)</systemName>
+      <userName>Aug09LT2&gt;LT5</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:two-low($0044)</systemName>
+      <userName>Aug09&gt;Yard/Capital</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:two-low($0048)</systemName>
+      <userName>Aug02&gt;LT12</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:two-low($0054)</systemName>
+      <userName>Aug16&gt;LT9B</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
   </signalmasts>
@@ -1451,7 +1483,7 @@
       <systemName>IB1</systemName>
       <userName>Augusta 1</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS1</occupancysensor>
+      <occupancysensor>Aug01</occupancysensor>
       <path todir="16" fromdir="32" block="IB3">
         <beansetting setting="4">
           <turnout systemName="Augusta 4" />
@@ -1478,7 +1510,7 @@
       <systemName>IB3</systemName>
       <userName>Augusta 2</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS2</occupancysensor>
+      <occupancysensor>Aug02</occupancysensor>
       <path todir="32" fromdir="16" block="IB1">
         <beansetting setting="4">
           <turnout systemName="Augusta 4" />
@@ -1505,7 +1537,7 @@
       <systemName>IB4</systemName>
       <userName>Augusta 3</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS3</occupancysensor>
+      <occupancysensor>Aug03</occupancysensor>
       <path todir="128" fromdir="64" block="IB3">
         <beansetting setting="2">
           <turnout systemName="Augusta North Loops" />
@@ -1517,7 +1549,7 @@
       <systemName>IB5</systemName>
       <userName>Augusta 4</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS4</occupancysensor>
+      <occupancysensor>Aug04</occupancysensor>
       <path todir="144" fromdir="96" block="IB3">
         <beansetting setting="4">
           <turnout systemName="Augusta North Loops" />
@@ -1529,7 +1561,7 @@
       <systemName>IB6</systemName>
       <userName>Augusta 5</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS5</occupancysensor>
+      <occupancysensor>Aug05</occupancysensor>
       <path todir="64" fromdir="128" block="IB5" />
       <path todir="128" fromdir="64" block="IB8" />
     </block>
@@ -1537,7 +1569,7 @@
       <systemName>IB7</systemName>
       <userName>Augusta 6</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS6</occupancysensor>
+      <occupancysensor>Aug06</occupancysensor>
       <path todir="64" fromdir="128" block="IB4" />
       <path todir="128" fromdir="64" block="IB9" />
     </block>
@@ -1545,7 +1577,7 @@
       <systemName>IB8</systemName>
       <userName>Augusta 7</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS7</occupancysensor>
+      <occupancysensor>Aug07</occupancysensor>
       <path todir="64" fromdir="128" block="IB6">
         <beansetting setting="4">
           <turnout systemName="Augusta Yard North" />
@@ -1567,7 +1599,7 @@
       <systemName>IB9</systemName>
       <userName>Augusta 8</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS8</occupancysensor>
+      <occupancysensor>Aug08</occupancysensor>
       <path todir="64" fromdir="128" block="IB7">
         <beansetting setting="4">
           <turnout systemName="Augusta Yard South" />
@@ -1595,7 +1627,7 @@
       <systemName>IB10</systemName>
       <userName>Augusta 9</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS9</occupancysensor>
+      <occupancysensor>Aug09</occupancysensor>
       <path todir="80" fromdir="160" block="IB8">
         <beansetting setting="4">
           <turnout systemName="Augusta Yard Main" />
@@ -1630,7 +1662,7 @@
       <systemName>IB11</systemName>
       <userName>Augusta 10</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS10</occupancysensor>
+      <occupancysensor>Aug10</occupancysensor>
       <path todir="32" fromdir="16" block="IB1">
         <beansetting setting="2">
           <turnout systemName="Augusta 4" />
@@ -1646,7 +1678,7 @@
       <systemName>IB12</systemName>
       <userName>Augusta 11</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS11</occupancysensor>
+      <occupancysensor>Aug11</occupancysensor>
       <path todir="128" fromdir="64" block="IB10">
         <beansetting setting="2">
           <turnout systemName="Augusta Loop" />
@@ -1672,7 +1704,7 @@
       <systemName>IB13</systemName>
       <userName>Augusta 12</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS12</occupancysensor>
+      <occupancysensor>Aug12</occupancysensor>
       <path todir="128" fromdir="64" block="IB12">
         <beansetting setting="4">
           <turnout systemName="Augusta Siding West" />
@@ -1684,7 +1716,7 @@
       <systemName>IB14</systemName>
       <userName>Augusta 13</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS13</occupancysensor>
+      <occupancysensor>Aug13</occupancysensor>
       <path todir="128" fromdir="64" block="IB12">
         <beansetting setting="2">
           <turnout systemName="Augusta Siding West" />
@@ -1703,7 +1735,7 @@
       <systemName>IB15</systemName>
       <userName>Augusta 14</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS14</occupancysensor>
+      <occupancysensor>Aug14</occupancysensor>
       <path todir="128" fromdir="64" block="IB13" />
       <path todir="64" fromdir="128" block="IB16" />
     </block>
@@ -1711,7 +1743,7 @@
       <systemName>IB16</systemName>
       <userName>Augusta 15</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS15</occupancysensor>
+      <occupancysensor>Aug15</occupancysensor>
       <path todir="128" fromdir="64" block="IB15" />
       <path todir="64" fromdir="128" block="IB17">
         <beansetting setting="4">
@@ -1723,7 +1755,7 @@
       <systemName>IB17</systemName>
       <userName>Augusta 16</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS16</occupancysensor>
+      <occupancysensor>Aug16</occupancysensor>
       <path todir="128" fromdir="64" block="IB14">
         <beansetting setting="2">
           <turnout systemName="Augusta Siding East" />
@@ -2887,6 +2919,7 @@
   <oblocks class="jmri.jmrit.logix.configurexml.OBlockManagerXml">
     <oblock systemName="OB-Aug01" userName="Aug01" length="9144.0" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug01</userName>
+      <sensor systemName="Aug01" />
       <path pathName="Aug01/Aug02" blockName="OB-Aug01" toPortal="Aug01/Aug02" fromDirection="0" toDirection="0" length="0.0">
         <setting turnout="Augusta 4" set="4" />
       </path>
@@ -2897,7 +2930,7 @@
         <fromBlock blockName="OB-Aug01">
           <path pathName="Aug01/Aug02" blockName="OB-Aug01" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0003)" signalDelay="0.0" />
+        <fromSignal signalName="IF$vsm:basic:two-low($0037)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug02">
           <path pathName="Aug01-Aug02-Aug03" blockName="OB-Aug02" />
           <path pathName="Aug01-Aug02-Aug04" blockName="OB-Aug02" />
@@ -2917,6 +2950,7 @@
     </oblock>
     <oblock systemName="OB-Aug02" userName="Aug02" length="3962.4" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug02</userName>
+      <sensor systemName="Aug02" />
       <path pathName="Aug01-Aug02-Aug03" blockName="OB-Aug02" fromPortal="Aug02/Aug03" toPortal="Aug01/Aug02" fromDirection="0" toDirection="0" length="0.0">
         <setting turnout="Augusta North Yard/Loops" set="4" />
         <setting turnout="Augusta North Loops" set="2" />
@@ -2929,7 +2963,7 @@
         <fromBlock blockName="OB-Aug01">
           <path pathName="Aug01/Aug02" blockName="OB-Aug01" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0003)" signalDelay="0.0" />
+        <fromSignal signalName="IF$vsm:basic:two-low($0037)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug02">
           <path pathName="Aug01-Aug02-Aug03" blockName="OB-Aug02" />
           <path pathName="Aug01-Aug02-Aug04" blockName="OB-Aug02" />
@@ -2940,7 +2974,7 @@
         <fromBlock blockName="OB-Aug02">
           <path pathName="Aug01-Aug02-Aug03" blockName="OB-Aug02" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0006)" signalDelay="0.0" />
+        <fromSignal signalName="IF$vsm:basic:two-low($0038)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug03">
           <path pathName="Aug02-Aug03-Aug06" blockName="OB-Aug03" />
         </toBlock>
@@ -2959,12 +2993,13 @@
     </oblock>
     <oblock systemName="OB-Aug03" userName="Aug03" length="6070.6" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug03</userName>
+      <sensor systemName="Aug03" />
       <path pathName="Aug02-Aug03-Aug06" blockName="OB-Aug03" fromPortal="Aug03/Aug06" toPortal="Aug02/Aug03" fromDirection="0" toDirection="0" length="0.0" />
       <portal portalName="Aug02/Aug03">
         <fromBlock blockName="OB-Aug02">
           <path pathName="Aug01-Aug02-Aug03" blockName="OB-Aug02" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0006)" signalDelay="0.0" />
+        <fromSignal signalName="IF$vsm:basic:two-low($0038)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug03">
           <path pathName="Aug02-Aug03-Aug06" blockName="OB-Aug03" />
         </toBlock>
@@ -2983,6 +3018,7 @@
     </oblock>
     <oblock systemName="OB-Aug04" userName="Aug04" length="6070.6" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug04</userName>
+      <sensor systemName="Aug04" />
       <path pathName="Aug02-Aug04-Aug05" blockName="OB-Aug04" fromPortal="Aug04/Aug05" toPortal="Aug02/Aug04" fromDirection="0" toDirection="0" length="0.0" />
       <portal portalName="Aug02/Aug04">
         <fromBlock blockName="OB-Aug02">
@@ -3007,6 +3043,7 @@
     </oblock>
     <oblock systemName="OB-Aug05" userName="Aug05" length="3721.0999" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug05</userName>
+      <sensor systemName="Aug05" />
       <path pathName="Aug04-Aug05-Aug07" blockName="OB-Aug05" fromPortal="Aug05/Aug07" toPortal="Aug04/Aug05" fromDirection="0" toDirection="0" length="0.0" />
       <portal portalName="Aug04/Aug05">
         <fromBlock blockName="OB-Aug04">
@@ -3031,6 +3068,7 @@
     </oblock>
     <oblock systemName="OB-Aug06" userName="Aug06" length="3721.0999" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug06</userName>
+      <sensor systemName="Aug06" />
       <path pathName="Aug03-Aug06-Aug08" blockName="OB-Aug06" fromPortal="Aug06/Aug08" toPortal="Aug03/Aug06" fromDirection="0" toDirection="0" length="0.0" />
       <portal portalName="Aug03/Aug06">
         <fromBlock blockName="OB-Aug03">
@@ -3050,11 +3088,12 @@
         <toBlock blockName="OB-Aug08">
           <path pathName="Aug06-Aug08-Aug09" blockName="OB-Aug08" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0013)" signalDelay="0.0" />
+        <toSignal signalName="IF$vsm:basic:two-low($0042)" signalDelay="0.0" />
       </portal>
     </oblock>
     <oblock systemName="OB-Aug07" userName="Aug07" length="2324.0999" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug07</userName>
+      <sensor systemName="Aug07" />
       <path pathName="Aug05-Aug07-Aug09" blockName="OB-Aug07" fromPortal="Aug07/Aug09" toPortal="Aug05/Aug07" fromDirection="0" toDirection="0" length="0.0">
         <setting turnout="Augusta Yard North" set="4" />
       </path>
@@ -3081,6 +3120,7 @@
     </oblock>
     <oblock systemName="OB-Aug08" userName="Aug08" length="1676.4" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug08</userName>
+      <sensor systemName="Aug08" />
       <path pathName="Aug06-Aug08-Aug09" blockName="OB-Aug08" fromPortal="Aug08/Aug09" toPortal="Aug06/Aug08" fromDirection="0" toDirection="0" length="0.0">
         <setting turnout="Augusta Yard South" set="4" />
       </path>
@@ -3092,7 +3132,7 @@
         <toBlock blockName="OB-Aug08">
           <path pathName="Aug06-Aug08-Aug09" blockName="OB-Aug08" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0013)" signalDelay="0.0" />
+        <toSignal signalName="IF$vsm:basic:two-low($0042)" signalDelay="0.0" />
       </portal>
       <portal portalName="Aug08/Aug09">
         <fromBlock blockName="OB-Aug08">
@@ -3102,11 +3142,12 @@
         <toBlock blockName="OB-Aug09">
           <path pathName="Aug08-Aug09-Aug11" blockName="OB-Aug09" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0017)" signalDelay="0.0" />
+        <toSignal signalName="IF$vsm:basic:two-low($0043)" signalDelay="0.0" />
       </portal>
     </oblock>
     <oblock systemName="OB-Aug09" userName="Aug09" length="2997.2" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug09</userName>
+      <sensor systemName="Aug09" />
       <path pathName="Aug07-Aug09-Aug11" blockName="OB-Aug09" fromPortal="Aug09/Aug11" toPortal="Aug07/Aug09" fromDirection="0" toDirection="0" length="0.0">
         <setting turnout="Augusta Yard Main" set="4" />
         <setting turnout="Augusta West Mains" set="4" />
@@ -3133,7 +3174,7 @@
         <toBlock blockName="OB-Aug09">
           <path pathName="Aug08-Aug09-Aug11" blockName="OB-Aug09" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0017)" signalDelay="0.0" />
+        <toSignal signalName="IF$vsm:basic:two-low($0043)" signalDelay="0.0" />
       </portal>
       <portal portalName="Aug09/Aug11">
         <fromBlock blockName="OB-Aug09">
@@ -3145,11 +3186,12 @@
           <path pathName="Aug09-Aug11-Aug13" blockName="OB-Aug11" />
           <path pathName="Aug09-Aug11-Aug12" blockName="OB-Aug11" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0020)" signalDelay="0.0" />
+        <toSignal signalName="IF$vsm:basic:two-low($0040)" signalDelay="0.0" />
       </portal>
     </oblock>
     <oblock systemName="OB-Aug10" userName="Aug10" length="698.5" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug10</userName>
+      <sensor systemName="Aug10" />
       <path pathName="Aug01-Aug10-Aug11" blockName="OB-Aug10" fromPortal="Aug10/Aug11" toPortal="Aug01/Aug10" fromDirection="0" toDirection="0" length="0.0" />
       <portal portalName="Aug01/Aug10">
         <fromBlock blockName="OB-Aug01">
@@ -3175,6 +3217,7 @@
     </oblock>
     <oblock systemName="OB-Aug11" userName="Aug11" length="2768.5999" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug11</userName>
+      <sensor systemName="Aug11" />
       <path pathName="Aug10-Aug11-Aug13" blockName="OB-Aug11" fromPortal="Aug11/Aug13" toPortal="Aug10/Aug11" fromDirection="0" toDirection="0" length="0.0">
         <setting turnout="Augusta Loop" set="4" />
         <setting turnout="Augusta Siding West" set="2" />
@@ -3201,7 +3244,7 @@
           <path pathName="Aug09-Aug11-Aug13" blockName="OB-Aug11" />
           <path pathName="Aug09-Aug11-Aug12" blockName="OB-Aug11" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0020)" signalDelay="0.0" />
+        <toSignal signalName="IF$vsm:basic:two-low($0040)" signalDelay="0.0" />
       </portal>
       <portal portalName="Aug10/Aug11">
         <fromBlock blockName="OB-Aug10">
@@ -3230,7 +3273,7 @@
           <path pathName="Aug10-Aug11-Aug13" blockName="OB-Aug11" />
           <path pathName="Aug09-Aug11-Aug13" blockName="OB-Aug11" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0029)" signalDelay="0.0" />
+        <fromSignal signalName="IF$vsm:basic:two-low($0039)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug13">
           <path pathName="Aug11-Aug13-Aug16" blockName="OB-Aug13" />
         </toBlock>
@@ -3239,6 +3282,7 @@
     </oblock>
     <oblock systemName="OB-Aug12" userName="Aug12" length="63.5" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug12</userName>
+      <sensor systemName="Aug12" />
       <path pathName="Aug11-Aug12-Aug14" blockName="OB-Aug12" fromPortal="Aug12/Aug14" toPortal="Aug11/Aug12" fromDirection="0" toDirection="0" length="0.0" />
       <portal portalName="Aug11/Aug12">
         <fromBlock blockName="OB-Aug11">
@@ -3264,6 +3308,7 @@
     </oblock>
     <oblock systemName="OB-Aug13" userName="Aug13" length="2552.7" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug13</userName>
+      <sensor systemName="Aug13" />
       <path pathName="Aug11-Aug13-Aug16" blockName="OB-Aug13" fromPortal="Aug13/Aug16" toPortal="Aug11/Aug13" fromDirection="0" toDirection="0" length="0.0">
         <setting turnout="Augusta Stub" set="2" />
       </path>
@@ -3272,7 +3317,7 @@
           <path pathName="Aug10-Aug11-Aug13" blockName="OB-Aug11" />
           <path pathName="Aug09-Aug11-Aug13" blockName="OB-Aug11" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0029)" signalDelay="0.0" />
+        <fromSignal signalName="IF$vsm:basic:two-low($0039)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug13">
           <path pathName="Aug11-Aug13-Aug16" blockName="OB-Aug13" />
         </toBlock>
@@ -3291,6 +3336,7 @@
     </oblock>
     <oblock systemName="OB-Aug14" userName="Aug14" length="2133.5999" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug14</userName>
+      <sensor systemName="Aug14" />
       <path pathName="Aug12-Aug14-Aug15" blockName="OB-Aug14" fromPortal="Aug14/Aug15" toPortal="Aug12/Aug14" fromDirection="0" toDirection="0" length="0.0" />
       <portal portalName="Aug12/Aug14">
         <fromBlock blockName="OB-Aug12">
@@ -3315,6 +3361,7 @@
     </oblock>
     <oblock systemName="OB-Aug15" userName="Aug15" length="63.5" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug15</userName>
+      <sensor systemName="Aug15" />
       <path pathName="Aug14-Aug15-Aug16" blockName="OB-Aug15" fromPortal="Aug15/Aug16" toPortal="Aug14/Aug15" fromDirection="0" toDirection="0" length="0.0" />
       <portal portalName="Aug14/Aug15">
         <fromBlock blockName="OB-Aug14">
@@ -3339,6 +3386,7 @@
     </oblock>
     <oblock systemName="OB-Aug16" userName="Aug16" length="2520.95" units="false" curve="0" permissive="false" speedNotch="">
       <userName>Aug16</userName>
+      <sensor systemName="Aug16" />
       <path pathName="Aug13-Aug16" blockName="OB-Aug16" toPortal="Aug13/Aug16" fromDirection="0" toDirection="0" length="0.0">
         <setting turnout="Augusta Siding East" set="2" />
       </path>
@@ -3368,7 +3416,7 @@
     </oblock>
   </oblocks>
   <layoutblocks class="jmri.jmrit.display.layoutEditor.configurexml.LayoutBlockManagerXml" blockrouting="yes">
-    <layoutblock systemName="ILB1" occupancysensor="LS1" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB1" occupancysensor="Aug01" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB1</systemName>
       <userName>Augusta 1</userName>
     </layoutblock>
@@ -3376,63 +3424,63 @@
       <systemName>ILB2</systemName>
       <userName>Bedford 27</userName>
     </layoutblock>
-    <layoutblock systemName="ILB3" occupancysensor="LS2" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB3" occupancysensor="Aug02" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB3</systemName>
       <userName>Augusta 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB4" occupancysensor="LS3" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB4" occupancysensor="Aug03" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB4</systemName>
       <userName>Augusta 3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB5" occupancysensor="LS4" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB5" occupancysensor="Aug04" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB5</systemName>
       <userName>Augusta 4</userName>
     </layoutblock>
-    <layoutblock systemName="ILB6" occupancysensor="LS5" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB6" occupancysensor="Aug05" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB6</systemName>
       <userName>Augusta 5</userName>
     </layoutblock>
-    <layoutblock systemName="ILB7" occupancysensor="LS6" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB7" occupancysensor="Aug06" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB7</systemName>
       <userName>Augusta 6</userName>
     </layoutblock>
-    <layoutblock systemName="ILB8" occupancysensor="LS7" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB8" occupancysensor="Aug07" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB8</systemName>
       <userName>Augusta 7</userName>
     </layoutblock>
-    <layoutblock systemName="ILB9" occupancysensor="LS8" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB9" occupancysensor="Aug08" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB9</systemName>
       <userName>Augusta 8</userName>
     </layoutblock>
-    <layoutblock systemName="ILB10" occupancysensor="LS9" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB10" occupancysensor="Aug09" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB10</systemName>
       <userName>Augusta 9</userName>
     </layoutblock>
-    <layoutblock systemName="ILB11" occupancysensor="LS10" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB11" occupancysensor="Aug10" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB11</systemName>
       <userName>Augusta 10</userName>
     </layoutblock>
-    <layoutblock systemName="ILB12" occupancysensor="LS11" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB12" occupancysensor="Aug11" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB12</systemName>
       <userName>Augusta 11</userName>
     </layoutblock>
-    <layoutblock systemName="ILB13" occupancysensor="LS12" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB13" occupancysensor="Aug12" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB13</systemName>
       <userName>Augusta 12</userName>
     </layoutblock>
-    <layoutblock systemName="ILB14" occupancysensor="LS13" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB14" occupancysensor="Aug13" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB14</systemName>
       <userName>Augusta 13</userName>
     </layoutblock>
-    <layoutblock systemName="ILB15" occupancysensor="LS14" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB15" occupancysensor="Aug14" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB15</systemName>
       <userName>Augusta 14</userName>
     </layoutblock>
-    <layoutblock systemName="ILB16" occupancysensor="LS15" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB16" occupancysensor="Aug15" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB16</systemName>
       <userName>Augusta 15</userName>
     </layoutblock>
-    <layoutblock systemName="ILB17" occupancysensor="LS16" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
+    <layoutblock systemName="ILB17" occupancysensor="Aug16" occupiedsense="2" trackcolor="darkGray" occupiedcolor="red" extracolor="white">
       <systemName>ILB17</systemName>
       <userName>Augusta 16</userName>
     </layoutblock>
@@ -3750,10 +3798,620 @@
   </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
+    <signalmastlogic source="Aug02&gt;Aug01">
+      <sourceSignalMast>Aug02&gt;Aug01</sourceSignalMast>
+      <destinationMast destination="Aug01&gt;XferStation">
+        <destinationSignalMast>Aug01&gt;XferStation</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta 4</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug01</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug10&gt;Aug01">
+      <sourceSignalMast>Aug10&gt;Aug01</sourceSignalMast>
+      <destinationMast destination="Aug01&gt;XferStation">
+        <destinationSignalMast>Aug01&gt;XferStation</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta 4</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug01</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug03&gt;Aug02">
+      <sourceSignalMast>Aug03&gt;Aug02</sourceSignalMast>
+      <destinationMast destination="NYard&gt;Aug02">
+        <destinationSignalMast>NYard&gt;Aug02</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta North Loops</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug02</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug04&gt;Aug02">
+      <sourceSignalMast>Aug04&gt;Aug02</sourceSignalMast>
+      <destinationMast destination="NYard&gt;Aug02">
+        <destinationSignalMast>NYard&gt;Aug02</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta North Loops</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug02</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug06&gt;Aug03">
+      <sourceSignalMast>Aug06&gt;Aug03</sourceSignalMast>
+      <destinationMast destination="Aug03&gt;Aug02">
+        <destinationSignalMast>Aug03&gt;Aug02</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug05&gt;Aug04">
+      <sourceSignalMast>Aug05&gt;Aug04</sourceSignalMast>
+      <destinationMast destination="Aug04&gt;Aug02">
+        <destinationSignalMast>Aug04&gt;Aug02</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug04</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug04&gt;Aug05">
+      <sourceSignalMast>Aug04&gt;Aug05</sourceSignalMast>
+      <destinationMast destination="Aug05&gt;Aug07">
+        <destinationSignalMast>Aug05&gt;Aug07</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug05</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug07&gt;Aug05">
+      <sourceSignalMast>Aug07&gt;Aug05</sourceSignalMast>
+      <destinationMast destination="Aug05&gt;Aug04">
+        <destinationSignalMast>Aug05&gt;Aug04</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Yard North</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug05</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug03&gt;Aug06">
+      <sourceSignalMast>Aug03&gt;Aug06</sourceSignalMast>
+      <destinationMast destination="Aug06&gt;Aug08">
+        <destinationSignalMast>Aug06&gt;Aug08</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug06</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
     <signalmastlogic source="Aug05&gt;Aug07">
       <sourceSignalMast>Aug05&gt;Aug07</sourceSignalMast>
-      <destinationMast destination="Aug04&gt;Aug05">
-        <destinationSignalMast>Aug04&gt;Aug05</destinationSignalMast>
+      <destinationMast destination="Aug07&gt;LT6">
+        <destinationSignalMast>Aug07&gt;LT6</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug07</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug06&gt;Aug08">
+      <sourceSignalMast>Aug06&gt;Aug08</sourceSignalMast>
+      <destinationMast destination="Aug08&gt;LT7">
+        <destinationSignalMast>Aug08&gt;LT7</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug08</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug07&gt;Aug09">
+      <sourceSignalMast>Aug07&gt;Aug09</sourceSignalMast>
+      <destinationMast destination="Aug09LT5&gt;LT2">
+        <destinationSignalMast>Aug09LT5&gt;LT2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Yard Main</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug09</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug08&gt;Aug09">
+      <sourceSignalMast>Aug08&gt;Aug09</sourceSignalMast>
+      <destinationMast destination="Aug09LT5&gt;LT2">
+        <destinationSignalMast>Aug09LT5&gt;LT2</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Yard Main</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug09</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug09&gt;Aug11">
+      <sourceSignalMast>Aug09&gt;Aug11</sourceSignalMast>
+      <destinationMast destination="Aug11&gt;Aug12/Aug13">
+        <destinationSignalMast>Aug11&gt;Aug12/Aug13</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Loop</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug11</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug10&gt;Aug11">
+      <sourceSignalMast>Aug10&gt;Aug11</sourceSignalMast>
+      <destinationMast destination="Aug11&gt;Aug12/Aug13">
+        <destinationSignalMast>Aug11&gt;Aug12/Aug13</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Loop</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug11</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug12&gt;Aug11">
+      <sourceSignalMast>Aug12&gt;Aug11</sourceSignalMast>
+      <destinationMast destination="Aug11&gt;LT1">
+        <destinationSignalMast>Aug11&gt;LT1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Siding West</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug11</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug13&gt;Aug11">
+      <sourceSignalMast>Aug13&gt;Aug11</sourceSignalMast>
+      <destinationMast destination="Aug11&gt;LT1">
+        <destinationSignalMast>Aug11&gt;LT1</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Siding West</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug11</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug14&gt;Aug12">
+      <sourceSignalMast>Aug14&gt;Aug12</sourceSignalMast>
+      <destinationMast destination="Aug12&gt;Aug11">
+        <destinationSignalMast>Aug12&gt;Aug11</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug12</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug12&gt;Aug14">
+      <sourceSignalMast>Aug12&gt;Aug14</sourceSignalMast>
+      <destinationMast destination="Aug14&gt;Aug15">
+        <destinationSignalMast>Aug14&gt;Aug15</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug14</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug15&gt;Aug14">
+      <sourceSignalMast>Aug15&gt;Aug14</sourceSignalMast>
+      <destinationMast destination="Aug14&gt;Aug12">
+        <destinationSignalMast>Aug14&gt;Aug12</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug12</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug14&gt;Aug15">
+      <sourceSignalMast>Aug14&gt;Aug15</sourceSignalMast>
+      <destinationMast destination="Aug15&gt;Aug16">
+        <destinationSignalMast>Aug15&gt;Aug16</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug15</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug13&gt;Aug16">
+      <sourceSignalMast>Aug13&gt;Aug16</sourceSignalMast>
+      <destinationMast destination="Aug16&gt;Bedford">
+        <destinationSignalMast>Aug16&gt;Bedford</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Siding East</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug16</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug15&gt;Aug16">
+      <sourceSignalMast>Aug15&gt;Aug16</sourceSignalMast>
+      <destinationMast destination="Aug16&gt;Bedford">
+        <destinationSignalMast>Aug16&gt;Bedford</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Siding East</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug16</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug09&gt;Capital">
+      <sourceSignalMast>Aug09&gt;Capital</sourceSignalMast>
+      <destinationMast destination="Aug08&gt;Capital">
+        <destinationSignalMast>Aug08&gt;Capital</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug08</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="NYard&gt;Aug02">
+      <sourceSignalMast>NYard&gt;Aug02</sourceSignalMast>
+      <destinationMast destination="Aug02&gt;LT11">
+        <destinationSignalMast>Aug02&gt;LT11</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta North Yard/Loops</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug07&gt;LT6">
+      <sourceSignalMast>Aug07&gt;LT6</sourceSignalMast>
+      <destinationMast destination="Aug07&gt;Aug09">
+        <destinationSignalMast>Aug07&gt;Aug09</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Yard North</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug08&gt;LT7">
+      <sourceSignalMast>Aug08&gt;LT7</sourceSignalMast>
+      <destinationMast destination="Aug08&gt;Aug09">
+        <destinationSignalMast>Aug08&gt;Aug09</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Yard South</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug09</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug09LT5&gt;LT2">
+      <sourceSignalMast>Aug09LT5&gt;LT2</sourceSignalMast>
+      <destinationMast destination="Aug09&gt;Aug11">
+        <destinationSignalMast>Aug09&gt;Aug11</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta West Mains</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug01&gt;LT1B">
+      <sourceSignalMast>Aug01&gt;LT1B</sourceSignalMast>
+      <destinationMast destination="Aug10&gt;Aug11">
+        <destinationSignalMast>Aug10&gt;Aug11</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -3763,16 +4421,214 @@
         <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
-            <turnoutName>Augusta Yard North</turnoutName>
+            <turnoutName>Augusta 4</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug10</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+      <destinationMast destination="Aug02&gt;LT11">
+        <destinationSignalMast>Aug02&gt;LT11</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta 4</turnoutName>
             <turnoutState>thrown</turnoutState>
           </turnout>
         </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug02</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
       </destinationMast>
     </signalmastlogic>
-    <signalmastlogic source="Aug07&gt;Aug09">
-      <sourceSignalMast>Aug07&gt;Aug09</sourceSignalMast>
-      <destinationMast destination="Aug05&gt;Aug07">
-        <destinationSignalMast>Aug05&gt;Aug07</destinationSignalMast>
+    <signalmastlogic source="Aug02&gt;LT11">
+      <sourceSignalMast>Aug02&gt;LT11</sourceSignalMast>
+      <destinationMast destination="Aug04&gt;Aug05">
+        <destinationSignalMast>Aug04&gt;Aug05</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta North Loops</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug04</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+      <destinationMast destination="Aug03&gt;Aug06">
+        <destinationSignalMast>Aug03&gt;Aug06</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta North Loops</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug03</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug11&gt;Aug12/Aug13">
+      <sourceSignalMast>Aug11&gt;Aug12/Aug13</sourceSignalMast>
+      <destinationMast destination="Aug12&gt;Aug14">
+        <destinationSignalMast>Aug12&gt;Aug14</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Siding West</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug12</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+          <sensor>
+            <sensorName>Aug14</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+      <destinationMast destination="Aug13&gt;Aug16">
+        <destinationSignalMast>Aug13&gt;Aug16</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Siding West</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug13</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug11&gt;LT1">
+      <sourceSignalMast>Aug11&gt;LT1</sourceSignalMast>
+      <destinationMast destination="Aug10&gt;Aug01">
+        <destinationSignalMast>Aug10&gt;Aug01</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Loop</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug10</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+      <destinationMast destination="Aug09LT2&gt;LT5">
+        <destinationSignalMast>Aug09LT2&gt;LT5</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Loop</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug09</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug08&gt;Aug06/Staging">
+      <sourceSignalMast>Aug08&gt;Aug06/Staging</sourceSignalMast>
+      <destinationMast destination="Aug06&gt;Aug03">
+        <destinationSignalMast>Aug06&gt;Aug03</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Yard South</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug06</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug09LT2&gt;LT5">
+      <sourceSignalMast>Aug09LT2&gt;LT5</sourceSignalMast>
+      <destinationMast destination="Aug07&gt;Aug05">
+        <destinationSignalMast>Aug07&gt;Aug05</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -3786,11 +4642,144 @@
             <turnoutState>thrown</turnoutState>
           </turnout>
         </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug07</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+      <destinationMast destination="Aug08&gt;Aug06/Staging">
+        <destinationSignalMast>Aug08&gt;Aug06/Staging</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Yard Main</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug08</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug09&gt;Yard/Capital">
+      <sourceSignalMast>Aug09&gt;Yard/Capital</sourceSignalMast>
+      <destinationMast destination="Aug09&gt;Capital">
+        <destinationSignalMast>Aug09&gt;Capital</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta West Mains</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+      <destinationMast destination="Aug09LT2&gt;LT5">
+        <destinationSignalMast>Aug09LT2&gt;LT5</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta West Mains</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug02&gt;LT12">
+      <sourceSignalMast>Aug02&gt;LT12</sourceSignalMast>
+      <destinationMast destination="Aug02&gt;LT11">
+        <destinationSignalMast>Aug02&gt;LT11</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta North Yard/Loops</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="Aug16&gt;LT9B">
+      <sourceSignalMast>Aug16&gt;LT9B</sourceSignalMast>
+      <destinationMast destination="Aug13&gt;Aug11">
+        <destinationSignalMast>Aug13&gt;Aug11</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Siding East</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug13</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+      <destinationMast destination="Aug15&gt;Aug14">
+        <destinationSignalMast>Aug15&gt;Aug14</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Siding East</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug14</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+          <sensor>
+            <sensorName>Aug15</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
       </destinationMast>
     </signalmastlogic>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Sep 15 14:29:03 CDT 2019" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="995" y="6" windowheight="997" windowwidth="1419" panelheight="816" panelwidth="1358" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="1067" y="0" windowheight="1003" windowwidth="1427" panelheight="816" panelwidth="1358" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Augusta Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4027,7 +5016,7 @@
     <positionablepoint ident="A10" type="ANCHOR" x="1142.0" y="648.5" connect1name="T6" connect2name="T58" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="ANCHOR" x="72.0" y="651.0" connect1name="T77" connect2name="T67" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="0" y="0" windowheight="665" windowwidth="870" panelheight="703" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="26" y="0" windowheight="671" windowwidth="878" panelheight="703" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Bedford Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4166,7 +5155,7 @@
     <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="812.0" y="634.0" connect1name="T51" connect2name="T1" linkedpanel="Augusta Peninsula" linkpointid="EC1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A25" type="ANCHOR" x="300.0" y="432.75" connect1name="T38" connect2name="T52" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <paneleditor class="jmri.jmrit.display.controlPanelEditor.configurexml.ControlPanelEditorXml" name="Augusta Control Panel" x="0" y="0" height="1348" width="1516" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none" redBackground="64" greenBackground="64" blueBackground="64" state="0" shapeSelect="yes">
+  <paneleditor class="jmri.jmrit.display.controlPanelEditor.configurexml.ControlPanelEditorXml" name="Augusta Control Panel" x="-5" y="0" height="959" width="1063" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none" redBackground="64" greenBackground="64" blueBackground="64" state="0" shapeSelect="yes">
     <icons>
       <visible>
         <url>program:resources/icons/throttles/RoundRedCircle20.png</url>
@@ -4187,7 +5176,7 @@
     <indicatorturnouticon x="299" y="369" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
       <turnout>LT7</turnout>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-LeftTurnout">
         <OccupiedTrack>
@@ -4281,7 +5270,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="339" y="392" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4307,7 +5296,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="338" y="369" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4333,7 +5322,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="261" y="392" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4362,7 +5351,7 @@
     <indicatorturnouticon x="219" y="369" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
       <turnout>LT5</turnout>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-LeftTurnout">
         <OccupiedTrack>
@@ -4457,7 +5446,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="322" y="337" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug07"</tooltip>
-      <occupancyblock>Aug07</occupancyblock>
+      <occupancyblock>OB-Aug07</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4485,7 +5474,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="180" y="392" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4514,7 +5503,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="141" y="392" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4543,7 +5532,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="101" y="392" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4573,7 +5562,7 @@
     <indicatorturnouticon x="64" y="392" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
       <turnout>LT2</turnout>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-LeftTurnout">
         <OccupiedTrack>
@@ -4668,7 +5657,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="18" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4697,7 +5686,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="57" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4727,7 +5716,7 @@
     <indicatorturnouticon x="98" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug11"</tooltip>
       <turnout>LT1</turnout>
-      <occupancyblock>Aug11</occupancyblock>
+      <occupancyblock>OB-Aug11</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-LeftTurnout">
         <OccupiedTrack>
@@ -4824,7 +5813,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="135" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug11"</tooltip>
-      <occupancyblock>Aug11</occupancyblock>
+      <occupancyblock>OB-Aug11</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4855,7 +5844,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="173" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug11"</tooltip>
-      <occupancyblock>Aug11</occupancyblock>
+      <occupancyblock>OB-Aug11</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -4887,7 +5876,7 @@
     <indicatorturnouticon x="212" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug11"</tooltip>
       <turnout>LT9</turnout>
-      <occupancyblock>Aug11</occupancyblock>
+      <occupancyblock>OB-Aug11</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-RightTurnout">
         <OccupiedTrack>
@@ -4984,7 +5973,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="257" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug13"</tooltip>
-      <occupancyblock>Aug13</occupancyblock>
+      <occupancyblock>OB-Aug13</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5013,7 +6002,7 @@
     <indicatorturnouticon x="293" y="0" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug13"</tooltip>
       <turnout>LT10</turnout>
-      <occupancyblock>Aug13</occupancyblock>
+      <occupancyblock>OB-Aug13</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-LeftTurnout">
         <OccupiedTrack>
@@ -5107,7 +6096,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="332" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug13"</tooltip>
-      <occupancyblock>Aug13</occupancyblock>
+      <occupancyblock>OB-Aug13</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5135,7 +6124,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="256" y="46" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug12"</tooltip>
-      <occupancyblock>Aug12</occupancyblock>
+      <occupancyblock>OB-Aug12</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5163,7 +6152,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="299" y="46" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug14"</tooltip>
-      <occupancyblock>Aug14</occupancyblock>
+      <occupancyblock>OB-Aug14</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5191,7 +6180,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="379" y="46" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug15"</tooltip>
-      <occupancyblock>Aug15</occupancyblock>
+      <occupancyblock>OB-Aug15</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5220,7 +6209,7 @@
     <indicatorturnouticon x="421" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug16"</tooltip>
       <turnout>IT12</turnout>
-      <occupancyblock>Aug16</occupancyblock>
+      <occupancyblock>OB-Aug16</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-LeftTurnout">
         <OccupiedTrack>
@@ -5315,7 +6304,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="459" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug16"</tooltip>
-      <occupancyblock>Aug16</occupancyblock>
+      <occupancyblock>OB-Aug16</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5344,7 +6333,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="330" y="0" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug13"</tooltip>
-      <occupancyblock>Aug13</occupancyblock>
+      <occupancyblock>OB-Aug13</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5369,7 +6358,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="55" y="46" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug10"</tooltip>
-      <occupancyblock>Aug10</occupancyblock>
+      <occupancyblock>OB-Aug10</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5397,7 +6386,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="139" y="246" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug10"</tooltip>
-      <occupancyblock>Aug10</occupancyblock>
+      <occupancyblock>OB-Aug10</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5426,7 +6415,7 @@
     <indicatorturnouticon x="181" y="223" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="180" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug01"</tooltip>
       <turnout>IT11</turnout>
-      <occupancyblock>Aug01</occupancyblock>
+      <occupancyblock>OB-Aug01</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-RightTurnout">
         <OccupiedTrack>
@@ -5522,7 +6511,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="140" y="223" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug02"</tooltip>
-      <occupancyblock>Aug02</occupancyblock>
+      <occupancyblock>OB-Aug02</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5551,7 +6540,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="86" y="106" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug02"</tooltip>
-      <occupancyblock>Aug02</occupancyblock>
+      <occupancyblock>OB-Aug02</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5580,7 +6569,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="124" y="106" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug02"</tooltip>
-      <occupancyblock>Aug02</occupancyblock>
+      <occupancyblock>OB-Aug02</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5610,7 +6599,7 @@
     <indicatorturnouticon x="162" y="106" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug02"</tooltip>
       <turnout>LT12</turnout>
-      <occupancyblock>Aug02</occupancyblock>
+      <occupancyblock>OB-Aug02</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-RightTurnout">
         <OccupiedTrack>
@@ -5705,7 +6694,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="194" y="130" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug02"</tooltip>
-      <occupancyblock>Aug02</occupancyblock>
+      <occupancyblock>OB-Aug02</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="45" scale="1.0">
@@ -5735,7 +6724,7 @@
     <indicatorturnouticon x="227" y="155" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug02"</tooltip>
       <turnout>LT11</turnout>
-      <occupancyblock>Aug02</occupancyblock>
+      <occupancyblock>OB-Aug02</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-RightTurnout">
         <OccupiedTrack>
@@ -5830,7 +6819,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="270" y="155" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug03"</tooltip>
-      <occupancyblock>Aug03</occupancyblock>
+      <occupancyblock>OB-Aug03</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5858,7 +6847,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="309" y="155" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug03"</tooltip>
-      <occupancyblock>Aug03</occupancyblock>
+      <occupancyblock>OB-Aug03</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5886,7 +6875,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="384" y="155" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug03"</tooltip>
-      <occupancyblock>Aug03</occupancyblock>
+      <occupancyblock>OB-Aug03</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5914,7 +6903,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="270" y="179" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug04"</tooltip>
-      <occupancyblock>Aug04</occupancyblock>
+      <occupancyblock>OB-Aug04</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5942,7 +6931,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="307" y="179" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug04"</tooltip>
-      <occupancyblock>Aug04</occupancyblock>
+      <occupancyblock>OB-Aug04</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5970,7 +6959,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="347" y="179" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug04"</tooltip>
-      <occupancyblock>Aug04</occupancyblock>
+      <occupancyblock>OB-Aug04</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -5998,7 +6987,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="384" y="179" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug04"</tooltip>
-      <occupancyblock>Aug04</occupancyblock>
+      <occupancyblock>OB-Aug04</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6026,7 +7015,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="423" y="337" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug05"</tooltip>
-      <occupancyblock>Aug05</occupancyblock>
+      <occupancyblock>OB-Aug05</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6054,7 +7043,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="385" y="369" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug06"</tooltip>
-      <occupancyblock>Aug06</occupancyblock>
+      <occupancyblock>OB-Aug06</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6082,7 +7071,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="422" y="369" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug06"</tooltip>
-      <occupancyblock>Aug06</occupancyblock>
+      <occupancyblock>OB-Aug06</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6110,7 +7099,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="220" y="246" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug01"</tooltip>
-      <occupancyblock>Aug01</occupancyblock>
+      <occupancyblock>OB-Aug01</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6140,7 +7129,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="260" y="246" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug01"</tooltip>
-      <occupancyblock>Aug01</occupancyblock>
+      <occupancyblock>OB-Aug01</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6170,7 +7159,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="299" y="246" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug01"</tooltip>
-      <occupancyblock>Aug01</occupancyblock>
+      <occupancyblock>OB-Aug01</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6200,7 +7189,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="338" y="246" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug01"</tooltip>
-      <occupancyblock>Aug01</occupancyblock>
+      <occupancyblock>OB-Aug01</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6231,7 +7220,7 @@
     <indicatorturnouticon x="278" y="316" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="315" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug07"</tooltip>
       <turnout>LT6</turnout>
-      <occupancyblock>Aug07</occupancyblock>
+      <occupancyblock>OB-Aug07</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-RightTurnout">
         <OccupiedTrack>
@@ -6325,7 +7314,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="255" y="340" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="315" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug07"</tooltip>
-      <occupancyblock>Aug07</occupancyblock>
+      <occupancyblock>OB-Aug07</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="315" scale="1.0">
@@ -6353,7 +7342,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="385" y="337" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug05"</tooltip>
-      <occupancyblock>Aug05</occupancyblock>
+      <occupancyblock>OB-Aug05</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6381,7 +7370,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="342" y="337" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug07"</tooltip>
-      <occupancyblock>Aug07</occupancyblock>
+      <occupancyblock>OB-Aug07</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6409,7 +7398,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="343" y="369" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6437,7 +7426,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="375" y="392" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6463,7 +7452,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="401" y="392" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6490,7 +7479,7 @@
     <indicatorturnouticon x="304" y="290" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="315" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug07"</tooltip>
       <turnout>LT8</turnout>
-      <occupancyblock>Aug07</occupancyblock>
+      <occupancyblock>OB-Aug07</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmaps family="USS-RightTurnout">
         <OccupiedTrack>
@@ -6582,7 +7571,7 @@
     </indicatorturnouticon>
     <indicatortrackicon x="345" y="309" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug07"</tooltip>
-      <occupancyblock>Aug07</occupancyblock>
+      <occupancyblock>OB-Aug07</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6607,7 +7596,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="375" y="309" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug07"</tooltip>
-      <occupancyblock>Aug07</occupancyblock>
+      <occupancyblock>OB-Aug07</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6632,7 +7621,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="398" y="309" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug07"</tooltip>
-      <occupancyblock>Aug07</occupancyblock>
+      <occupancyblock>OB-Aug07</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6657,7 +7646,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="102" y="415" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6682,7 +7671,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="139" y="415" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6707,7 +7696,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="177" y="415" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6732,7 +7721,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="215" y="415" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6757,7 +7746,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="258" y="414" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6783,7 +7772,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="296" y="414" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6809,7 +7798,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="335" y="414" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6835,7 +7824,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="374" y="414" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6861,7 +7850,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="401" y="414" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
-      <occupancyblock>Aug08</occupancyblock>
+      <occupancyblock>OB-Aug08</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6887,7 +7876,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="25" y="415" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug09"</tooltip>
-      <occupancyblock>Aug09</occupancyblock>
+      <occupancyblock>OB-Aug09</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6931,7 +7920,7 @@
     </positionableRectangle>
     <indicatortrackicon x="18" y="46" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug10"</tooltip>
-      <occupancyblock>Aug10</occupancyblock>
+      <occupancyblock>OB-Aug10</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6959,7 +7948,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="335" y="46" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug14"</tooltip>
-      <occupancyblock>Aug14</occupancyblock>
+      <occupancyblock>OB-Aug14</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -6987,7 +7976,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="368" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug13"</tooltip>
-      <occupancyblock>Aug13</occupancyblock>
+      <occupancyblock>OB-Aug13</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -7015,7 +8004,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="378" y="23" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug13"</tooltip>
-      <occupancyblock>Aug13</occupancyblock>
+      <occupancyblock>OB-Aug13</occupancyblock>
       <showTrainName>no</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -7086,7 +8075,7 @@
     </PortalIcon>
     <indicatortrackicon x="347" y="155" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug03"</tooltip>
-      <occupancyblock>Aug03</occupancyblock>
+      <occupancyblock>OB-Aug03</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -7114,7 +8103,7 @@
     </indicatortrackicon>
     <indicatortrackicon x="426" y="155" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug06"</tooltip>
-      <occupancyblock>Aug06</occupancyblock>
+      <occupancyblock>OB-Aug06</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -7143,7 +8132,7 @@
     <positionablelabel x="431" y="164" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Aug06" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <indicatortrackicon x="465" y="369" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug03"</tooltip>
-      <occupancyblock>Aug03</occupancyblock>
+      <occupancyblock>OB-Aug03</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -7172,7 +8161,7 @@
     </PortalIcon>
     <indicatortrackicon x="426" y="179" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug05"</tooltip>
-      <occupancyblock>Aug05</occupancyblock>
+      <occupancyblock>OB-Aug05</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -7207,7 +8196,7 @@
     </PortalIcon>
     <indicatortrackicon x="466" y="337" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTrackIconXml">
       <tooltip>OBlock "Aug04"</tooltip>
-      <occupancyblock>Aug04</occupancyblock>
+      <occupancyblock>OB-Aug04</occupancyblock>
       <showTrainName>yes</showTrainName>
       <iconmap family="USS-BlockSegment">
         <OccupiedTrack url="program:resources/icons/track/USS/TrackSeg/block-yellow.gif" degrees="0" scale="1.0">
@@ -7266,142 +8255,146 @@
     </PortalIcon>
     <signalmasticon signalmast="Aug02&gt;Aug01" x="164" y="236" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug10&gt;Aug01" x="162" y="259" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug01&gt;Aug02" x="181" y="218" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug03&gt;Aug02" x="269" y="146" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug04&gt;Aug02" x="270" y="173" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug02&gt;Aug03" x="252" y="167" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug06&gt;Aug03" x="424" y="146" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug02&gt;Aug04" x="252" y="191" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug05&gt;Aug04" x="424" y="175" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug04&gt;Aug05" x="408" y="192" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug07&gt;Aug05" x="366" y="350" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug03&gt;Aug06" x="408" y="165" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug08&gt;Aug06" x="367" y="381" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug05&gt;Aug07" x="384" y="330" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug09&gt;Aug07" x="246" y="377" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="45" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug06&gt;Aug08" x="384" y="361" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug09&gt;Aug08" x="243" y="403" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug07&gt;Aug09" x="249" y="351" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="215" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug08&gt;Aug09" x="260" y="385" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug11&gt;Aug09" x="98" y="16" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug01&gt;Aug10" x="180" y="242" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug11&gt;Aug10" x="94" y="40" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug09&gt;Aug11" x="77" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug10&gt;Aug11" x="78" y="59" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug12&gt;Aug11" x="252" y="39" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug13&gt;Aug11" x="253" y="15" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug11&gt;Aug12" x="236" y="59" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug14&gt;Aug12" x="297" y="40" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug11&gt;Aug13" x="235" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug16&gt;Aug13" x="420" y="15" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug12&gt;Aug14" x="280" y="59" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug15&gt;Aug14" x="377" y="39" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug15&gt;Aug14" x="379" y="44" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug14&gt;Aug15" x="358" y="58" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug16&gt;Aug15" x="418" y="38" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
-    <signalmasticon signalmast="Aug13&gt;Aug16" x="400" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug13&gt;Aug16" x="400" y="31" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug15&gt;Aug16" x="402" y="55" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug01&gt;LT1B" x="223" y="248" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug02&gt;LT11" x="186" y="136" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="135" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug11&gt;LT1" x="141" y="28" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug11&gt;Aug12/Aug13" x="183" y="26" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug08&gt;Aug06/Staging" x="269" y="396" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug09LT2&gt;LT5" x="171" y="394" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug09&gt;Yard/Capital" x="17" y="428" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug09&gt;Capital" x="236" y="427" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug08&gt;Capital" x="420" y="425" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug01&gt;XferStation" x="359" y="259" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug02&gt;LT12" x="137" y="119" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="NYard&gt;Aug02" x="206" y="123" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="315" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug07&gt;LT6" x="336" y="330" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug08&gt;LT7" x="344" y="362" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug09LT5&gt;LT2" x="107" y="382" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug16&gt;Bedford" x="488" y="42" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="Aug16&gt;LT9B" x="461" y="26" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
   </paneleditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Jul 30 19:12:47 CDT 2020</date>
+      <date>Sat Sep 05 14:17:59 CDT 2020</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Jul 30 19:13:07 CDT 2020</date>
+      <date>Sat Sep 05 14:18:21 CDT 2020</date>
       <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Sat Jul 25 19:48:13 CDT 2020</date>
+          <date>Thu Jul 30 19:12:47 CDT 2020</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Sat Jul 25 19:48:23 CDT 2020</date>
+          <date>Thu Jul 30 19:13:07 CDT 2020</date>
           <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Sat Jul 25 17:06:33 CDT 2020</date>
+              <date>Sat Jul 25 19:48:13 CDT 2020</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Sat Jul 25 17:06:44 CDT 2020</date>
+              <date>Sat Jul 25 19:48:23 CDT 2020</date>
               <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sat Jul 25 16:45:00 CDT 2020</date>
+                  <date>Sat Jul 25 17:06:33 CDT 2020</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sat Jul 25 16:45:11 CDT 2020</date>
+                  <date>Sat Jul 25 17:06:44 CDT 2020</date>
                   <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sat Jul 25 16:35:10 CDT 2020</date>
+                      <date>Sat Jul 25 16:45:00 CDT 2020</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sat Jul 25 16:35:20 CDT 2020</date>
+                      <date>Sat Jul 25 16:45:11 CDT 2020</date>
                       <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Sat Jul 25 16:29:34 CDT 2020</date>
+                          <date>Sat Jul 25 16:35:10 CDT 2020</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Sat Jul 25 16:29:44 CDT 2020</date>
+                          <date>Sat Jul 25 16:35:20 CDT 2020</date>
                           <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Sat Jul 25 16:34:50 CDT 2020</date>
+                          <date>Sat Jul 25 16:44:37 CDT 2020</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sat Jul 25 16:44:37 CDT 2020</date>
+                      <date>Sat Jul 25 17:04:28 CDT 2020</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sat Jul 25 17:04:28 CDT 2020</date>
+                  <date>Sat Jul 25 17:17:48 CDT 2020</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Sat Jul 25 17:17:48 CDT 2020</date>
+              <date>Sat Jul 25 20:18:17 CDT 2020</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Sat Jul 25 20:18:17 CDT 2020</date>
+          <date>Thu Jul 30 20:06:11 CDT 2020</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Jul 30 20:06:11 CDT 2020</date>
+      <date>Sat Sep 05 17:50:16 CDT 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Thu Jul 30 20:06:11 CDT 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Sep 05 17:50:16 CDT 2020-->
 </layout-config>
