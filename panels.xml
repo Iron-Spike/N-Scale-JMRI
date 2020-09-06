@@ -788,7 +788,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="2:50 PM">
+    <memory value="9:40 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -796,6 +796,10 @@
     </memory>
   </memories>
   <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
+    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+      <systemName>IF$vsm:AAR-1946:SL-2-high-abs($0003)</systemName>
+      <unlit allowed="yes" />
+    </signalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0001)</systemName>
       <userName>Aug02&gt;Aug01</userName>
@@ -949,6 +953,21 @@
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0053)</systemName>
       <userName>Aug16&gt;Bedford</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0055)</systemName>
+      <userName>PreLT11</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0056)</systemName>
+      <userName>AugNorthYard</userName>
+      <unlit allowed="no" />
+    </virtualsignalmast>
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
+      <systemName>IF$vsm:basic:one-low($0057)</systemName>
+      <userName>PreLT12</userName>
       <unlit allowed="no" />
     </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
@@ -2941,7 +2960,6 @@
         <fromBlock blockName="OB-Aug01">
           <path pathName="Aug01-Aug10" blockName="OB-Aug01" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0021)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug10">
           <path pathName="Aug01-Aug10-Aug11" blockName="OB-Aug10" />
         </toBlock>
@@ -2984,7 +3002,6 @@
         <fromBlock blockName="OB-Aug02">
           <path pathName="Aug01-Aug02-Aug04" blockName="OB-Aug02" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0008)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug04">
           <path pathName="Aug02-Aug04-Aug05" blockName="OB-Aug04" />
         </toBlock>
@@ -3024,7 +3041,6 @@
         <fromBlock blockName="OB-Aug02">
           <path pathName="Aug01-Aug02-Aug04" blockName="OB-Aug02" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0008)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug04">
           <path pathName="Aug02-Aug04-Aug05" blockName="OB-Aug04" />
         </toBlock>
@@ -3115,7 +3131,6 @@
         <toBlock blockName="OB-Aug09">
           <path pathName="Aug07-Aug09-Aug11" blockName="OB-Aug09" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0015)" signalDelay="0.0" />
       </portal>
     </oblock>
     <oblock systemName="OB-Aug08" userName="Aug08" length="1676.4" units="false" curve="0" permissive="false" speedNotch="">
@@ -3164,7 +3179,6 @@
         <toBlock blockName="OB-Aug09">
           <path pathName="Aug07-Aug09-Aug11" blockName="OB-Aug09" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0015)" signalDelay="0.0" />
       </portal>
       <portal portalName="Aug08/Aug09">
         <fromBlock blockName="OB-Aug08">
@@ -3197,7 +3211,6 @@
         <fromBlock blockName="OB-Aug01">
           <path pathName="Aug01-Aug10" blockName="OB-Aug01" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0021)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug10">
           <path pathName="Aug01-Aug10-Aug11" blockName="OB-Aug10" />
         </toBlock>
@@ -3212,7 +3225,6 @@
           <path pathName="Aug10-Aug11-Aug13" blockName="OB-Aug11" />
           <path pathName="Aug10-Aug11-Aug12" blockName="OB-Aug11" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0022)" signalDelay="0.0" />
       </portal>
     </oblock>
     <oblock systemName="OB-Aug11" userName="Aug11" length="2768.5999" units="false" curve="0" permissive="false" speedNotch="">
@@ -3255,14 +3267,12 @@
           <path pathName="Aug10-Aug11-Aug13" blockName="OB-Aug11" />
           <path pathName="Aug10-Aug11-Aug12" blockName="OB-Aug11" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0022)" signalDelay="0.0" />
       </portal>
       <portal portalName="Aug11/Aug12">
         <fromBlock blockName="OB-Aug11">
           <path pathName="Aug09-Aug11-Aug12" blockName="OB-Aug11" />
           <path pathName="Aug10-Aug11-Aug12" blockName="OB-Aug11" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0027)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug12">
           <path pathName="Aug11-Aug12-Aug14" blockName="OB-Aug12" />
         </toBlock>
@@ -3289,7 +3299,6 @@
           <path pathName="Aug09-Aug11-Aug12" blockName="OB-Aug11" />
           <path pathName="Aug10-Aug11-Aug12" blockName="OB-Aug11" />
         </fromBlock>
-        <fromSignal signalName="IF$vsm:basic:one-low($0027)" signalDelay="0.0" />
         <toBlock blockName="OB-Aug12">
           <path pathName="Aug11-Aug12-Aug14" blockName="OB-Aug12" />
         </toBlock>
@@ -3331,7 +3340,6 @@
         <toBlock blockName="OB-Aug16">
           <path pathName="Aug13-Aug16" blockName="OB-Aug16" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0030)" signalDelay="0.0" />
       </portal>
     </oblock>
     <oblock systemName="OB-Aug14" userName="Aug14" length="2133.5999" units="false" curve="0" permissive="false" speedNotch="">
@@ -3381,7 +3389,6 @@
         <toBlock blockName="OB-Aug16">
           <path pathName="Aug15-Aug16" blockName="OB-Aug16" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0034)" signalDelay="0.0" />
       </portal>
     </oblock>
     <oblock systemName="OB-Aug16" userName="Aug16" length="2520.95" units="false" curve="0" permissive="false" speedNotch="">
@@ -3401,7 +3408,6 @@
         <toBlock blockName="OB-Aug16">
           <path pathName="Aug13-Aug16" blockName="OB-Aug16" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0030)" signalDelay="0.0" />
       </portal>
       <portal portalName="Aug15/Aug16">
         <fromBlock blockName="OB-Aug15">
@@ -3411,7 +3417,6 @@
         <toBlock blockName="OB-Aug16">
           <path pathName="Aug15-Aug16" blockName="OB-Aug16" />
         </toBlock>
-        <toSignal signalName="IF$vsm:basic:one-low($0034)" signalDelay="0.0" />
       </portal>
     </oblock>
   </oblocks>
@@ -3808,7 +3813,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta 4</turnoutName>
@@ -3833,7 +3838,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta 4</turnoutName>
@@ -3858,7 +3863,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta North Loops</turnoutName>
@@ -3883,7 +3888,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta North Loops</turnoutName>
@@ -3959,7 +3964,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Yard North</turnoutName>
@@ -4041,7 +4046,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Yard Main</turnoutName>
@@ -4066,7 +4071,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Yard Main</turnoutName>
@@ -4091,7 +4096,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Loop</turnoutName>
@@ -4116,7 +4121,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Loop</turnoutName>
@@ -4141,7 +4146,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Siding West</turnoutName>
@@ -4166,7 +4171,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Siding West</turnoutName>
@@ -4267,7 +4272,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Siding East</turnoutName>
@@ -4292,7 +4297,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Siding East</turnoutName>
@@ -4336,7 +4341,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta North Yard/Loops</turnoutName>
@@ -4355,7 +4360,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Yard North</turnoutName>
@@ -4374,7 +4379,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Yard South</turnoutName>
@@ -4399,13 +4404,39 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta West Mains</turnoutName>
             <turnoutState>thrown</turnoutState>
           </turnout>
         </turnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="PreLT11">
+      <sourceSignalMast>PreLT11</sourceSignalMast>
+      <destinationMast destination="Aug02&gt;LT11">
+        <destinationSignalMast>Aug02&gt;LT11</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
+      </destinationMast>
+    </signalmastlogic>
+    <signalmastlogic source="PreLT12">
+      <sourceSignalMast>PreLT12</sourceSignalMast>
+      <destinationMast destination="Aug02&gt;LT12">
+        <destinationSignalMast>Aug02&gt;LT12</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>no</lockTurnouts>
       </destinationMast>
     </signalmastlogic>
     <signalmastlogic source="Aug01&gt;LT1B">
@@ -4432,8 +4463,8 @@
           </sensor>
         </sensors>
       </destinationMast>
-      <destinationMast destination="Aug02&gt;LT11">
-        <destinationSignalMast>Aug02&gt;LT11</destinationSignalMast>
+      <destinationMast destination="PreLT12">
+        <destinationSignalMast>PreLT12</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -4465,7 +4496,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta North Loops</turnoutName>
@@ -4512,7 +4543,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Siding West</turnoutName>
@@ -4538,10 +4569,14 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Siding West</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>Augusta Stub</turnoutName>
             <turnoutState>closed</turnoutState>
           </turnout>
         </turnouts>
@@ -4585,7 +4620,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Loop</turnoutName>
@@ -4610,7 +4645,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Yard South</turnoutName>
@@ -4657,7 +4692,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Yard Main</turnoutName>
@@ -4709,8 +4744,8 @@
     </signalmastlogic>
     <signalmastlogic source="Aug02&gt;LT12">
       <sourceSignalMast>Aug02&gt;LT12</sourceSignalMast>
-      <destinationMast destination="Aug02&gt;LT11">
-        <destinationSignalMast>Aug02&gt;LT11</destinationSignalMast>
+      <destinationMast destination="PreLT11">
+        <destinationSignalMast>PreLT11</destinationSignalMast>
         <comment />
         <enabled>yes</enabled>
         <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
@@ -4722,6 +4757,28 @@
           <turnout>
             <turnoutName>Augusta North Yard/Loops</turnoutName>
             <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
+        <sensors>
+          <sensor>
+            <sensorName>Aug11</sensorName>
+            <sensorState>inActive</sensorState>
+          </sensor>
+        </sensors>
+      </destinationMast>
+      <destinationMast destination="AugNorthYard">
+        <destinationSignalMast>AugNorthYard</destinationSignalMast>
+        <comment />
+        <enabled>yes</enabled>
+        <allowAutoMaticSignalMastGeneration>no</allowAutoMaticSignalMastGeneration>
+        <useLayoutEditor>no</useLayoutEditor>
+        <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
+        <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
+        <lockTurnouts>yes</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta North Yard/Loops</turnoutName>
+            <turnoutState>closed</turnoutState>
           </turnout>
         </turnouts>
       </destinationMast>
@@ -4736,10 +4793,14 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Siding East</turnoutName>
+            <turnoutState>closed</turnoutState>
+          </turnout>
+          <turnout>
+            <turnoutName>Augusta Stub</turnoutName>
             <turnoutState>closed</turnoutState>
           </turnout>
         </turnouts>
@@ -4758,7 +4819,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta Siding East</turnoutName>
@@ -4779,7 +4840,7 @@
     </signalmastlogic>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Sep 15 14:29:03 CDT 2019" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="1067" y="0" windowheight="1003" windowwidth="1427" panelheight="816" panelwidth="1358" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="1067" y="0" windowheight="1009" windowwidth="1435" panelheight="816" panelwidth="1358" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Augusta Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -5016,7 +5077,7 @@
     <positionablepoint ident="A10" type="ANCHOR" x="1142.0" y="648.5" connect1name="T6" connect2name="T58" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="ANCHOR" x="72.0" y="651.0" connect1name="T77" connect2name="T67" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="26" y="0" windowheight="671" windowwidth="878" panelheight="703" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="26" y="0" windowheight="677" windowwidth="886" panelheight="703" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Bedford Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -5155,7 +5216,7 @@
     <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="812.0" y="634.0" connect1name="T51" connect2name="T1" linkedpanel="Augusta Peninsula" linkpointid="EC1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A25" type="ANCHOR" x="300.0" y="432.75" connect1name="T38" connect2name="T52" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <paneleditor class="jmri.jmrit.display.controlPanelEditor.configurexml.ControlPanelEditorXml" name="Augusta Control Panel" x="-5" y="0" height="959" width="1063" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none" redBackground="64" greenBackground="64" blueBackground="64" state="0" shapeSelect="yes">
+  <paneleditor class="jmri.jmrit.display.controlPanelEditor.configurexml.ControlPanelEditorXml" name="Augusta Control Panel" x="0" y="0" height="963" width="1067" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none" redBackground="64" greenBackground="64" blueBackground="64" state="0" shapeSelect="yes">
     <icons>
       <visible>
         <url>program:resources/icons/throttles/RoundRedCircle20.png</url>
@@ -8056,11 +8117,11 @@
     <positionablelabel x="216" y="235" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="(LT1)" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="278" y="382" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT7" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="186" y="157" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT11" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="134" y="97" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT12" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="130" y="15" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT1" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="196" y="14" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT9" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="165" y="97" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT12" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="103" y="14" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT1" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="215" y="14" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT9" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="270" y="15" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT10" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="454" y="12" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="(LT9)" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="426" y="11" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="(LT9)" size="12" style="1" red="255" green="255" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <PortalIcon x="168" y="218" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" scale="1.0" rotate="0" portalName="Aug01/Aug02" toBlockName="Aug02" fromBlockName="Aug01" arrowSwitch="yes" arrowHide="no" class="jmri.jmrit.display.controlPanelEditor.configurexml.PortalIconXml">
       <tooltip>Portal "Aug01/Aug02" between OBlocks "Aug01" and "null"</tooltip>
     </PortalIcon>
@@ -8293,108 +8354,111 @@
     <signalmasticon signalmast="Aug09LT5&gt;LT2" x="107" y="382" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug16&gt;Bedford" x="488" y="42" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
     <signalmasticon signalmast="Aug16&gt;LT9B" x="461" y="26" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="270" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="PreLT11" x="171" y="156" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" clickmode="0" litmode="false" degrees="0" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="AugNorthYard" x="206" y="108" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
+    <signalmasticon signalmast="PreLT12" x="66" y="109" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="90" clickmode="0" litmode="false" scale="1.0" imageset="default" class="jmri.jmrit.display.configurexml.SignalMastIconXml" />
   </paneleditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Sep 05 14:17:59 CDT 2020</date>
+      <date>Sun Sep 06 09:10:20 CDT 2020</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Sep 05 14:18:21 CDT 2020</date>
+      <date>Sun Sep 06 09:10:30 CDT 2020</date>
       <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Thu Jul 30 19:12:47 CDT 2020</date>
+          <date>Sat Sep 05 14:17:59 CDT 2020</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Thu Jul 30 19:13:07 CDT 2020</date>
+          <date>Sat Sep 05 14:18:21 CDT 2020</date>
           <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Sat Jul 25 19:48:13 CDT 2020</date>
+              <date>Thu Jul 30 19:12:47 CDT 2020</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Sat Jul 25 19:48:23 CDT 2020</date>
+              <date>Thu Jul 30 19:13:07 CDT 2020</date>
               <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sat Jul 25 17:06:33 CDT 2020</date>
+                  <date>Sat Jul 25 19:48:13 CDT 2020</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sat Jul 25 17:06:44 CDT 2020</date>
+                  <date>Sat Jul 25 19:48:23 CDT 2020</date>
                   <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sat Jul 25 16:45:00 CDT 2020</date>
+                      <date>Sat Jul 25 17:06:33 CDT 2020</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sat Jul 25 16:45:11 CDT 2020</date>
+                      <date>Sat Jul 25 17:06:44 CDT 2020</date>
                       <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Sat Jul 25 16:35:10 CDT 2020</date>
+                          <date>Sat Jul 25 16:45:00 CDT 2020</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Sat Jul 25 16:35:20 CDT 2020</date>
+                          <date>Sat Jul 25 16:45:11 CDT 2020</date>
                           <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Sat Jul 25 16:44:37 CDT 2020</date>
+                          <date>Sat Jul 25 17:04:28 CDT 2020</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sat Jul 25 17:04:28 CDT 2020</date>
+                      <date>Sat Jul 25 17:17:48 CDT 2020</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sat Jul 25 17:17:48 CDT 2020</date>
+                  <date>Sat Jul 25 20:18:17 CDT 2020</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Sat Jul 25 20:18:17 CDT 2020</date>
+              <date>Thu Jul 30 20:06:11 CDT 2020</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Thu Jul 30 20:06:11 CDT 2020</date>
+          <date>Sat Sep 05 17:50:16 CDT 2020</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Sep 05 17:50:16 CDT 2020</date>
+      <date>Sun Sep 06 09:40:17 CDT 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Sep 05 17:50:16 CDT 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Sun Sep 06 09:40:17 CDT 2020-->
 </layout-config>
