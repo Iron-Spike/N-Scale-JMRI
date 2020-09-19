@@ -788,7 +788,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="9:40 AM">
+    <memory value="12:03 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -4028,6 +4028,12 @@
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
         <lockTurnouts>no</lockTurnouts>
+        <turnouts>
+          <turnout>
+            <turnoutName>Augusta Yard South</turnoutName>
+            <turnoutState>thrown</turnoutState>
+          </turnout>
+        </turnouts>
         <sensors>
           <sensor>
             <sensorName>Aug08</sensorName>
@@ -4471,7 +4477,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta 4</turnoutName>
@@ -4752,7 +4758,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta North Yard/Loops</turnoutName>
@@ -4774,7 +4780,7 @@
         <useLayoutEditor>no</useLayoutEditor>
         <useLayoutEditorTurnouts>no</useLayoutEditorTurnouts>
         <useLayoutEditorBlocks>no</useLayoutEditorBlocks>
-        <lockTurnouts>yes</lockTurnouts>
+        <lockTurnouts>no</lockTurnouts>
         <turnouts>
           <turnout>
             <turnoutName>Augusta North Yard/Loops</turnoutName>
@@ -4840,7 +4846,7 @@
     </signalmastlogic>
   </signalmastlogics>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Sep 15 14:29:03 CDT 2019" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="1067" y="0" windowheight="1009" windowwidth="1435" panelheight="816" panelwidth="1358" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="1608" y="427" windowheight="646" windowwidth="1093" panelheight="816" panelwidth="1358" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Augusta Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4867,29 +4873,29 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="189" y="597" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT5" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="300" y="536" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT6" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="396" y="607" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT7" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="353" y="503" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT8" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="262" y="56" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT1" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="96" y="264" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT1-B" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1000" y="751" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="To State Refinery &amp; Capital City" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1077" y="16" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Bedford Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1156" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Xfer Station Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1173" y="616" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Western Staging Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="819" y="739" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Western Staging Main" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="6" y="290" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LT2" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="102" y="584" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Yard Main" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="193" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Yard North" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="396" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Yard South" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="5" y="305" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta West Mains" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="97" y="247" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="(Augusta Loop)" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="244" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Loop" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="489" y="16" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Siding West" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="964" y="22" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta Siding East" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="788" y="198" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta North Loops" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="648" y="103" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta North Yard/Loops" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="790" y="139" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Augusta North Yard" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="189" y="597" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT5" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="300" y="536" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT6" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="396" y="607" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT7" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="353" y="503" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT8" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="262" y="56" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT1" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="96" y="264" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT1-B" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1000" y="751" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="To State Refinery &amp; Capital City" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1077" y="16" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Bedford Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1156" y="64" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Xfer Station Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1173" y="616" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Western Staging Main" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="819" y="739" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Western Staging Main" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="6" y="290" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LT2" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="102" y="584" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Yard Main" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="193" y="525" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Yard North" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="396" y="595" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Yard South" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="5" y="305" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta West Mains" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="97" y="247" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="(Augusta Loop)" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="244" y="20" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Loop" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="489" y="16" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Siding West" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="964" y="22" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta Siding East" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="788" y="198" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta North Loops" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="648" y="103" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta North Yard/Loops" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="790" y="139" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Augusta North Yard" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1035.0" ycen="51.0" xa="1064.0" ya="51.0" xb="1006.0" yb="51.0" xc="998.0" yc="80.0" xd="1064.0" yd="51.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Augusta Siding East" secondturnoutname="Augusta Siding West" blockname="Augusta 16" connectaname="T2" connectbname="T4" connectcname="T3" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="669.0" ycen="50.0" xa="646.0" ya="50.0" xb="692.0" yb="50.0" xc="712.0" yc="19.0" xd="646.0" yd="50.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Augusta Stub" blockname="Augusta 13" connectaname="T7" connectbname="T4" connectcname="T5" />
     <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="591.0" ycen="51.0" xa="560.0" ya="51.0" xb="622.0" yb="51.0" xc="642.0" yc="80.0" xd="560.0" yd="51.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Augusta Siding West" secondturnoutname="Augusta Siding East" blockname="Augusta 11" connectaname="T37" connectbname="T7" connectcname="T38" />
@@ -5077,7 +5083,7 @@
     <positionablepoint ident="A10" type="ANCHOR" x="1142.0" y="648.5" connect1name="T6" connect2name="T58" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="ANCHOR" x="72.0" y="651.0" connect1name="T77" connect2name="T67" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="26" y="0" windowheight="677" windowwidth="886" panelheight="703" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="2690" y="428" windowheight="635" windowwidth="830" panelheight="703" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Bedford Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -5216,7 +5222,7 @@
     <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="812.0" y="634.0" connect1name="T51" connect2name="T1" linkedpanel="Augusta Peninsula" linkpointid="EC1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A25" type="ANCHOR" x="300.0" y="432.75" connect1name="T38" connect2name="T52" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <paneleditor class="jmri.jmrit.display.controlPanelEditor.configurexml.ControlPanelEditorXml" name="Augusta Control Panel" x="0" y="0" height="963" width="1067" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none" redBackground="64" greenBackground="64" blueBackground="64" state="0" shapeSelect="yes">
+  <paneleditor class="jmri.jmrit.display.controlPanelEditor.configurexml.ControlPanelEditorXml" name="Augusta Control Panel" x="2130" y="24" height="515" width="571" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none" redBackground="64" greenBackground="64" blueBackground="64" state="0" shapeSelect="yes">
     <icons>
       <visible>
         <url>program:resources/icons/throttles/RoundRedCircle20.png</url>
@@ -8361,104 +8367,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun Sep 06 09:10:20 CDT 2020</date>
+      <date>Sat Sep 19 11:18:12 CDT 2020</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun Sep 06 09:10:30 CDT 2020</date>
-      <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
+      <date>Sat Sep 19 11:18:22 CDT 2020</date>
+      <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Sat Sep 05 14:17:59 CDT 2020</date>
+          <date>Sun Sep 06 09:10:20 CDT 2020</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Sat Sep 05 14:18:21 CDT 2020</date>
+          <date>Sun Sep 06 09:10:30 CDT 2020</date>
           <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Thu Jul 30 19:12:47 CDT 2020</date>
+              <date>Sat Sep 05 14:17:59 CDT 2020</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Thu Jul 30 19:13:07 CDT 2020</date>
+              <date>Sat Sep 05 14:18:21 CDT 2020</date>
               <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sat Jul 25 19:48:13 CDT 2020</date>
+                  <date>Thu Jul 30 19:12:47 CDT 2020</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sat Jul 25 19:48:23 CDT 2020</date>
+                  <date>Thu Jul 30 19:13:07 CDT 2020</date>
                   <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sat Jul 25 17:06:33 CDT 2020</date>
+                      <date>Sat Jul 25 19:48:13 CDT 2020</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sat Jul 25 17:06:44 CDT 2020</date>
+                      <date>Sat Jul 25 19:48:23 CDT 2020</date>
                       <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Sat Jul 25 16:45:00 CDT 2020</date>
+                          <date>Sat Jul 25 17:06:33 CDT 2020</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Sat Jul 25 16:45:11 CDT 2020</date>
+                          <date>Sat Jul 25 17:06:44 CDT 2020</date>
                           <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Sat Jul 25 17:04:28 CDT 2020</date>
+                          <date>Sat Jul 25 17:17:48 CDT 2020</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sat Jul 25 17:17:48 CDT 2020</date>
+                      <date>Sat Jul 25 20:18:17 CDT 2020</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sat Jul 25 20:18:17 CDT 2020</date>
+                  <date>Thu Jul 30 20:06:11 CDT 2020</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Thu Jul 30 20:06:11 CDT 2020</date>
+              <date>Sat Sep 05 17:50:16 CDT 2020</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Sat Sep 05 17:50:16 CDT 2020</date>
+          <date>Sun Sep 06 09:40:17 CDT 2020</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Sep 06 09:40:17 CDT 2020</date>
+      <date>Sat Sep 19 12:03:43 CDT 2020</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sun Sep 06 09:40:17 CDT 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Sep 19 12:03:43 CDT 2020-->
 </layout-config>

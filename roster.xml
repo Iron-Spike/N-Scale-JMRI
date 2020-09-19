@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Mar 14 16:08:52 CDT 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Sep 19 16:38:33 CDT 2020-->
   <roster>
     <locomotive id="1104" fileName="1103.xml" roadNumber="" roadName="1104" mfg="" owner="Doug" model="walthers" dccAddress="1104" comment="test loco HO scale" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-03T16:54:43.763+0000</dateUpdated>
@@ -84,6 +84,11 @@
         <functionlabel num="28" lockable="false" functionImage="" functionImageSelected="">Associated loco sound</functionlabel>
       </functionlabels>
       <soundlabels />
+      <speedprofile>
+        <overRunTimeForward>0.0</overRunTimeForward>
+        <overRunTimeReverse>0.0</overRunTimeReverse>
+        <speeds />
+      </speedprofile>
     </locomotive>
     <locomotive id="330 M&amp;Stl 2-6-0" fileName="330_M_Stl_2_6_0.xml" roadNumber="" roadName="" mfg="MRC" owner="Iron Spike" model="Item #876051" dccAddress="4" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-07-20T20:11:54.000+0000</dateUpdated>
@@ -126,6 +131,11 @@
           <value>2</value>
         </keyvaluepair>
       </attributepairs>
+      <speedprofile>
+        <overRunTimeForward>0.0</overRunTimeForward>
+        <overRunTimeReverse>0.0</overRunTimeReverse>
+        <speeds />
+      </speedprofile>
     </locomotive>
     <locomotive id="8099" fileName="8099.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-16T17:01:15.000+0000</dateUpdated>
@@ -325,6 +335,47 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2020-09-19T21:38:33.501+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>1500</value>
+        </keyvaluepair>
+      </attributepairs>
+      <speedprofile>
+        <overRunTimeForward>0.0</overRunTimeForward>
+        <overRunTimeReverse>0.0</overRunTimeReverse>
+        <speeds>
+          <speed>
+            <step>103</step>
+            <forward>101.886734</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>190</step>
+            <forward>133.00215</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>206</step>
+            <forward>144.94878</forward>
+            <reverse>118.938484</reverse>
+          </speed>
+          <speed>
+            <step>230</step>
+            <forward>0.0</forward>
+            <reverse>161.90143</reverse>
+          </speed>
+          <speed>
+            <step>302</step>
+            <forward>0.0</forward>
+            <reverse>274.67657</reverse>
+          </speed>
+        </speeds>
+      </speedprofile>
     </locomotive>
     <locomotive id="Scott Nelson's Austrian Loco" fileName="Scott_Nelson_s_Austrian_Loco.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="19" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-08T21:42:54.445+0000</dateUpdated>

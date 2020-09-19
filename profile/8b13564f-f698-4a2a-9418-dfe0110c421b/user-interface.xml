@@ -198,7 +198,8 @@
             </properties>
         </window>
         <window xmlns="" class="jmri.jmrix.loconet.ds64.Ds64TabbedPanel" height="645.0" locX="25.0" locY="25.0" width="768.0"/>
-        <window xmlns="" class="jmri.jmrix.loconet.slotmon.SlotMonPane" height="510.0" locX="0.0" locY="0.0" width="1470.0"/>
+        <window xmlns="" class="jmri.jmrit.logix.WarrantTableFrame" height="511.0" locX="1700.0" locY="555.0" width="1444.0"/>
+        <window xmlns="" class="jmri.jmrix.loconet.slotmon.SlotMonPane" height="508.0" locX="1680.0" locY="196.0" width="1464.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:UP 7541" height="863.0" locX="50.0" locY="0.0" width="1331.0"/>
         <window xmlns="" class="jmri.jmrit.simpleturnoutctrl.SimpleTurnoutCtrlFrame" height="258.0" locX="0.0" locY="0.0" width="204.0"/>
         <window xmlns="" class="jmri.jmrit.roster.Roster" locX="0.0" locY="0.0"/>
@@ -227,8 +228,9 @@
         <window xmlns="" class="Set Sensors at Turnout" locX="70.0" locY="30.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneOpsProgFrame:CSX 648" height="859.0" locX="0.0" locY="0.0" width="1319.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:S4 Diesel #145" height="626.0" locX="25.0" locY="25.0" width="1095.0"/>
-        <window xmlns="" class="jmri.jmrit.withrottle.UserInterface" height="405.0" locX="0.0" locY="180.0" width="466.0"/>
+        <window xmlns="" class="jmri.jmrit.withrottle.UserInterface" height="403.0" locX="0.0" locY="180.0" width="460.0"/>
         <window xmlns="" class="jmri.jmrit.withrottle.ControllerFilterFrame:Filter Controls" height="357.0" locX="25.0" locY="25.0" width="688.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingFrame" locX="2058.0" locY="223.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame">
             <properties>
                 <property>
@@ -237,6 +239,7 @@
                 </property>
             </properties>
         </window>
+        <window xmlns="" class="jmri.jmrit.display.controlPanelEditor.ControlPanelEditor:Augusta Control Panel" height="518.0" locX="2459.0" locY="295.0" width="575.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:2" height="510.0" locX="50.0" locY="50.0" width="1170.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow" height="721.0" locX="970.0" locY="137.0" width="476.0"/>
         <window xmlns="" class="jmri.jmrit.throttle.ThrottleWindow:1" height="510.0" locX="75.0" locY="75.0" width="1101.0"/>
@@ -245,8 +248,8 @@
         <window xmlns="" class="Panel " height="364.0" locX="800.0" locY="450.0" width="418.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame:1" height="94.0" locX="287.0" locY="35.0" width="176.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.cmdstnconfig.CmdStnConfigPane" height="858.0" locX="0.0" locY="0.0" width="789.0"/>
-        <window xmlns="" class="PanelPro" height="250.0" locX="740.0" locY="280.0" width="514.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="646.0" locX="1608.0" locY="427.0" width="1093.0">
+        <window xmlns="" class="PanelPro" height="248.0" locX="740.0" locY="280.0" width="508.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:Augusta Peninsula" height="649.0" locX="1608.0" locY="427.0" width="1097.0">
             <properties>
                 <property>
                     <key>zoom</key>
@@ -259,7 +262,7 @@
             </properties>
         </window>
         <window xmlns="" class="Edit Track Segment" locX="50.0" locY="30.0"/>
-        <window xmlns="" class="jmri.jmrit.logix.NXFrame" locX="0.0" locY="23.0"/>
+        <window xmlns="" class="jmri.jmrit.logix.NXFrame" locX="1891.0" locY="501.0"/>
         <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="436.0" locX="409.0" locY="180.0" width="901.0"/>
         <window xmlns="" class="Add/Edit Route:1" locX="100.0" locY="30.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Routes:1" height="828.0" locX="0.0" locY="180.0" width="1594.0"/>
@@ -279,6 +282,7 @@
         <window xmlns="" class="jmri.jmrix.loconet.pr3.swing.Pr3SelectPane" height="84.0" locX="1047.0" locY="148.0" width="524.0"/>
         <window xmlns="" class="jmri.jmrit.display.controlPanelEditor.ControlPanelEditor:Control Panel" height="367.0" locX="649.0" locY="291.0" width="648.0"/>
         <window xmlns="" class="Add/Edit Route" locX="100.0" locY="180.0"/>
+        <window xmlns="" class="jmri.jmrit.logix.WarrantFrame" locX="1769.0" locY="455.0"/>
         <window xmlns="" class="jmri.jmrix.loconet.bdl16.BDL16Panel" height="834.0" locX="406.0" locY="41.0" width="1101.0"/>
         <window xmlns="" class="jmri.jmrit.roster.swing.RosterFrame:Roster" height="584.0" locX="26.0" locY="25.0" width="1483.0">
             <properties>
@@ -288,12 +292,13 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="jmri.jmrit.analogclock.AnalogClockFrame:Analog Clock" height="198.0" locX="3319.0" locY="23.0" width="194.0"/>
+        <window xmlns="" class="jmri.jmrit.analogclock.AnalogClockFrame:Analog Clock" height="203.0" locX="3000.0" locY="23.0" width="14.0"/>
         <window xmlns="" class="jmri.jmrit.symbolicprog.tabbedframe.PaneServiceProgFrame:CSX 648:1" height="863.0" locX="132.0" locY="281.0" width="1331.0"/>
         <window xmlns="" class="jmri.jmrit.nixieclock.NixieClockFrame:Nixie Clock" height="1011.0" locX="3023.0" locY="54.0" width="116.0"/>
-        <window xmlns="" class="jmri.jmrix.loconet.loconetovertcp.LnTcpServerFrame:LocoNet over TCP Server" height="80.0" locX="25.0" locY="205.0" width="281.0"/>
+        <window xmlns="" class="jmri.jmrit.signalling.SignallingSourceFrame" locX="2307.0" locY="572.0"/>
+        <window xmlns="" class="jmri.jmrix.loconet.loconetovertcp.LnTcpServerFrame:LocoNet over TCP Server" height="83.0" locX="25.0" locY="205.0" width="285.0"/>
         <window xmlns="" class="jmri.jmrit.simpleprog.SimpleProgFrame" height="546.0" locX="50.0" locY="50.0" width="694.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.AbstractTableAction$1" height="390.0" locX="1609.0" locY="38.0" width="616.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.AbstractTableAction$1" height="388.0" locX="1759.0" locY="50.0" width="610.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableAction$1$1:Turnouts" height="856.0" locX="0.0" locY="180.0" width="1588.0"/>
     </windowDetails>
 </auxiliary-configuration>
