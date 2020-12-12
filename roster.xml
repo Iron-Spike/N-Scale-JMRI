@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Sep 19 16:38:33 CDT 2020-->
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Mon Sep 21 15:53:32 CDT 2020-->
   <roster>
     <locomotive id="1104" fileName="1103.xml" roadNumber="" roadName="1104" mfg="" owner="Doug" model="walthers" dccAddress="1104" comment="test loco HO scale" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-03T16:54:43.763+0000</dateUpdated>
@@ -124,11 +124,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2019-07-20T18:20:23Z</value>
+          <value>2020-09-21T18:49:26.526+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>2</value>
+          <value>234</value>
         </keyvaluepair>
       </attributepairs>
       <speedprofile>
@@ -136,6 +136,17 @@
         <overRunTimeReverse>0.0</overRunTimeReverse>
         <speeds />
       </speedprofile>
+    </locomotive>
+    <locomotive id="7614" fileName="7614.xml" roadNumber="7614" roadName="B&amp;O 2-8-8-4 large Dome" mfg="Bachmann" owner="Iron Spike" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2020-09-21T20:53:32.606+0000</dateUpdated>
+      <decoder model="E-Z Command decoders" family="E-Z Command decoders" comment="" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
     </locomotive>
     <locomotive id="8099" fileName="8099.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-16T17:01:15.000+0000</dateUpdated>
