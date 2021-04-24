@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Jan 23 14:27:22 CST 2021-->
+  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Apr 09 14:28:34 CDT 2021-->
   <roster>
-    <locomotive id="1104" fileName="1103.xml" roadNumber="" roadName="1104" mfg="" owner="Doug" model="walthers" dccAddress="1104" comment="test loco HO scale" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="1104" fileName="1103.xml" roadNumber="" roadName="1104" mfg="" owner="Doug" model="walthers" dccAddress="1104" comment="test loco HO scale" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-03T16:54:43.763+0000</dateUpdated>
-      <decoder model="1712 - HO Scale - EMD645" family="Sound Decoders" comment="" />
+      <decoder model="1712 - HO Scale - EMD645" family="Sound Decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="1104" longaddress="yes" />
         <number>1104</number>
@@ -44,9 +44,9 @@
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="2-6-0 Mogul" fileName="2_6_0_Mogul.xml" roadNumber="475" roadName="Great Northern" mfg="MRC" owner="Iron Spike" model="MRC" dccAddress="475" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="2-6-0 Mogul" fileName="2_6_0_Mogul.xml" roadNumber="475" roadName="Great Northern" mfg="MRC" owner="Iron Spike" model="MRC" dccAddress="475" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2018-10-06T19:37:05.000+0000</dateUpdated>
-      <decoder model="1956 - N Scale - Steam Universal" family="Sound Decoders - N Scale" comment="" />
+      <decoder model="1956 - N Scale - Steam Universal" family="Sound Decoders - N Scale" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="475" longaddress="yes" />
         <number>475</number>
@@ -90,12 +90,12 @@
         <speeds />
       </speedprofile>
     </locomotive>
-    <locomotive id="330 M&amp;Stl 2-6-0" fileName="330_M_Stl_2_6_0.xml" roadNumber="" roadName="" mfg="MRC" owner="Iron Spike" model="Item #876051" dccAddress="4" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-07-20T20:11:54.000+0000</dateUpdated>
-      <decoder model="AD370" family="MRC AD370 Sound decoders" comment="" />
+    <locomotive id="330 M&amp;Stl 2-6-0" fileName="330_M_Stl_2_6_0.xml" roadNumber="" roadName="" mfg="MRC" owner="Iron Spike" model="Item #876051" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-04-09T19:05:37.898+0000</dateUpdated>
+      <decoder model="AD370" family="MRC AD370 Sound decoders" comment="" maxFnNum="28" />
       <locoaddress>
-        <dcclocoaddress number="4" longaddress="no" />
-        <number>4</number>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
         <protocol>dcc_short</protocol>
       </locoaddress>
       <functionlabels />
@@ -111,9 +111,20 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="475 GNR 2-6-0 Mogul" fileName="475.xml" roadNumber="475" roadName="" mfg="" owner="Iron Spike" model="2-6-0 Mogul Item #876041" dccAddress="475" comment="dcc &amp; sound equipped GN" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="41 HOn3 " fileName="41_.xml" roadNumber="41" roadName="Greenbrier &amp; Big Lumber Co" mfg="Bachmann" owner="Iron Spike" model="HOn3 2-6-6-0 " dccAddress="1" comment="HO 2-6-6-0" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-04-09T19:28:34.774+0000</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="1" longaddress="no" />
+        <number>1</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="475 GNR 2-6-0 Mogul" fileName="475.xml" roadNumber="475" roadName="" mfg="" owner="Iron Spike" model="2-6-0 Mogul Item #876041" dccAddress="475" comment="dcc &amp; sound equipped GN" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-07-20T18:28:08.000+0000</dateUpdated>
-      <decoder model="AD370" family="MRC AD370 Sound decoders" comment="" />
+      <decoder model="AD370" family="MRC AD370 Sound decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="475" longaddress="yes" />
         <number>475</number>
@@ -124,11 +135,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2020-09-21T18:49:26.526+0000</value>
+          <value>2021-04-03T19:40:47.096+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>234</value>
+          <value>666</value>
         </keyvaluepair>
       </attributepairs>
       <speedprofile>
@@ -137,9 +148,9 @@
         <speeds />
       </speedprofile>
     </locomotive>
-    <locomotive id="7614" fileName="7614.xml" roadNumber="7614" roadName="B&amp;O 2-8-8-4 large Dome" mfg="Bachmann" owner="Iron Spike" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="7614" fileName="7614.xml" roadNumber="7614" roadName="B&amp;O 2-8-8-4 large Dome" mfg="Bachmann" owner="Iron Spike" model="" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-09-21T20:53:32.606+0000</dateUpdated>
-      <decoder model="E-Z Command decoders" family="E-Z Command decoders" comment="" />
+      <decoder model="E-Z Command decoders" family="E-Z Command decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3" longaddress="no" />
         <number>3</number>
@@ -148,9 +159,9 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="8099" fileName="8099.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="3" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="8099" fileName="8099.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-04-16T17:01:15.000+0000</dateUpdated>
-      <decoder model="Diesel" family="Paragon 3" comment="" />
+      <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3" longaddress="yes" />
         <number>3</number>
@@ -159,9 +170,9 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="9910 Silver Speed" fileName="9910_Silver_Speed.xml" roadNumber="9910" roadName="CB&amp;Q" mfg="Kato" owner="Iron Spike" model="176-5401-DCC" dccAddress="9910" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="9910 Silver Speed" fileName="9910_Silver_Speed.xml" roadNumber="9910" roadName="CB&amp;Q" mfg="Kato" owner="Iron Spike" model="176-5401-DCC" dccAddress="9910" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-07-13T16:27:14.000+0000</dateUpdated>
-      <decoder model="T1A" family="Jan 2012" comment="" />
+      <decoder model="T1A" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9910" longaddress="yes" />
         <number>9910</number>
@@ -180,9 +191,9 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Amtrak 66" fileName="Amtrak_66.xml" roadNumber="66" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="66" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="Amtrak 66" fileName="Amtrak_66.xml" roadNumber="66" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="66" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2018-10-06T20:15:07.000+0000</dateUpdated>
-      <decoder model="K0D8-A" family="Jan 2012" comment="" />
+      <decoder model="K0D8-A" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="66" longaddress="no" />
         <number>66</number>
@@ -191,9 +202,9 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="CSX 648" fileName="CSX_648.xml" roadNumber="648" roadName="CSX" mfg="Broadway Limited Imports" owner="Scott Nelson" model="3746" dccAddress="648" comment="" maxSpeed="50" imageFilePath="preference:roster/CSX_648-2.jpg" iconFilePath="preference:roster/CSX_648.PNG" URL="" IsShuntingOn="">
+    <locomotive id="CSX 648" fileName="CSX_648.xml" roadNumber="648" roadName="CSX" mfg="Broadway Limited Imports" owner="Scott Nelson" model="3746" dccAddress="648" comment="" developerID="" manufacturerID="" productID="" maxSpeed="50" imageFilePath="preference:roster/CSX_648-2.jpg" iconFilePath="preference:roster/CSX_648.PNG" URL="" IsShuntingOn="">
       <dateUpdated>2020-03-14T16:29:31.433+0000</dateUpdated>
-      <decoder model="Diesel" family="Paragon 3" comment="" />
+      <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="648" longaddress="yes" />
         <number>648</number>
@@ -242,9 +253,9 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="GE P42 184" fileName="GE_P42_184.xml" roadNumber="184" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="184" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="GE P42 184" fileName="GE_P42_184.xml" roadNumber="184" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="184" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2018-10-06T19:27:58.000+0000</dateUpdated>
-      <decoder model="K0D8-A" family="Jan 2012" comment="" />
+      <decoder model="K0D8-A" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="184" longaddress="yes" />
         <number>184</number>
@@ -253,9 +264,9 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="M&amp;STL 334" fileName="M_STL_334.xml" roadNumber="334" roadName="Minniapolis &amp; St. Louis" mfg="MRC" owner="Iron Spike" model="2-6-0 Mogul" dccAddress="334" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="M&amp;STL 334" fileName="M_STL_334.xml" roadNumber="334" roadName="Minniapolis &amp; St. Louis" mfg="MRC" owner="Iron Spike" model="2-6-0 Mogul" dccAddress="334" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2018-10-06T19:46:38.000+0000</dateUpdated>
-      <decoder model="1956 - N Scale - Steam Universal" family="Sound Decoders - N Scale" comment="" />
+      <decoder model="1956 - N Scale - Steam Universal" family="Sound Decoders - N Scale" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="334" longaddress="yes" />
         <number>334</number>
@@ -294,9 +305,9 @@
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="PRR 2-6-0 " fileName="3233.xml" roadNumber="3233" roadName="PRR" mfg="" owner="Doug Revelle" model="" dccAddress="3233" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="PRR 2-6-0 " fileName="3233.xml" roadNumber="3233" roadName="PRR" mfg="" owner="Doug Revelle" model="" dccAddress="3233" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-01-18T19:47:07.779+0000</dateUpdated>
-      <decoder model="2-6-0 Mogul - Alco [HO]" family="Tsunami Steam Bachmann Sound Value" comment="" />
+      <decoder model="2-6-0 Mogul - Alco [HO]" family="Tsunami Steam Bachmann Sound Value" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3233" longaddress="yes" />
         <number>3233</number>
@@ -313,9 +324,9 @@
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="S4 Diesel #145" fileName="S4_Diesel__145.xml" roadNumber="145" roadName="Western Mayland" mfg="Bachman" owner="Iron Spike" model="" dccAddress="145" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="S4 Diesel #145" fileName="S4_Diesel__145.xml" roadNumber="145" roadName="Western Mayland" mfg="Bachman" owner="Iron Spike" model="" dccAddress="145" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-03-14T20:09:17.517+0000</dateUpdated>
-      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" />
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="145" longaddress="yes" />
         <number>145</number>
@@ -336,9 +347,9 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Santa Fe 5253" fileName="Santa_Fe_5253.xml" roadNumber="5253" roadName="Santa Fe" mfg="Kato" owner="Iron Spike" model="176-9212-DCC EMD SDP40F" dccAddress="5253" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="Santa Fe 5253" fileName="Santa_Fe_5253.xml" roadNumber="5253" roadName="Santa Fe" mfg="Kato" owner="Iron Spike" model="176-9212-DCC EMD SDP40F" dccAddress="5253" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2019-07-13T16:45:55.000+0000</dateUpdated>
-      <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="TCS K7D4 decoder, not in jmri at the moment&lt;?p?&gt;" />
+      <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="TCS K7D4 decoder, not in jmri at the moment&lt;?p?&gt;" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5253" longaddress="yes" />
         <number>5253</number>
@@ -349,11 +360,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-01-23T18:19:05.990+0000</value>
+          <value>2021-04-09T18:40:22.715+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>2431</value>
+          <value>6641</value>
         </keyvaluepair>
       </attributepairs>
       <speedprofile>
@@ -361,8 +372,18 @@
         <overRunTimeReverse>0.0</overRunTimeReverse>
         <speeds>
           <speed>
+            <step>0</step>
+            <forward>39241.625</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
             <step>103</step>
             <forward>101.886734</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>127</step>
+            <forward>77.48935</forward>
             <reverse>0.0</reverse>
           </speed>
           <speed>
@@ -381,16 +402,52 @@
             <reverse>161.90143</reverse>
           </speed>
           <speed>
+            <step>254</step>
+            <forward>189.8317</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
             <step>302</step>
             <forward>0.0</forward>
             <reverse>274.67657</reverse>
           </speed>
+          <speed>
+            <step>484</step>
+            <forward>192.26376</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>500</step>
+            <forward>376.7446</forward>
+            <reverse>0.0</reverse>
+          </speed>
         </speeds>
       </speedprofile>
     </locomotive>
-    <locomotive id="Scott Nelson's Austrian Loco" fileName="Scott_Nelson_s_Austrian_Loco.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="19" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="Santa Fe 5258" fileName="Santa_Fe_5258.xml" roadNumber="5253" roadName="Santa Fe" mfg="Kato" owner="Iron Spike" model="176-9212-DCC EMD SDP40F" dccAddress="5258" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-03-30T18:31:23.650+0000</dateUpdated>
+      <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="TCS K7D4 decoder, not in jmri at the moment&lt;?p?&gt;" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="5258" longaddress="yes" />
+        <number>5258</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-04-09T18:21:23.414+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>4084</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="Scott Nelson's Austrian Loco" fileName="Scott_Nelson_s_Austrian_Loco.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="19" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-08T21:42:54.445+0000</dateUpdated>
-      <decoder model="MX645 version 32+" family="Zimo Unified software (version 32+)" comment="" />
+      <decoder model="MX645 version 32+" family="Zimo Unified software (version 32+)" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="19" longaddress="no" />
         <number>19</number>
@@ -399,9 +456,9 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="Southern 8099" fileName="Southern_8099.xml" roadNumber="8099" roadName="Southern" mfg="Broadway Limited" owner="Tom" model="3543" dccAddress="8099" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="Southern 8099" fileName="Southern_8099.xml" roadNumber="8099" roadName="Southern" mfg="Broadway Limited" owner="Tom" model="3543" dccAddress="8099" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2018-10-27T19:53:26.000+0000</dateUpdated>
-      <decoder model="Diesel" family="Paragon 3" comment="" />
+      <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="8099" longaddress="yes" />
         <number>8099</number>
@@ -450,9 +507,9 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="UP 3985" fileName="UP_3985.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="3985" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="UP 3985" fileName="UP_3985.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="3985" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2018-10-06T20:08:20.000+0000</dateUpdated>
-      <decoder model="TSU-4664N Challenger" family="Tsunami Steam" comment="" />
+      <decoder model="TSU-4664N Challenger" family="Tsunami Steam" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="3985" longaddress="yes" />
         <number>3985</number>
@@ -475,9 +532,9 @@
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="UP 7541" fileName="UP_7541.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="7541" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="UP 7541" fileName="UP_7541.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="7541" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-01-25T19:49:31.344+0000</dateUpdated>
-      <decoder model="Diesel" family="Paragon 3" comment="" />
+      <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="7541" longaddress="yes" />
         <number>7541</number>
@@ -518,17 +575,58 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2020-02-29T17:22:32.592+0000</value>
+          <value>2021-03-31T17:56:51.278+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>22</value>
+          <value>24</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="UP 844" fileName="UP_844.xml" roadNumber="844" roadName="Union Pacific" mfg="Kato" owner="Iron Spike" model="126-0401-1" dccAddress="844" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <locomotive id="UP 7541 t" fileName="UP_7541_t.xml" roadNumber="7541" roadName="UP" mfg="BLI" owner="Tom Tate" model="AC6000" dccAddress="7541" comment="Test roster entry" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-03-31T18:18:56.939+0000</dateUpdated>
+      <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="7541" longaddress="yes" />
+        <number>7541</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+    </locomotive>
+    <locomotive id="UP 844" fileName="UP_844.xml" roadNumber="844" roadName="Union Pacific" mfg="Kato" owner="Iron Spike" model="126-0401-1" dccAddress="844" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2018-10-06T20:25:21.000+0000</dateUpdated>
-      <decoder model="K6D4" family="Jan 2012" comment="" />
+      <decoder model="K6D4" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="844" longaddress="yes" />
         <number>844</number>
@@ -536,6 +634,99 @@
       </locoaddress>
       <functionlabels />
       <soundlabels />
+    </locomotive>
+    <locomotive id="War Bonnet 3 2Func" fileName="War_Bonnet_3.xml" roadNumber="3" roadName="Santa Fe" mfg="Bachman" owner="Iron Spike" model="War Bonnet" dccAddress="3" comment="No Road #" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-03-30T18:31:23.650+0000</dateUpdated>
+      <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="Identifies with 2 and 4 function decoder" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-04-03T19:59:00.916+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>1694</value>
+        </keyvaluepair>
+      </attributepairs>
+      <speedprofile>
+        <overRunTimeForward>0.0</overRunTimeForward>
+        <overRunTimeReverse>0.0</overRunTimeReverse>
+        <speeds>
+          <speed>
+            <step>5</step>
+            <forward>108.59794</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>29</step>
+            <forward>998.0533</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>73</step>
+            <forward>59.459457</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>81</step>
+            <forward>98.69274</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>93</step>
+            <forward>24.363636</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>96</step>
+            <forward>27.56013</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>154</step>
+            <forward>26.84515</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>180</step>
+            <forward>102.28188</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>206</step>
+            <forward>124.448235</forward>
+            <reverse>0.0</reverse>
+          </speed>
+        </speeds>
+      </speedprofile>
+    </locomotive>
+    <locomotive id="War Bonnet 3 4Func" fileName="War_Bonnet_3_4Func.xml" roadNumber="3" roadName="Santa Fe" mfg="Bachmann" owner="Iron Spike" model="War Bonnet" dccAddress="3" comment="Identifies with both 2 and 4 function decoder" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-03-30T18:31:23.650+0000</dateUpdated>
+      <decoder model="4 function decoder (36-550)" family="E-Z Command decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-03-31T17:53:38.878+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>343</value>
+        </keyvaluepair>
+      </attributepairs>
     </locomotive>
   </roster>
 </roster-config>

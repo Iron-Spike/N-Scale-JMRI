@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <!--Written by JMRI version 4.20+Rc7ba8249b on Tue Mar 30 12:46:13 CDT 2021-->
+  <locomotive id="War Bonnet 3 2Func" fileName="War_Bonnet_3.xml" roadNumber="3" roadName="Santa Fe" mfg="Bachman" owner="Iron Spike" model="War Bonnet" dccAddress="3" comment="No Road #" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2021-03-30T17:46:13.270+0000</dateUpdated>
+    <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="Identifies with 2 and 4 function decoder" />
+    <locoaddress>
+      <dcclocoaddress number="3" longaddress="no" />
+      <number>3</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Start Volts" value="10" />
+        <varValue item="Accel" value="1" />
+        <varValue item="Decel" value="1" />
+        <varValue item="Headlight Dimmed By" value="0" />
+        <varValue item="Headlight Dimming intensity" value="64" />
+        <varValue item="FL(f) controls output 1" value="1" />
+        <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="0" />
+        <varValue item="Address Format" value="0" />
+        <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Power Source Conversion" value="1" />
+        <varValue item="Brake Momentum on DC" value="0" />
+        <varValue item="User ID #1 (0-255)" value="0" />
+        <varValue item="User ID #2 (0-255)" value="0" />
+      </decoderDef>
+      <CVvalue name="2" value="10" />
+      <CVvalue name="3" value="1" />
+      <CVvalue name="4" value="1" />
+      <CVvalue name="51" value="0" />
+      <CVvalue name="52" value="64" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="0" />
+      <CVvalue name="18" value="0" />
+      <CVvalue name="29" value="6" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="50" value="0" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
+    </values>
+  </locomotive>
+</locomotive-config>

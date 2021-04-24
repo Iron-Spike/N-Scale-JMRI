@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.10+R419243e on Sat Jul 20 15:11:54 CDT 2019-->
-  <locomotive id="330 M&amp;Stl 2-6-0" fileName="330_M_Stl_2_6_0.xml" roadNumber="" roadName="" mfg="MRC" owner="Iron Spike" model="Item #876051" dccAddress="4" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2019-07-20T20:11:54Z</dateUpdated>
-    <decoder model="AD370" family="MRC AD370 Sound decoders" comment="" />
+  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Apr 09 14:05:37 CDT 2021-->
+  <locomotive id="330 M&amp;Stl 2-6-0" fileName="330_M_Stl_2_6_0.xml" roadNumber="" roadName="" mfg="MRC" owner="Iron Spike" model="Item #876051" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2021-04-09T19:05:37.898+0000</dateUpdated>
+    <decoder model="AD370" family="MRC AD370 Sound decoders" comment="" maxFnNum="28" />
     <locoaddress>
-      <dcclocoaddress number="4" longaddress="no" />
-      <number>4</number>
+      <dcclocoaddress number="3" longaddress="no" />
+      <number>3</number>
       <protocol>dcc_short</protocol>
     </locoaddress>
+    <functionlabels />
+    <soundlabels />
     <attributepairs>
       <keyvaluepair>
         <key>LastOperated</key>
@@ -25,8 +27,8 @@
         <varValue item="Start Volts" value="0" />
         <varValue item="Max Volts" value="0" />
         <varValue item="Light Effect Setting" value="0" />
-        <varValue item="Primary Address" value="4" />
-        <varValue item="Extended Address" value="330" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="3" />
         <varValue item="Address Format" value="0" />
         <varValue item="Acceleration Rate" value="0" />
         <varValue item="Deceleration Rate" value="0" />
@@ -34,17 +36,17 @@
         <varValue item="Speed Steps" value="1" />
         <varValue item="Manufacturer Version No: " value="0" />
         <varValue item="Manufacturer ID: " value="141" />
-        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="User ID #1 (0-255)" value="0" />
         <varValue item="User ID #2 (0-255)" value="0" />
       </decoderDef>
       <CVvalue name="2" value="0" />
       <CVvalue name="5" value="0" />
       <CVvalue name="64" value="0" />
-      <CVvalue name="1" value="4" />
-      <CVvalue name="17" value="193" />
-      <CVvalue name="18" value="74" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="192" />
+      <CVvalue name="18" value="3" />
       <CVvalue name="29" value="2" />
       <CVvalue name="3" value="0" />
       <CVvalue name="4" value="0" />
