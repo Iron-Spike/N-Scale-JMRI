@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.22+R4c4384d74 on Sat May 22 10:09:26 CDT 2021-->
+  <!--Written by JMRI version 4.22+R4c4384d74 on Sat May 22 15:19:10 CDT 2021-->
   <roster>
     <locomotive id="1104" fileName="1103.xml" roadNumber="" roadName="1104" mfg="" owner="Doug" model="walthers" dccAddress="1104" comment="test loco HO scale" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-03T16:54:43.763+0000</dateUpdated>
@@ -103,7 +103,7 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2019-07-20T19:21:42Z</value>
+          <value>2021-05-22T20:18:32.788+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
@@ -191,20 +191,22 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Amtrak 66" fileName="Amtrak_66.xml" roadNumber="66" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="156" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2021-05-01T20:46:29.909+0000</dateUpdated>
+    <locomotive id="Amtrak 156" fileName="Amtrak_66.xml" roadNumber="156" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="156" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-05-22T20:15:45.504+0000</dateUpdated>
       <decoder model="K0D8-A" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="156" longaddress="yes" />
         <number>156</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
-      <functionlabels />
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      </functionlabels>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-05-22T14:47:25.909+0000</value>
+          <value>2021-05-22T20:18:45.906+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
