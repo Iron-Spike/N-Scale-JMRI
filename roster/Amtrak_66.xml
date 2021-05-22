@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.12+Rb6a9bb1 on Sat Oct 06 15:15:07 CDT 2018-->
-  <locomotive id="Amtrak 66" fileName="Amtrak_66.xml" roadNumber="66" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="66" comment="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-    <dateUpdated>2018-10-06T20:15:07Z</dateUpdated>
-    <decoder model="K0D8-A" family="Jan 2012" comment="" />
+  <!--Written by JMRI version 4.22+R4c4384d74 on Sat May 01 15:46:29 CDT 2021-->
+  <locomotive id="Amtrak 66" fileName="Amtrak_66.xml" roadNumber="66" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="156" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2021-05-01T20:46:29.909+0000</dateUpdated>
+    <decoder model="K0D8-A" family="Jan 2012" comment="" maxFnNum="28" />
     <locoaddress>
-      <dcclocoaddress number="66" longaddress="no" />
-      <number>66</number>
-      <protocol>dcc_short</protocol>
+      <dcclocoaddress number="156" longaddress="yes" />
+      <number>156</number>
+      <protocol>dcc_long</protocol>
     </locoaddress>
+    <functionlabels />
+    <soundlabels />
     <values>
       <decoderDef>
+        <varValue item="Decoder ID" value="25" />
+        <varValue item="Month of Decoder Manufacture" value="6" />
+        <varValue item="Day of Decoder Manufacture" value="15" />
+        <varValue item="Year of Decoder Manufacture" value="17" />
         <varValue item="Version ID" value="88" />
         <varValue item="Manufacturer ID" value="153" />
         <varValue item="BEMF Cut Out" value="0" />
@@ -172,29 +178,32 @@
         <varValue item="Enable BEMF Button Control" value="0" />
         <varValue item="Enable Brake Button Control" value="0" />
         <varValue item="Headlight Dim When Stopped" value="0" />
+        <varValue item="Button Control of Brake Light" value="0" />
         <varValue item="Opposite Headlight Dim" value="0" />
         <varValue item="Motor Button Control" value="0" />
         <varValue item="Button Control Direction" value="0" />
         <varValue item="Momentary Pulse" value="0" />
         <varValue item="Ditch Light Blink Holdover Time" value="63" />
         <varValue item="Constant Dim 1 Brightness" value="6" />
-        <varValue item="Forward Motor Trim" value="128" />
-        <varValue item="Speed Table" value="8,16,24,32,40,48,56,64,72,80,88,96,104,114,124,134,144,154,164,174,184,194,204,214,224,234,244,255" />
-        <varValue item="Reverse Motor Trim" value="128" />
-        <varValue item="Primary Address" value="66" />
-        <varValue item="Extended Address" value="0" />
-        <varValue item="Address Format" value="0" />
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="156" />
+        <varValue item="Address Format" value="1" />
         <varValue item="Start voltage" value="0" />
         <varValue item="Accel 1 Rate" value="1" />
         <varValue item="Decel 1 Rate" value="1" />
         <varValue item="Maximum Voltage" value="0" />
         <varValue item="Midpoint Voltage" value="0" />
-        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Advanced Consist Address" value="0" />
         <varValue item="Normal direction of motion" value="0" />
         <varValue item="Speed steps" value="1" />
-        <varValue item="Analog conversion mode" value="0" />
+        <varValue item="Analog conversion mode" value="1" />
+        <varValue item="Enable RailCom" value="0" />
         <varValue item="Use Speed Table" value="0" />
+        <varValue item="Forward Trim" value="128" />
+        <varValue item="Speed Table" value="8,16,24,32,40,48,56,64,72,80,88,96,104,114,124,134,144,154,164,174,184,194,204,214,224,234,244,255" />
+        <varValue item="Reverse Trim" value="128" />
+        <varValue item="User Private ID #0" value="0" />
         <varValue item="User Private ID #1" value="0" />
         <varValue item="User Private ID #2" value="0" />
         <varValue item="Mars/Gyra Min Brightness" value="1" />
@@ -202,7 +211,7 @@
         <varValue item="Mars/Gyra Total Cycle Time" value="1" />
         <varValue item="Mars/Gyra Mid Brightness" value="6" />
         <varValue item="Mars/Gyra Max Brightness" value="22" />
-        <varValue item="Ditch Light Blink Rate" value="0" />
+        <varValue item="Ditch Light Blink Rate" value="1" />
         <varValue item="Beacon Min Brightness" value="1" />
         <varValue item="Beacon Max Bright Time" value="5" />
         <varValue item="Beacon Total Cycle Time" value="1" />
@@ -277,11 +286,13 @@
         <varValue item="Constant Dim 4 Brightness" value="5" />
         <varValue item="Headlight Dim Brightness" value="0" />
         <varValue item="Reverse Light Dim Brightness" value="0" />
-        <varValue item="Decoder ID" value="25" />
-        <varValue item="Month of Decoder Manufacture" value="6" />
-        <varValue item="Day of Decoder Manufacture" value="15" />
-        <varValue item="Year of Decoder Manufacture" value="17" />
+        <varValue item="Special BEMF for 3-Pole Motor" value="0" />
+        <varValue item="Enable Keep-Alive" value="1" />
       </decoderDef>
+      <CVvalue name="249" value="25" />
+      <CVvalue name="250" value="6" />
+      <CVvalue name="251" value="15" />
+      <CVvalue name="252" value="17" />
       <CVvalue name="7" value="88" />
       <CVvalue name="8" value="153" />
       <CVvalue name="10" value="0" />
@@ -320,6 +331,16 @@
       <CVvalue name="62" value="0" />
       <CVvalue name="63" value="63" />
       <CVvalue name="64" value="6" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="192" />
+      <CVvalue name="18" value="156" />
+      <CVvalue name="29" value="38" />
+      <CVvalue name="2" value="0" />
+      <CVvalue name="3" value="1" />
+      <CVvalue name="4" value="1" />
+      <CVvalue name="5" value="0" />
+      <CVvalue name="6" value="0" />
+      <CVvalue name="19" value="0" />
       <CVvalue name="66" value="128" />
       <CVvalue name="67" value="8" />
       <CVvalue name="68" value="16" />
@@ -350,16 +371,7 @@
       <CVvalue name="93" value="244" />
       <CVvalue name="94" value="255" />
       <CVvalue name="95" value="128" />
-      <CVvalue name="1" value="66" />
-      <CVvalue name="17" value="192" />
-      <CVvalue name="18" value="0" />
-      <CVvalue name="29" value="2" />
-      <CVvalue name="2" value="0" />
-      <CVvalue name="3" value="1" />
-      <CVvalue name="4" value="1" />
-      <CVvalue name="5" value="0" />
-      <CVvalue name="6" value="0" />
-      <CVvalue name="19" value="0" />
+      <CVvalue name="104" value="0" />
       <CVvalue name="105" value="0" />
       <CVvalue name="106" value="0" />
       <CVvalue name="112" value="1" />
@@ -408,10 +420,7 @@
       <CVvalue name="155" value="5" />
       <CVvalue name="156" value="0" />
       <CVvalue name="157" value="0" />
-      <CVvalue name="249" value="25" />
-      <CVvalue name="250" value="6" />
-      <CVvalue name="251" value="15" />
-      <CVvalue name="252" value="17" />
+      <CVvalue name="182" value="2" />
     </values>
   </locomotive>
 </locomotive-config>

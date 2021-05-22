@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.22+R4c4384d74 on Fri Apr 09 14:28:34 CDT 2021-->
+  <!--Written by JMRI version 4.22+R4c4384d74 on Sat May 22 10:09:26 CDT 2021-->
   <roster>
     <locomotive id="1104" fileName="1103.xml" roadNumber="" roadName="1104" mfg="" owner="Doug" model="walthers" dccAddress="1104" comment="test loco HO scale" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-03T16:54:43.763+0000</dateUpdated>
@@ -191,12 +191,33 @@
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="Amtrak 66" fileName="Amtrak_66.xml" roadNumber="66" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="66" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2018-10-06T20:15:07.000+0000</dateUpdated>
+    <locomotive id="Amtrak 66" fileName="Amtrak_66.xml" roadNumber="66" roadName="Amtrak" mfg="Kato" owner="Iron Spike" model="" dccAddress="156" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-05-01T20:46:29.909+0000</dateUpdated>
       <decoder model="K0D8-A" family="Jan 2012" comment="" maxFnNum="28" />
       <locoaddress>
-        <dcclocoaddress number="66" longaddress="no" />
-        <number>66</number>
+        <dcclocoaddress number="156" longaddress="yes" />
+        <number>156</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-05-22T14:47:25.909+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>1</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
+    <locomotive id="B&amp;O 20" fileName="B_O_20.xml" roadNumber="" roadName="" mfg="" owner="Tom Tate" model="" dccAddress="20" comment="" developerID="-1" manufacturerID="101" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-05-01T20:58:55.259+0000</dateUpdated>
+      <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="20" longaddress="no" />
+        <number>20</number>
         <protocol>dcc_short</protocol>
       </locoaddress>
       <functionlabels />
@@ -360,11 +381,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-04-09T18:40:22.715+0000</value>
+          <value>2021-05-22T14:32:42.532+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>6641</value>
+          <value>6741</value>
         </keyvaluepair>
       </attributepairs>
       <speedprofile>
@@ -437,11 +458,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-04-09T18:21:23.414+0000</value>
+          <value>2021-05-22T14:16:52.110+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>4084</value>
+          <value>4188</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
