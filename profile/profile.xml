@@ -13,6 +13,30 @@
             </options>
         </connection>
     </connections>
+    <speedprofiler-config xmlns="http://jmri.org/xml/schema/speedometer-3-9-3.xsd">
+        <configuration xmlns="">
+            <length>357</length>
+        </configuration>
+        <sensors xmlns="">
+            <sensor>
+                <sensorname>sensorAPanel</sensorname>
+                <sensorvalue>Aug04</sensorvalue>
+            </sensor>
+            <sensor>
+                <sensorname>sensorBPanel</sensorname>
+                <sensorvalue>Aug07</sensorvalue>
+            </sensor>
+            <sensor>
+                <sensorname>sensorCPanel</sensorname>
+                <sensorvalue>Aug05</sensorvalue>
+            </sensor>
+        </sensors>
+        <steps xmlns="">
+            <speedStepFrom>20</speedStepFrom>
+            <speedStepTo>20</speedStepTo>
+            <speedStepIncr>5</speedStepIncr>
+        </steps>
+    </speedprofiler-config>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-2-9-6.xsd"/>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
         <perform xmlns="" class="apps.configurexml.PerformActionModelXml" name="jmri.jmrit.withrottle.WiThrottleCreationAction" type="Action">

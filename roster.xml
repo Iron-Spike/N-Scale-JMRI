@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.22+R4c4384d74 on Sat May 22 15:19:10 CDT 2021-->
+  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Jul 24 16:21:36 CDT 2021-->
   <roster>
     <locomotive id="1104" fileName="1103.xml" roadNumber="" roadName="1104" mfg="" owner="Doug" model="walthers" dccAddress="1104" comment="test loco HO scale" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-03T16:54:43.763+0000</dateUpdated>
@@ -148,6 +148,57 @@
         <speeds />
       </speedprofile>
     </locomotive>
+    <locomotive id="7541" fileName="7541.xml" roadNumber="7541" roadName="Union Pacific" mfg="Broadway Limited Inc" owner="Tom Tate" model="AC6000" dccAddress="127" comment="Good version - use this one" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-06-05T14:42:17.366+0000</dateUpdated>
+      <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="127" longaddress="no" />
+        <number>127</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
+      </functionlabels>
+      <soundlabels />
+      <attributepairs>
+        <keyvaluepair>
+          <key>LastOperated</key>
+          <value>2021-06-05T14:47:03.912+0000</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>OperatingDuration</key>
+          <value>0</value>
+        </keyvaluepair>
+      </attributepairs>
+    </locomotive>
     <locomotive id="7614" fileName="7614.xml" roadNumber="7614" roadName="B&amp;O 2-8-8-4 large Dome" mfg="Bachmann" owner="Iron Spike" model="" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-09-21T20:53:32.606+0000</dateUpdated>
       <decoder model="E-Z Command decoders" family="E-Z Command decoders" comment="" maxFnNum="28" />
@@ -206,11 +257,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-05-22T20:18:45.906+0000</value>
+          <value>2021-07-24T20:57:25.309+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>1</value>
+          <value>40</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -268,7 +319,7 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2020-03-14T15:57:15.903+0000</value>
+          <value>2021-07-24T21:12:50.956+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
@@ -371,7 +422,7 @@
       </attributepairs>
     </locomotive>
     <locomotive id="Santa Fe 5253" fileName="Santa_Fe_5253.xml" roadNumber="5253" roadName="Santa Fe" mfg="Kato" owner="Iron Spike" model="176-9212-DCC EMD SDP40F" dccAddress="5253" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2019-07-13T16:45:55.000+0000</dateUpdated>
+      <dateUpdated>2021-06-04T16:01:36.944+0000</dateUpdated>
       <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="TCS K7D4 decoder, not in jmri at the moment&lt;?p?&gt;" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5253" longaddress="yes" />
@@ -383,11 +434,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-05-22T14:32:42.532+0000</value>
+          <value>2021-07-24T20:58:42.220+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>6741</value>
+          <value>10027</value>
         </keyvaluepair>
       </attributepairs>
       <speedprofile>
@@ -395,60 +446,15 @@
         <overRunTimeReverse>0.0</overRunTimeReverse>
         <speeds>
           <speed>
-            <step>0</step>
-            <forward>39241.625</forward>
-            <reverse>0.0</reverse>
-          </speed>
-          <speed>
-            <step>103</step>
-            <forward>101.886734</forward>
-            <reverse>0.0</reverse>
-          </speed>
-          <speed>
-            <step>127</step>
-            <forward>77.48935</forward>
-            <reverse>0.0</reverse>
-          </speed>
-          <speed>
-            <step>190</step>
-            <forward>133.00215</forward>
-            <reverse>0.0</reverse>
-          </speed>
-          <speed>
-            <step>206</step>
-            <forward>144.94878</forward>
-            <reverse>118.938484</reverse>
-          </speed>
-          <speed>
-            <step>230</step>
-            <forward>0.0</forward>
-            <reverse>161.90143</reverse>
-          </speed>
-          <speed>
-            <step>254</step>
-            <forward>189.8317</forward>
-            <reverse>0.0</reverse>
-          </speed>
-          <speed>
-            <step>302</step>
-            <forward>0.0</forward>
-            <reverse>274.67657</reverse>
-          </speed>
-          <speed>
-            <step>484</step>
-            <forward>192.26376</forward>
-            <reverse>0.0</reverse>
-          </speed>
-          <speed>
-            <step>500</step>
-            <forward>376.7446</forward>
-            <reverse>0.0</reverse>
+            <step>159</step>
+            <forward>11.607095</forward>
+            <reverse>11.624189</reverse>
           </speed>
         </speeds>
       </speedprofile>
     </locomotive>
     <locomotive id="Santa Fe 5258" fileName="Santa_Fe_5258.xml" roadNumber="5253" roadName="Santa Fe" mfg="Kato" owner="Iron Spike" model="176-9212-DCC EMD SDP40F" dccAddress="5258" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2021-03-30T18:31:23.650+0000</dateUpdated>
+      <dateUpdated>2021-06-04T16:24:45.229+0000</dateUpdated>
       <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="TCS K7D4 decoder, not in jmri at the moment&lt;?p?&gt;" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5258" longaddress="yes" />
@@ -460,13 +466,24 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-05-22T14:16:52.110+0000</value>
+          <value>2021-07-24T20:47:26.093+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>4188</value>
+          <value>5532</value>
         </keyvaluepair>
       </attributepairs>
+      <speedprofile>
+        <overRunTimeForward>0.0</overRunTimeForward>
+        <overRunTimeReverse>0.0</overRunTimeReverse>
+        <speeds>
+          <speed>
+            <step>159</step>
+            <forward>10.415453</forward>
+            <reverse>10.332423</reverse>
+          </speed>
+        </speeds>
+      </speedprofile>
     </locomotive>
     <locomotive id="Scott Nelson's Austrian Loco" fileName="Scott_Nelson_s_Austrian_Loco.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="19" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-08T21:42:54.445+0000</dateUpdated>
@@ -552,98 +569,6 @@
         <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Injectors</functionlabel>
         <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
         <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-      </functionlabels>
-      <soundlabels />
-    </locomotive>
-    <locomotive id="UP 7541" fileName="UP_7541.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="7541" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2020-01-25T19:49:31.344+0000</dateUpdated>
-      <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
-      <locoaddress>
-        <dcclocoaddress number="7541" longaddress="yes" />
-        <number>7541</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels>
-        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
-        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
-        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
-        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
-        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
-        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
-        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
-        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
-        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
-        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
-        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
-        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
-        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
-        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
-        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
-        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
-        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
-        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
-        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
-        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
-        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
-        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
-        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
-        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
-        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
-        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
-      </functionlabels>
-      <soundlabels />
-      <attributepairs>
-        <keyvaluepair>
-          <key>LastOperated</key>
-          <value>2021-03-31T17:56:51.278+0000</value>
-        </keyvaluepair>
-        <keyvaluepair>
-          <key>OperatingDuration</key>
-          <value>24</value>
-        </keyvaluepair>
-      </attributepairs>
-    </locomotive>
-    <locomotive id="UP 7541 t" fileName="UP_7541_t.xml" roadNumber="7541" roadName="UP" mfg="BLI" owner="Tom Tate" model="AC6000" dccAddress="7541" comment="Test roster entry" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2021-03-31T18:18:56.939+0000</dateUpdated>
-      <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
-      <locoaddress>
-        <dcclocoaddress number="7541" longaddress="yes" />
-        <number>7541</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels>
-        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
-        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
-        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
-        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
-        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">Compressor</functionlabel>
-        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">RPM Up</functionlabel>
-        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">RPM Dn</functionlabel>
-        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Smoke Control</functionlabel>
-        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Mute/Master Volume</functionlabel>
-        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Shutdown and Startup</functionlabel>
-        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Cooling Fan</functionlabel>
-        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
-        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Brake Set/Release/Squeal</functionlabel>
-        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Horn Grade Crossing</functionlabel>
-        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Station Sounds</functionlabel>
-        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Yard Sounds</functionlabel>
-        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Maintenance Sounds</functionlabel>
-        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Radio Chatter</functionlabel>
-        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">City Sounds</functionlabel>
-        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Farm Sounds</functionlabel>
-        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Industrial Sounds</functionlabel>
-        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">Lumber Sounds</functionlabel>
-        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Horn2</functionlabel>
-        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Track Sounds</functionlabel>
-        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Aux Light Control</functionlabel>
-        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Long Horn</functionlabel>
-        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Play Macro</functionlabel>
-        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Record Macro</functionlabel>
-        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Brake Squeal</functionlabel>
       </functionlabels>
       <soundlabels />
     </locomotive>
