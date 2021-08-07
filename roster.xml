@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Jul 24 16:21:36 CDT 2021-->
+  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Aug 07 16:10:55 CDT 2021-->
   <roster>
     <locomotive id="1104" fileName="1103.xml" roadNumber="" roadName="1104" mfg="" owner="Doug" model="walthers" dccAddress="1104" comment="test loco HO scale" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-03T16:54:43.763+0000</dateUpdated>
@@ -135,7 +135,7 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-04-03T19:40:47.096+0000</value>
+          <value>2021-07-29T18:09:20.337+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
@@ -257,11 +257,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-07-24T20:57:25.309+0000</value>
+          <value>2021-08-07T18:39:37.388+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>40</value>
+          <value>117</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -319,11 +319,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-07-24T21:12:50.956+0000</value>
+          <value>2021-08-07T19:50:33.438+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>5137</value>
+          <value>5320</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -434,11 +434,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-07-24T20:58:42.220+0000</value>
+          <value>2021-08-07T20:15:33.052+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>10027</value>
+          <value>11548</value>
         </keyvaluepair>
       </attributepairs>
       <speedprofile>
@@ -446,9 +446,64 @@
         <overRunTimeReverse>0.0</overRunTimeReverse>
         <speeds>
           <speed>
+            <step>38</step>
+            <forward>16.683987</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>39</step>
+            <forward>410.7982</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>76</step>
+            <forward>41.495846</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>122</step>
+            <forward>91.84273</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>134</step>
+            <forward>95.19666</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>135</step>
+            <forward>1702.0823</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
             <step>159</step>
             <forward>11.607095</forward>
             <reverse>11.624189</reverse>
+          </speed>
+          <speed>
+            <step>177</step>
+            <forward>3662.2202</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>206</step>
+            <forward>34495.945</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>212</step>
+            <forward>8.654151</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>310</step>
+            <forward>213.84616</forward>
+            <reverse>0.0</reverse>
+          </speed>
+          <speed>
+            <step>405</step>
+            <forward>9876.519</forward>
+            <reverse>0.0</reverse>
           </speed>
         </speeds>
       </speedprofile>
@@ -466,11 +521,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-07-24T20:47:26.093+0000</value>
+          <value>2021-07-29T18:08:45.840+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>5532</value>
+          <value>6475</value>
         </keyvaluepair>
       </attributepairs>
       <speedprofile>
