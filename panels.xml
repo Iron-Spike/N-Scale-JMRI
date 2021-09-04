@@ -3,7 +3,7 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-4-19-2.xsd">
   <jmriversion>
     <major>4</major>
-    <minor>20</minor>
+    <minor>22</minor>
     <test>0</test>
     <modifier />
   </jmriversion>
@@ -788,7 +788,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="11:40 AM">
+    <memory value="3:25 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -796,10 +796,10 @@
     </memory>
   </memories>
   <signalmasts class="jmri.managers.configurexml.DefaultSignalMastManagerXml">
-    <signalmast class="jmri.implementation.configurexml.SignalHeadSignalMastXml">
+    <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:AAR-1946:SL-2-high-abs($0003)</systemName>
       <unlit allowed="yes" />
-    </signalmast>
+    </virtualsignalmast>
     <virtualsignalmast class="jmri.implementation.configurexml.VirtualSignalMastXml">
       <systemName>IF$vsm:basic:one-low($0001)</systemName>
       <userName>Aug02&gt;Aug01</userName>
@@ -2209,7 +2209,7 @@
       <systemName>IB53</systemName>
       <userName>Bedford 23</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB1" />
+      <path todir="32" fromdir="16" block="IB1" />
       <path todir="128" fromdir="64" block="IB52" />
     </block>
     <block systemName="IB54" length="0.0" curve="0">
@@ -3821,7 +3821,7 @@
       <blockOrder pathName="Aug13-Aug16" entryName="Aug13/Aug16" exitName="">
         <block systemName="OB-Aug16" userName="Aug16" />
       </blockOrder>
-      <train trainId="Santa Fe 5258" dccAddress="5258" dccType="L" runBlind="false" shareRoute="false" noRamp="false" trainName="AA12" />
+      <train trainId="Santa Fe 5258" dccAddress="5258" dccType="dcc_long" runBlind="false" shareRoute="false" noRamp="false" trainName="AA12" />
     </warrant>
   </warrants>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
@@ -4868,8 +4868,16 @@
       </destinationMast>
     </signalmastlogic>
   </signalmastlogics>
+  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
+    <meter>
+      <systemName>LV[0](s/n9812)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LV[0](s/n9812)Voltage</systemName>
+    </meter>
+  </meters>
   <timebase class="jmri.jmrit.simpleclock.configurexml.SimpleTimebaseXml" time="Sun Sep 15 14:29:03 CDT 2019" rate="1.0" startrate="1.0" run="yes" master="yes" sync="no" correct="no" display="no" startstopped="no" startrunning="yes" startsettime="no" startclockoption="0" showbutton="no" startsetrate="yes" />
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="1604" y="416" windowheight="664" windowwidth="1043" panelheight="816" panelwidth="1358" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Augusta Peninsula" x="1600" y="516" windowheight="564" windowwidth="874" panelheight="816" panelwidth="1358" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="white" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="white" turnoutcirclecolor="green" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Augusta Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -5106,7 +5114,7 @@
     <positionablepoint ident="A10" type="ANCHOR" x="1142.0" y="648.5" connect1name="T6" connect2name="T58" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="ANCHOR" x="72.0" y="651.0" connect1name="T77" connect2name="T67" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="2645" y="462" windowheight="618" windowwidth="749" panelheight="703" panelwidth="932" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Bedford Peninsula" x="1600" y="0" windowheight="516" windowwidth="874" panelheight="703" panelwidth="916" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="no" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="red" turnoutfillcontrolcircles="yes" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Bedford Peninsula" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -5156,7 +5164,7 @@
     <layoutturnout ident="TO14" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="482.0" ycen="551.0" xa="522.0" ya="551.0" xb="442.0" yb="551.0" xc="439.0" yc="521.0" xd="522.0" yd="551.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Bedford 4" secondturnoutname="Bedford 3" blockname="Bedford 3" connectaname="T42" connectbname="T35" connectcname="T37" />
     <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" continuing="2" xcen="812.0" ycen="581.0" xa="816.0" ya="650.0" xb="808.0" yb="512.0" xc="782.0" yc="550.0" xd="816.0" yd="650.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Bedford 5" blockname="Bedford 1" connectaname="T51" connectbname="T49" connectcname="T50" />
     <tracksegment ident="T1" blockname="Bedford 23" connect1name="EC3" type1="POS_POINT" connect2name="A4" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T2" blockname="Bedford 23" connect1name="A4" type1="POS_POINT" connect2name="A3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" blockname="Bedford 23" connect1name="A4" type1="POS_POINT" connect2name="A3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" arc="yes" flip="yes" circle="yes" angle="180.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Bedford 10" connect1name="EC1" type1="POS_POINT" connect2name="A5" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" blockname="Bedford 23" connect1name="A3" type1="POS_POINT" connect2name="A6" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T5" blockname="Bedford 10" connect1name="A5" type1="POS_POINT" connect2name="A7" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="90.0" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -5216,8 +5224,8 @@
     <tracksegment ident="T52" blockname="Bedford 11" connect1name="A25" type1="POS_POINT" connect2name="A17" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EC1" type="EDGE_CONNECTOR" x="781.0" y="62.0" connect1name="T3" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A3" type="ANCHOR" x="811.0" y="63.0" connect1name="T2" connect2name="T4" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A4" type="ANCHOR" x="841.0" y="33.0" connect1name="T1" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EC3" type="EDGE_CONNECTOR" x="882.0" y="33.0" connect1name="T1" connect2name="T85" linkedpanel="Augusta Peninsula" linkpointid="EC3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A4" type="ANCHOR" x="863.0" y="63.0" connect1name="T1" connect2name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EC3" type="EDGE_CONNECTOR" x="866.0" y="646.0" connect1name="T1" connect2name="T85" linkedpanel="Augusta Peninsula" linkpointid="EC3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A5" type="ANCHOR" x="781.0" y="162.0" connect1name="T3" connect2name="T5" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A6" type="ANCHOR" x="811.0" y="162.0" connect1name="T4" connect2name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A7" type="ANCHOR" x="751.0" y="192.0" connect1name="T5" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -5245,24 +5253,7 @@
     <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="812.0" y="634.0" connect1name="T51" connect2name="T1" linkedpanel="Augusta Peninsula" linkpointid="EC1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A25" type="ANCHOR" x="300.0" y="432.75" connect1name="T38" connect2name="T52" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <paneleditor class="jmri.jmrit.display.controlPanelEditor.configurexml.ControlPanelEditorXml" name="Augusta Control Panel" x="2887" y="0" height="539" width="556" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none" redBackground="64" greenBackground="64" blueBackground="64" state="0" shapeSelect="yes">
-    <icons>
-      <visible>
-        <url>program:resources/icons/throttles/RoundRedCircle20.png</url>
-      </visible>
-      <path_edit>
-        <url>program:resources/icons/greenSquare.gif</url>
-      </path_edit>
-      <hidden>
-        <url>program:resources/icons/Invisible.gif</url>
-      </hidden>
-      <to_arrow>
-        <url>program:resources/icons/track/toArrow.gif</url>
-      </to_arrow>
-      <from_arrow>
-        <url>program:resources/icons/track/fromArrow.gif</url>
-      </from_arrow>
-    </icons>
+  <paneleditor class="jmri.jmrit.display.controlPanelEditor.configurexml.ControlPanelEditorXml" name="Augusta Control Panel" x="2474" y="0" height="785" width="858" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="yes" scrollable="none" redBackground="64" greenBackground="64" blueBackground="64" state="0" shapeSelect="yes">
     <indicatorturnouticon x="299" y="369" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" class="jmri.jmrit.display.configurexml.IndicatorTurnoutIconXml">
       <tooltip>OBlock "Aug08"</tooltip>
       <turnout>LT7</turnout>
@@ -8390,104 +8381,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Apr 03 10:56:42 CDT 2021</date>
+      <date>Sat Sep 04 10:46:19 CDT 2021</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Apr 03 10:56:48 CDT 2021</date>
+      <date>Sat Sep 04 10:46:27 CDT 2021</date>
       <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Wed Mar 31 12:40:03 CDT 2021</date>
+          <date>Sat Sep 04 08:59:49 CDT 2021</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Wed Mar 31 12:40:21 CDT 2021</date>
+          <date>Sat Sep 04 09:00:01 CDT 2021</date>
           <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Tue Mar 30 12:37:11 CDT 2021</date>
+              <date>Sat Sep 04 08:44:53 CDT 2021</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Tue Mar 30 12:37:26 CDT 2021</date>
+              <date>Sat Sep 04 08:45:00 CDT 2021</date>
               <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sat Sep 19 11:18:12 CDT 2020</date>
+                  <date>Sat Apr 03 10:56:42 CDT 2021</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sat Sep 19 11:18:22 CDT 2020</date>
+                  <date>Sat Apr 03 10:56:48 CDT 2021</date>
                   <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sun Sep 06 09:10:20 CDT 2020</date>
+                      <date>Wed Mar 31 12:40:03 CDT 2021</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sun Sep 06 09:10:30 CDT 2020</date>
-                      <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
+                      <date>Wed Mar 31 12:40:21 CDT 2021</date>
+                      <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Sat Sep 05 14:17:59 CDT 2020</date>
+                          <date>Tue Mar 30 12:37:11 CDT 2021</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Sat Sep 05 14:18:21 CDT 2020</date>
-                          <filename>/home/sbn/Iron-Spike-N-Scale-JMRI/panels.xml</filename>
+                          <date>Tue Mar 30 12:37:26 CDT 2021</date>
+                          <filename>/opt/JMRI/profiles/IronSpike/panels.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Sat Sep 05 17:50:16 CDT 2020</date>
+                          <date>Tue Mar 30 13:25:22 CDT 2021</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sun Sep 06 09:40:17 CDT 2020</date>
+                      <date>Wed Mar 31 12:42:35 CDT 2021</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sat Sep 19 12:03:43 CDT 2020</date>
+                  <date>Sat Apr 03 11:40:46 CDT 2021</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Tue Mar 30 13:25:22 CDT 2021</date>
+              <date>Sat Sep 04 08:57:07 CDT 2021</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Wed Mar 31 12:42:35 CDT 2021</date>
+          <date>Sat Sep 04 09:09:17 CDT 2021</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Apr 03 11:40:46 CDT 2021</date>
+      <date>Sat Sep 04 15:25:34 CDT 2021</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 4.20+Rc7ba8249b on Sat Apr 03 11:40:46 CDT 2021-->
+  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Sep 04 15:25:34 CDT 2021-->
 </layout-config>

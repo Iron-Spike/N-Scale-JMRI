@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 4.18+R37ad3d0 on Sat Mar 14 11:29:31 CDT 2020-->
-  <locomotive id="CSX 648" fileName="CSX_648.xml" roadNumber="648" roadName="CSX" mfg="Broadway Limited Imports" owner="Scott Nelson" model="3746" dccAddress="648" comment="" maxSpeed="50" imageFilePath="preference:roster/CSX_648-2.jpg" iconFilePath="preference:roster/CSX_648.PNG" URL="" IsShuntingOn="">
-    <dateUpdated>2020-03-14T16:29:31.433+0000</dateUpdated>
-    <decoder model="Diesel" family="Paragon 3" comment="" />
+  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Sep 04 13:51:45 CDT 2021-->
+  <locomotive id="CSX 648" fileName="CSX_648.xml" roadNumber="648" roadName="CSX" mfg="Broadway Limited Imports" owner="Scott Nelson" model="3746" dccAddress="648" comment="" developerID="" manufacturerID="" productID="" maxSpeed="50" imageFilePath="preference:roster/CSX_648-2.jpg" iconFilePath="preference:roster/CSX_648.PNG" URL="" IsShuntingOn="">
+    <dateUpdated>2021-09-04T18:51:45.461+0000</dateUpdated>
+    <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="648" longaddress="yes" />
       <number>648</number>
@@ -45,11 +45,11 @@
     <attributepairs>
       <keyvaluepair>
         <key>LastOperated</key>
-        <value>2020-03-14T15:57:15.903+0000</value>
+        <value>2021-09-04T18:23:12.523+0000</value>
       </keyvaluepair>
       <keyvaluepair>
         <key>OperatingDuration</key>
-        <value>5137</value>
+        <value>5467</value>
       </keyvaluepair>
     </attributepairs>
     <values>
@@ -67,21 +67,21 @@
         <varValue item="F10 Output Function" value="11" />
         <varValue item="F11 Output Function" value="12" />
         <varValue item="F12 Output Function" value="13" />
-        <varValue item="F13 Output Function" value="24" />
-        <varValue item="F14 Output Function" value="28" />
-        <varValue item="F15 Output Function" value="29" />
-        <varValue item="F16 Output Function" value="30" />
-        <varValue item="F17 Output Function" value="31" />
-        <varValue item="F18 Output Function" value="32" />
-        <varValue item="F19 Output Function" value="33" />
-        <varValue item="F20 Output Function" value="34" />
-        <varValue item="F21 Output Function" value="35" />
+        <varValue item="F13 Output Function" value="30" />
+        <varValue item="F14 Output Function" value="50" />
+        <varValue item="F15 Output Function" value="51" />
+        <varValue item="F16 Output Function" value="52" />
+        <varValue item="F17 Output Function" value="53" />
+        <varValue item="F18 Output Function" value="54" />
+        <varValue item="F19 Output Function" value="55" />
+        <varValue item="F20 Output Function" value="56" />
+        <varValue item="F21 Output Function" value="57" />
         <varValue item="F22 Output Function" value="19" />
-        <varValue item="F23 Output Function" value="25" />
-        <varValue item="F24 Output Function" value="36" />
+        <varValue item="F23 Output Function" value="31" />
+        <varValue item="F24 Output Function" value="60" />
         <varValue item="F25 Output Function" value="20" />
-        <varValue item="F26 Output Function" value="26" />
-        <varValue item="F27 Output Function" value="27" />
+        <varValue item="F26 Output Function" value="40" />
+        <varValue item="F27 Output Function" value="41" />
         <varValue item="F28 Output Function" value="18" />
         <varValue item="L1/Headlight Power Up State" value="0" />
         <varValue item="Load Motor Last Step" value="12" />
@@ -146,6 +146,7 @@
         <varValue item="DCC Cab Light Throttle Stop" value="3" />
         <varValue item="DCC Brake Set Throttle Stop" value="0" />
         <varValue item="DCC Brake Release Throttle Stop" value="1" />
+        <varValue item="Service Mode PWM Duty" value="0" />
         <varValue item="Rev Level Power Threshold" value="0" />
         <varValue item="Front/Rear Lights" value="1" />
         <varValue item="L1 Light" value="1" />
@@ -348,6 +349,7 @@
       <CVvalue name="208" value="3" />
       <CVvalue name="209" value="0" />
       <CVvalue name="210" value="1" />
+      <CVvalue name="217" value="0" />
       <CVvalue name="221" value="0" />
       <CVvalue name="225" value="127" />
       <CVvalue name="226" value="0" />

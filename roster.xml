@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Aug 07 16:10:55 CDT 2021-->
+  <!--Written by JMRI version 4.22+R4c4384d74 on Sat Sep 04 15:20:02 CDT 2021-->
   <roster>
     <locomotive id="1104" fileName="1103.xml" roadNumber="" roadName="1104" mfg="" owner="Doug" model="walthers" dccAddress="1104" comment="test loco HO scale" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2020-02-03T16:54:43.763+0000</dateUpdated>
@@ -277,7 +277,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="CSX 648" fileName="CSX_648.xml" roadNumber="648" roadName="CSX" mfg="Broadway Limited Imports" owner="Scott Nelson" model="3746" dccAddress="648" comment="" developerID="" manufacturerID="" productID="" maxSpeed="50" imageFilePath="preference:roster/CSX_648-2.jpg" iconFilePath="preference:roster/CSX_648.PNG" URL="" IsShuntingOn="">
-      <dateUpdated>2020-03-14T16:29:31.433+0000</dateUpdated>
+      <dateUpdated>2021-09-04T18:51:45.461+0000</dateUpdated>
       <decoder model="Diesel" family="Paragon 3" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="648" longaddress="yes" />
@@ -319,11 +319,11 @@
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-08-07T19:50:33.438+0000</value>
+          <value>2021-09-04T20:00:41.932+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>5320</value>
+          <value>5495</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
@@ -422,23 +422,25 @@
       </attributepairs>
     </locomotive>
     <locomotive id="Santa Fe 5253" fileName="Santa_Fe_5253.xml" roadNumber="5253" roadName="Santa Fe" mfg="Kato" owner="Iron Spike" model="176-9212-DCC EMD SDP40F" dccAddress="5253" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2021-06-04T16:01:36.944+0000</dateUpdated>
+      <dateUpdated>2021-09-04T20:19:08.998+0000</dateUpdated>
       <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="TCS K7D4 decoder, not in jmri at the moment&lt;?p?&gt;" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5253" longaddress="yes" />
         <number>5253</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
-      <functionlabels />
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Lights</functionlabel>
+      </functionlabels>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-08-07T20:15:33.052+0000</value>
+          <value>2021-09-04T20:19:32.406+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>11548</value>
+          <value>13220</value>
         </keyvaluepair>
       </attributepairs>
       <speedprofile>
@@ -509,23 +511,25 @@
       </speedprofile>
     </locomotive>
     <locomotive id="Santa Fe 5258" fileName="Santa_Fe_5258.xml" roadNumber="5253" roadName="Santa Fe" mfg="Kato" owner="Iron Spike" model="176-9212-DCC EMD SDP40F" dccAddress="5258" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
-      <dateUpdated>2021-06-04T16:24:45.229+0000</dateUpdated>
+      <dateUpdated>2021-09-04T20:19:54.981+0000</dateUpdated>
       <decoder model="NMRA standard CV definitions" family="NMRA standard CV definitions" comment="TCS K7D4 decoder, not in jmri at the moment&lt;?p?&gt;" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5258" longaddress="yes" />
         <number>5258</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
-      <functionlabels />
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Lights</functionlabel>
+      </functionlabels>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
           <key>LastOperated</key>
-          <value>2021-07-29T18:08:45.840+0000</value>
+          <value>2021-09-04T14:44:26.987+0000</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>OperatingDuration</key>
-          <value>6475</value>
+          <value>6480</value>
         </keyvaluepair>
       </attributepairs>
       <speedprofile>
@@ -601,6 +605,58 @@
           <value>0</value>
         </keyvaluepair>
       </attributepairs>
+    </locomotive>
+    <locomotive id="SP 6005" fileName="SP_6005.xml" roadNumber="6005" roadName="Southern Pacific" mfg="" owner="iron spike" model="" dccAddress="6005" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-09-04T15:44:13.043+0000</dateUpdated>
+      <decoder model="DSD diesel" family="DSD diesel" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="6005" longaddress="yes" />
+        <number>6005</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="Sp-6005-03" fileName="Sp_6005_03.xml" roadNumber="6005" roadName="Southern Pacific" mfg="MTH" owner="Iron Spike" model="" dccAddress="3" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+      <dateUpdated>2021-09-04T15:44:13.043+0000</dateUpdated>
+      <decoder model="MTH HO Full PS3 Definition" family="MTH HO Full PS3 Definition" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels>
+        <functionlabel num="0" lockable="true" functionImage="" functionImageSelected="">Headlight</functionlabel>
+        <functionlabel num="1" lockable="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+        <functionlabel num="2" lockable="false" functionImage="" functionImageSelected="">Horn</functionlabel>
+        <functionlabel num="3" lockable="true" functionImage="" functionImageSelected="">Start up - Shutdown</functionlabel>
+        <functionlabel num="4" lockable="true" functionImage="" functionImageSelected="">PFA</functionlabel>
+        <functionlabel num="5" lockable="true" functionImage="" functionImageSelected="">Lights</functionlabel>
+        <functionlabel num="6" lockable="true" functionImage="" functionImageSelected="">Master Volume</functionlabel>
+        <functionlabel num="7" lockable="true" functionImage="" functionImageSelected="">Front Coupler</functionlabel>
+        <functionlabel num="8" lockable="true" functionImage="" functionImageSelected="">Rear Coupler</functionlabel>
+        <functionlabel num="9" lockable="true" functionImage="" functionImageSelected="">Forward Signal</functionlabel>
+        <functionlabel num="10" lockable="true" functionImage="" functionImageSelected="">Reverse Signal</functionlabel>
+        <functionlabel num="11" lockable="true" functionImage="" functionImageSelected="">Grade Crossing Signal</functionlabel>
+        <functionlabel num="12" lockable="true" functionImage="" functionImageSelected="">Clickety Clack</functionlabel>
+        <functionlabel num="13" lockable="true" functionImage="" functionImageSelected="">Idle Sequence 4</functionlabel>
+        <functionlabel num="14" lockable="true" functionImage="" functionImageSelected="">Idle Sequence 3</functionlabel>
+        <functionlabel num="15" lockable="true" functionImage="" functionImageSelected="">Idle Sequence 2</functionlabel>
+        <functionlabel num="16" lockable="true" functionImage="" functionImageSelected="">Idle Sequence 1</functionlabel>
+        <functionlabel num="17" lockable="true" functionImage="" functionImageSelected="">Extended Start Up</functionlabel>
+        <functionlabel num="18" lockable="true" functionImage="" functionImageSelected="">Extended Shut Down</functionlabel>
+        <functionlabel num="19" lockable="true" functionImage="" functionImageSelected="">Rev Up</functionlabel>
+        <functionlabel num="20" lockable="true" functionImage="" functionImageSelected="">Rev Down</functionlabel>
+        <functionlabel num="21" lockable="true" functionImage="" functionImageSelected="">One Shot Doopler</functionlabel>
+        <functionlabel num="22" lockable="true" functionImage="" functionImageSelected="">Coupler Slack</functionlabel>
+        <functionlabel num="23" lockable="true" functionImage="" functionImageSelected="">Coupler Close</functionlabel>
+        <functionlabel num="24" lockable="true" functionImage="" functionImageSelected="">Short Horn</functionlabel>
+        <functionlabel num="25" lockable="true" functionImage="" functionImageSelected="">Engine Sounds</functionlabel>
+        <functionlabel num="26" lockable="true" functionImage="" functionImageSelected="">Brake Sounds</functionlabel>
+        <functionlabel num="27" lockable="true" functionImage="" functionImageSelected="">Cab Chatter</functionlabel>
+        <functionlabel num="28" lockable="true" functionImage="" functionImageSelected="">Feature Reset</functionlabel>
+      </functionlabels>
+      <soundlabels />
     </locomotive>
     <locomotive id="UP 3985" fileName="UP_3985.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="3985" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
       <dateUpdated>2018-10-06T20:08:20.000+0000</dateUpdated>
